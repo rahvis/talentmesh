@@ -1,0 +1,3456 @@
+{
+  "company_knowledge": [
+    {
+      "doc_id": "KB-BEN-001",
+      "category": "benefits",
+      "title": "Health & Insurance",
+      "content": "We cover 100% of medical, dental, and vision premiums for employees and 80% for dependents. Plans include a PPO and an HDHP with a company-funded HSA contribution of $1,200/year. Mental health support is provided via a partner app with 12 free therapy sessions annually.",
+      "tags": [
+        "health",
+        "insurance",
+        "hsa",
+        "mental health",
+        "dependents"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-002",
+      "category": "benefits",
+      "title": "Equity & Compensation Philosophy",
+      "content": "All full-time employees receive equity in the form of RSUs vesting over 4 years with a 1-year cliff. We refresh equity annually based on performance. Compensation is benchmarked to the 75th percentile of market for the role's level and location, reviewed twice per year.",
+      "tags": [
+        "equity",
+        "rsu",
+        "vesting",
+        "compensation",
+        "refresh"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-003",
+      "category": "benefits",
+      "title": "Time Off & Leave",
+      "content": "We offer unlimited PTO with a 15-day minimum encouraged, 12 company holidays, and a one-week company-wide winter shutdown. Parental leave is 16 weeks fully paid for all new parents regardless of gender, plus a phased return-to-work option.",
+      "tags": [
+        "pto",
+        "vacation",
+        "parental leave",
+        "holidays",
+        "shutdown"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-001",
+      "category": "culture",
+      "title": "Remote & Hybrid Work",
+      "content": "We are remote-friendly. Roles are designated fully remote, hybrid (2-3 days in office), or on-site depending on team needs. Hybrid employees may choose their in-office days. We provide a $1,000 home-office stipend and cover co-working memberships for fully remote staff.",
+      "tags": [
+        "remote",
+        "hybrid",
+        "home office",
+        "stipend",
+        "coworking"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-002",
+      "category": "culture",
+      "title": "Our Values",
+      "content": "Our five values are: Customer Obsession, Bias for Action, Earn Trust, Disagree and Commit, and Raise the Bar. Every interview loop includes a dedicated values interview. We make decisions transparently and document them so anyone can understand the why.",
+      "tags": [
+        "values",
+        "culture",
+        "principles",
+        "interview"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-003",
+      "category": "culture",
+      "title": "Growth & Development",
+      "content": "Each employee receives a $2,500 annual learning budget for courses, conferences, and books. We run a structured leveling framework with twice-yearly promotion cycles. Internal mobility is encouraged: employees can apply to internal roles after 12 months in their current role.",
+      "tags": [
+        "learning",
+        "development",
+        "promotion",
+        "internal mobility",
+        "leveling"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-001",
+      "category": "faq",
+      "title": "What does the interview process look like?",
+      "content": "Our process typically includes a recruiter screen, a role-specific assessment, 2-4 interviews (technical/portfolio, hiring manager, and a values interview), and a reference/background check before offer. Most loops complete within 2-3 weeks. We share feedback and next steps at every stage.",
+      "tags": [
+        "interview",
+        "process",
+        "timeline",
+        "stages"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-002",
+      "category": "faq",
+      "title": "How long until I hear back?",
+      "content": "We aim to respond within 3 business days at every stage. You will always receive a status update, even if the decision is no. If you have not heard from us, you can ask our candidate assistant for a status update at any time.",
+      "tags": [
+        "response time",
+        "status",
+        "timeline",
+        "ghosting"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-003",
+      "category": "faq",
+      "title": "Do you sponsor visas?",
+      "content": "We sponsor H-1B transfers and provide green card support for eligible roles after one year of employment. Visa sponsorship availability is noted on each job posting. Our immigration partner handles all filings at no cost to the employee.",
+      "tags": [
+        "visa",
+        "sponsorship",
+        "h1b",
+        "green card",
+        "immigration"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-004",
+      "category": "faq",
+      "title": "Can I request an alternative to the AI-assisted screening?",
+      "content": "Yes. In line with our commitment to fair hiring and applicable law, you may request an alternative selection process or a reasonable accommodation at any point. Our AI tools assist recruiters but never make the final hiring decision; a human reviews and approves every advancement decision.",
+      "tags": [
+        "ai",
+        "accommodation",
+        "alternative",
+        "fairness",
+        "compliance"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-004",
+      "category": "benefits",
+      "title": "401(k) & Retirement",
+      "content": "We offer a 401(k) with a 4% company match that vests immediately, plus a Roth 401(k) option and access to a financial advisor. Auto-enrollment starts at 6% and you can change contributions any time.",
+      "tags": [
+        "401k",
+        "retirement",
+        "match",
+        "roth"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-005",
+      "category": "benefits",
+      "title": "HSA & FSA Accounts",
+      "content": "If you choose the HDHP, the company funds $1,200/year into your HSA ($2,400 for family coverage). We also offer Healthcare and Dependent-Care FSAs with pre-tax contributions up to IRS limits.",
+      "tags": [
+        "hsa",
+        "fsa",
+        "pre-tax",
+        "hdhp"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-006",
+      "category": "benefits",
+      "title": "Fertility & Family Forming",
+      "content": "We provide up to $25,000 in lifetime fertility and family-forming benefits, including IVF, egg freezing, surrogacy, and adoption support, regardless of gender or marital status.",
+      "tags": [
+        "fertility",
+        "ivf",
+        "adoption",
+        "family"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-007",
+      "category": "benefits",
+      "title": "Mental Health Support",
+      "content": "Beyond 12 free annual therapy sessions, we offer a meditation-app subscription, manager mental-health training, and a confidential Employee Assistance Program available 24/7.",
+      "tags": [
+        "mental health",
+        "therapy",
+        "eap",
+        "wellbeing"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-008",
+      "category": "benefits",
+      "title": "Life & Disability Insurance",
+      "content": "The company provides basic life insurance at 2x salary, short-term and long-term disability at no cost, with options to buy up additional coverage during open enrollment.",
+      "tags": [
+        "life insurance",
+        "disability",
+        "coverage"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-009",
+      "category": "benefits",
+      "title": "Commuter & Transit Benefits",
+      "content": "Pre-tax commuter benefits cover transit and parking up to the federal monthly limit. Hybrid and on-site employees in transit-friendly metros receive a subsidized transit pass.",
+      "tags": [
+        "commuter",
+        "transit",
+        "parking",
+        "pre-tax"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-010",
+      "category": "benefits",
+      "title": "Pet Insurance",
+      "content": "Discounted pet insurance is available through our voluntary benefits marketplace, alongside legal services, identity-theft protection, and home/auto insurance.",
+      "tags": [
+        "pet",
+        "voluntary benefits",
+        "insurance"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-011",
+      "category": "benefits",
+      "title": "Financial Wellness",
+      "content": "All employees get access to a financial-planning platform, student-loan refinancing partners, and quarterly equity and tax-education sessions.",
+      "tags": [
+        "financial",
+        "equity education",
+        "student loans"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-012",
+      "category": "benefits",
+      "title": "Wellness Stipend",
+      "content": "A $750 annual wellness stipend reimburses gym memberships, fitness classes, equipment, and wellness apps. Submit receipts through the benefits portal.",
+      "tags": [
+        "wellness",
+        "gym",
+        "fitness",
+        "stipend"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-013",
+      "category": "benefits",
+      "title": "ESPP — Employee Stock Purchase",
+      "content": "After your first offering period, you may contribute up to 15% of pay to purchase company stock at a 15% discount with a look-back provision.",
+      "tags": [
+        "espp",
+        "stock",
+        "discount",
+        "equity"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-014",
+      "category": "benefits",
+      "title": "Dental & Vision Detail",
+      "content": "Dental covers two cleanings/year at 100%, basic services at 80%, and orthodontia for dependents. Vision covers an annual exam plus a frames/contacts allowance.",
+      "tags": [
+        "dental",
+        "vision",
+        "orthodontia"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-015",
+      "category": "benefits",
+      "title": "Dependent Coverage",
+      "content": "We cover 80% of premiums for dependents across medical, dental, and vision. Domestic partners are eligible for all health benefits.",
+      "tags": [
+        "dependents",
+        "domestic partner",
+        "premiums"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-016",
+      "category": "benefits",
+      "title": "Health Savings & Telehealth",
+      "content": "All plans include $0 telehealth visits, free preventive care, and a 24/7 nurse line. Prescriptions are available via mail-order with a 90-day supply option.",
+      "tags": [
+        "telehealth",
+        "preventive",
+        "prescriptions"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-017",
+      "category": "benefits",
+      "title": "Disability & Leave Coordination",
+      "content": "Our leave team coordinates short-term disability, parental leave, and state programs so your pay is seamless. A dedicated case manager supports every leave.",
+      "tags": [
+        "leave",
+        "disability",
+        "parental",
+        "case manager"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-004",
+      "category": "culture",
+      "title": "Living 'Customer Obsession'",
+      "content": "Customer Obsession means starting from the customer and working backwards. We read support tickets in every all-hands, ship for customer outcomes over internal convenience, and measure success by customer impact.",
+      "tags": [
+        "values",
+        "customer obsession"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-005",
+      "category": "culture",
+      "title": "Living 'Bias for Action'",
+      "content": "Bias for Action favors calculated speed: many decisions are reversible two-way doors. We prototype, ship small, and learn rather than waiting for perfect information.",
+      "tags": [
+        "values",
+        "bias for action"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-006",
+      "category": "culture",
+      "title": "Living 'Earn Trust'",
+      "content": "Earn Trust means listening attentively, speaking candidly, and treating others with respect. We are transparent about decisions and admit mistakes openly.",
+      "tags": [
+        "values",
+        "earn trust"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-007",
+      "category": "culture",
+      "title": "Living 'Disagree and Commit'",
+      "content": "We voice disagreement respectfully and back it with data; once a decision is made, we commit fully. Silence is not agreement.",
+      "tags": [
+        "values",
+        "disagree and commit"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-008",
+      "category": "culture",
+      "title": "Living 'Raise the Bar'",
+      "content": "Raise the Bar means continuously improving our standards and helping others do their best work. Every hire should raise the average.",
+      "tags": [
+        "values",
+        "raise the bar"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-009",
+      "category": "culture",
+      "title": "Diversity, Equity & Inclusion",
+      "content": "We are building a workforce that reflects our customers. We use structured, rubric-based interviews, diverse panels, and pay-equity audits, and we set transparent representation goals reviewed each half.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "equity",
+        "belonging"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-010",
+      "category": "culture",
+      "title": "Employee Resource Groups",
+      "content": "We sponsor ERGs including Women in Tech, Black@, Latinx@, Pride, AAPI, Veterans, Parents & Caregivers, and Disability & Neurodiversity, each with an executive sponsor and an annual budget.",
+      "tags": [
+        "erg",
+        "community",
+        "belonging"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-011",
+      "category": "culture",
+      "title": "How We Make Decisions",
+      "content": "We use lightweight written narratives over slide decks for important decisions, name a single decision-maker (DRI), and document the 'why' so anyone can understand it later.",
+      "tags": [
+        "decisions",
+        "dri",
+        "narratives",
+        "transparency"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-012",
+      "category": "culture",
+      "title": "Feedback Culture",
+      "content": "We give timely, specific, kind feedback in both directions. Managers run weekly 1:1s and we run 360 feedback twice a year tied to growth, not just ratings.",
+      "tags": [
+        "feedback",
+        "1:1",
+        "growth",
+        "360"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-013",
+      "category": "culture",
+      "title": "Recognition & Awards",
+      "content": "Peer recognition runs through a points-based platform redeemable for rewards, plus quarterly values awards and spot bonuses for exceptional impact.",
+      "tags": [
+        "recognition",
+        "awards",
+        "peer",
+        "spot bonus"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-014",
+      "category": "culture",
+      "title": "Communication Norms",
+      "content": "Default to async and written; keep meetings small with an agenda and notes; protect focus time with no-meeting Wednesdays. Slack is for collaboration, not 24/7 expectations.",
+      "tags": [
+        "communication",
+        "async",
+        "meetings",
+        "focus"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-015",
+      "category": "culture",
+      "title": "Sustainability & Social Impact",
+      "content": "We are carbon-neutral for operations, match employee charitable donations up to $1,000/year, and offer two paid volunteer days annually.",
+      "tags": [
+        "sustainability",
+        "volunteering",
+        "donation match",
+        "impact"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-016",
+      "category": "culture",
+      "title": "On-call & Sustainable Pace",
+      "content": "On-call rotations are compensated, capped, and staffed so no one carries an unfair load. We track and protect against burnout with workload reviews.",
+      "tags": [
+        "on-call",
+        "sustainable",
+        "burnout"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-005",
+      "category": "faq",
+      "title": "How are interviews scored?",
+      "content": "Every interview uses a structured rubric with anchored 1-5 scales and competency dimensions. Interviewers score independently before debrief to reduce bias, and a human makes the final decision.",
+      "tags": [
+        "interview",
+        "rubric",
+        "scoring",
+        "fairness"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-006",
+      "category": "faq",
+      "title": "Do you offer relocation?",
+      "content": "Yes. Relocation packages (lump-sum or managed move) are available for eligible roles and are noted in your offer. Our mobility partner handles logistics and immigration if applicable.",
+      "tags": [
+        "relocation",
+        "moving",
+        "mobility"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-007",
+      "category": "faq",
+      "title": "Can I reapply if rejected?",
+      "content": "Absolutely. We encourage reapplying after 6-12 months or for a different role. Prior feedback is retained to help you and us focus on growth areas.",
+      "tags": [
+        "reapply",
+        "rejection",
+        "feedback"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-008",
+      "category": "faq",
+      "title": "How does the referral program work?",
+      "content": "Refer someone through the portal; if they're hired and stay 90 days, you receive a referral bonus ($2,000-$8,000 by role). Referrals get a guaranteed recruiter review.",
+      "tags": [
+        "referral",
+        "bonus",
+        "program"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-009",
+      "category": "faq",
+      "title": "What is your remote-work policy?",
+      "content": "Roles are designated fully remote, hybrid (2-3 days), or on-site. Hybrid employees choose their in-office days. We hire in states/countries where we have entities; check the posting.",
+      "tags": [
+        "remote",
+        "hybrid",
+        "policy",
+        "locations"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-010",
+      "category": "faq",
+      "title": "How do you handle accommodations?",
+      "content": "We provide reasonable accommodations at any stage of hiring or employment. Request one via your recruiter or the accommodations email; requests are handled confidentially.",
+      "tags": [
+        "accommodation",
+        "accessibility",
+        "ada"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-011",
+      "category": "faq",
+      "title": "What data do you collect and how is it used?",
+      "content": "We collect only job-relevant data to evaluate candidates. Demographic data, where collected, is voluntary, segmented for bias-auditing only, and never used for scoring.",
+      "tags": [
+        "data",
+        "privacy",
+        "pii",
+        "fairness"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-012",
+      "category": "faq",
+      "title": "How long is the interview process?",
+      "content": "Most loops complete within 2-3 weeks. We share status at every stage and aim to respond within 3 business days. You can ask our candidate assistant for status anytime.",
+      "tags": [
+        "timeline",
+        "process",
+        "status"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-013",
+      "category": "faq",
+      "title": "Do you hire internationally?",
+      "content": "We hire in the US, UK, Ireland, Canada, Germany, India, Singapore, and Australia where we have entities or EOR coverage. Visa sponsorship is noted per role.",
+      "tags": [
+        "international",
+        "global",
+        "entities",
+        "visa"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-014",
+      "category": "faq",
+      "title": "What is the offer and negotiation process?",
+      "content": "Offers include base, equity, target bonus, and benefits, benchmarked to the 75th percentile. We're transparent about bands and happy to discuss components.",
+      "tags": [
+        "offer",
+        "negotiation",
+        "compensation"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-015",
+      "category": "faq",
+      "title": "Will AI make the hiring decision?",
+      "content": "No. AI assists recruiters with sourcing, scheduling, and drafting, but a trained human reviews and approves every advancement and rejection. You may request an alternative process.",
+      "tags": [
+        "ai",
+        "fairness",
+        "human oversight",
+        "alternative"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-016",
+      "category": "faq",
+      "title": "How should I prepare for interviews?",
+      "content": "Review the role's competencies, prepare specific STAR examples, and bring questions. We send a prep guide with the loop, interviewers, and what each stage assesses.",
+      "tags": [
+        "prep",
+        "star",
+        "interview"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-017",
+      "category": "faq",
+      "title": "Do you do take-home assignments?",
+      "content": "Some roles use a short, time-boxed work sample or take-home (paid where required). We respect your time and cap effort; alternatives are available on request.",
+      "tags": [
+        "take-home",
+        "work sample",
+        "assessment"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-018",
+      "category": "faq",
+      "title": "What happens after I accept?",
+      "content": "You'll get a welcome packet, your equipment ships before day one, and onboarding (buddy, 30/60/90 plan, benefits enrollment) begins. Immigration starts immediately if applicable.",
+      "tags": [
+        "onboarding",
+        "offer accept",
+        "start"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-019",
+      "category": "faq",
+      "title": "Can I see where I am in the process?",
+      "content": "Yes — our candidate assistant gives you a real-time status update any time, and you'll always receive a decision, even if it's a no.",
+      "tags": [
+        "status",
+        "transparency",
+        "candidate assistant"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-001",
+      "category": "policy",
+      "title": "Paid Time Off Policy",
+      "content": "Unlimited PTO with a 15-day minimum we actively encourage. Plan ahead with your manager and use the time-off tool. PTO is separate from sick leave and holidays.",
+      "tags": [
+        "paid",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-002",
+      "category": "policy",
+      "title": "Parental Leave Policy",
+      "content": "16 weeks fully paid for all new parents (birth, adoption, foster, surrogacy), plus a 4-week phased return. Birthing parents may add medical leave.",
+      "tags": [
+        "parental",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-003",
+      "category": "policy",
+      "title": "Sabbatical Program",
+      "content": "After 5 years, employees earn a 4-week paid sabbatical (6 weeks at 7 years) to rest, learn, or travel, in addition to PTO.",
+      "tags": [
+        "sabbatical",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-004",
+      "category": "policy",
+      "title": "Sick & Caregiver Leave",
+      "content": "Take paid sick time when ill or caring for a family member. We follow the most generous of company policy or local law in every jurisdiction.",
+      "tags": [
+        "sick",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-005",
+      "category": "policy",
+      "title": "Bereavement Leave",
+      "content": "Up to 10 days of paid bereavement for an immediate family member and 3 days for extended family, with flexibility for grief and arrangements.",
+      "tags": [
+        "bereavement",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-006",
+      "category": "policy",
+      "title": "Jury Duty & Civic Leave",
+      "content": "We provide paid leave for jury duty and voting, and up to 2 days for civic participation, with no impact on PTO.",
+      "tags": [
+        "jury",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-007",
+      "category": "policy",
+      "title": "Travel & Expense Policy",
+      "content": "Book travel through our tool; economy for flights under 6 hours, premium economy above. Submit expenses within 30 days with receipts over $25.",
+      "tags": [
+        "travel",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-008",
+      "category": "policy",
+      "title": "Remote Work & Equipment",
+      "content": "We provide a laptop, monitor, and a $1,000 home-office stipend. Equipment is company property; IT handles setup, repairs, and returns.",
+      "tags": [
+        "remote",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-009",
+      "category": "policy",
+      "title": "Code of Conduct",
+      "content": "We treat each other with respect and integrity, avoid conflicts of interest, protect confidential information, and comply with the law. Violations are reviewed fairly.",
+      "tags": [
+        "code",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-010",
+      "category": "policy",
+      "title": "Anti-Harassment & Non-Discrimination",
+      "content": "We prohibit harassment and discrimination of any kind. Concerns can be raised to any manager, People team, or the anonymous ethics hotline without retaliation.",
+      "tags": [
+        "anti-harassment",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-011",
+      "category": "policy",
+      "title": "Conflict of Interest",
+      "content": "Disclose outside activities, board seats, investments, or relationships that could conflict with your work. The Legal team reviews disclosures confidentially.",
+      "tags": [
+        "conflict",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-012",
+      "category": "policy",
+      "title": "Moonlighting & Outside Work",
+      "content": "Outside work is allowed if it doesn't compete, use company resources, or impair your role. Disclose and get approval for anything in our industry.",
+      "tags": [
+        "moonlighting",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-013",
+      "category": "policy",
+      "title": "Acceptable Use of Technology",
+      "content": "Use company systems for work, follow security policies, and don't install unapproved software. Limited personal use is fine within the code of conduct.",
+      "tags": [
+        "acceptable",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-014",
+      "category": "policy",
+      "title": "Social Media Policy",
+      "content": "Share your enthusiasm responsibly. Don't disclose confidential or material non-public information, and make clear personal views are your own.",
+      "tags": [
+        "social",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-015",
+      "category": "policy",
+      "title": "Insider Trading Policy",
+      "content": "Don't trade on material non-public information or tip others. Designated employees follow trading windows and pre-clearance.",
+      "tags": [
+        "insider",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-016",
+      "category": "policy",
+      "title": "Gifts & Entertainment",
+      "content": "Modest gifts are acceptable; anything over $150 or that could influence a decision must be disclosed. Never offer or accept anything improper.",
+      "tags": [
+        "gifts",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-017",
+      "category": "policy",
+      "title": "Whistleblower & Ethics Hotline",
+      "content": "Report suspected misconduct via the anonymous hotline. We investigate fairly and prohibit retaliation against good-faith reports.",
+      "tags": [
+        "whistleblower",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-018",
+      "category": "policy",
+      "title": "Data Handling & Classification",
+      "content": "Classify data as Public, Internal, Confidential, or Restricted and handle each per policy. Customer and candidate data is Confidential or Restricted by default.",
+      "tags": [
+        "data",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-019",
+      "category": "policy",
+      "title": "Accessibility Policy",
+      "content": "We design products and workplaces to be accessible (WCAG 2.1 AA target) and provide accommodations. Accessibility issues are prioritized like any defect.",
+      "tags": [
+        "accessibility",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-020",
+      "category": "policy",
+      "title": "Performance Review Process",
+      "content": "We run calibrated reviews twice a year focused on impact against level expectations, with written self, peer, and manager input and a growth plan.",
+      "tags": [
+        "performance",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-021",
+      "category": "policy",
+      "title": "Promotion Process",
+      "content": "Promotions happen in twice-yearly cycles via a written case against the next level's competencies, calibrated across managers for fairness.",
+      "tags": [
+        "promotion",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-022",
+      "category": "policy",
+      "title": "Compensation Review Policy",
+      "content": "Comp is reviewed twice a year against market (75th percentile) and performance, including equity refresh. Adjustments are communicated transparently.",
+      "tags": [
+        "compensation",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-023",
+      "category": "policy",
+      "title": "Internal Mobility Policy",
+      "content": "After 12 months in role you may apply internally. Your manager is informed after a first conversation; transfers are coordinated to be smooth.",
+      "tags": [
+        "internal",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-024",
+      "category": "policy",
+      "title": "On-call & Incident Policy",
+      "content": "On-call is scheduled fairly and compensated. We run blameless postmortems and track action items to prevent repeat incidents.",
+      "tags": [
+        "on-call",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-025",
+      "category": "policy",
+      "title": "Relocation Policy",
+      "content": "Eligible roles receive relocation support (lump-sum or managed). Immigration and tax assistance are included where needed.",
+      "tags": [
+        "relocation",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-026",
+      "category": "policy",
+      "title": "Referral Bonus Policy",
+      "content": "Referral bonuses range $2,000-$8,000 by role level, paid after the referred hire reaches 90 days. Leadership and recruiter referrals are excluded.",
+      "tags": [
+        "referral",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-027",
+      "category": "policy",
+      "title": "Background Check Policy",
+      "content": "Offers are contingent on a background check appropriate to the role and run with consent via a vetted vendor. Adverse findings follow a fair, individualized review.",
+      "tags": [
+        "background",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-028",
+      "category": "policy",
+      "title": "Drug & Alcohol Policy",
+      "content": "We maintain a safe workplace; impairment on the job is prohibited. We follow local law and do not test for cannabis except where legally required.",
+      "tags": [
+        "drug",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-029",
+      "category": "policy",
+      "title": "Workplace Safety",
+      "content": "Report hazards promptly. Offices follow local safety codes; remote workers receive ergonomic guidance and stipend support.",
+      "tags": [
+        "workplace",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-030",
+      "category": "policy",
+      "title": "Record Retention Policy",
+      "content": "We retain records per legal and regulatory requirements and delete personal data when no longer needed or upon valid request, per our retention schedule.",
+      "tags": [
+        "record",
+        "policy"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-001",
+      "category": "perks",
+      "title": "Learning Budget",
+      "content": "Each employee gets $2,500/year for courses, conferences, books, and certifications. Manager approval is light-touch; submit through the L&D portal.",
+      "tags": [
+        "perks",
+        "learning"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-002",
+      "category": "perks",
+      "title": "Conference Attendance",
+      "content": "Attend at least one industry conference per year on the company. Speakers and organizers get additional support and travel.",
+      "tags": [
+        "perks",
+        "conference"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-003",
+      "category": "perks",
+      "title": "Home-Office Stipend",
+      "content": "A $1,000 stipend (refreshed periodically) covers desk, chair, and peripherals. Co-working memberships are covered for fully-remote staff.",
+      "tags": [
+        "perks",
+        "home-office"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-004",
+      "category": "perks",
+      "title": "Office Meals & Snacks",
+      "content": "On-site offices provide catered lunches, snacks, and beverages. Remote employees receive a monthly meal/coffee allowance for team lunches.",
+      "tags": [
+        "perks",
+        "office"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-005",
+      "category": "perks",
+      "title": "Team Offsites",
+      "content": "Each team gets an annual offsite budget to plan, connect, and strategize together, plus quarterly social budgets for local gatherings.",
+      "tags": [
+        "perks",
+        "team"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-006",
+      "category": "perks",
+      "title": "Fitness & Wellness Perks",
+      "content": "Beyond the wellness stipend, some offices have on-site gyms or subsidized memberships, plus weekly fitness and mindfulness sessions.",
+      "tags": [
+        "perks",
+        "fitness"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-007",
+      "category": "perks",
+      "title": "Cell Phone & Internet",
+      "content": "A monthly stipend offsets phone and home-internet costs for roles that require connectivity. Set up through the expense tool.",
+      "tags": [
+        "perks",
+        "cell"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-008",
+      "category": "perks",
+      "title": "Sabbatical & Recharge",
+      "content": "In addition to PTO and sabbaticals, we run a company-wide winter shutdown and encourage real disconnection during time off.",
+      "tags": [
+        "perks",
+        "sabbatical"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-009",
+      "category": "perks",
+      "title": "Employee Discounts",
+      "content": "Access a marketplace of discounts on travel, electronics, wellness, and entertainment through our benefits provider.",
+      "tags": [
+        "perks",
+        "employee"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-010",
+      "category": "perks",
+      "title": "Patent & Publication Awards",
+      "content": "We reward filed patents and published research with bonuses and recognition, and support time for approved open-source contributions.",
+      "tags": [
+        "perks",
+        "patent"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-011",
+      "category": "perks",
+      "title": "New-Hire Equipment Choice",
+      "content": "Choose your laptop (Mac or PC) and peripherals during onboarding. Accessibility equipment is provided as needed.",
+      "tags": [
+        "perks",
+        "new-hire"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-012",
+      "category": "perks",
+      "title": "Charitable Match & Volunteer Days",
+      "content": "We match donations up to $1,000/year and provide two paid volunteer days for causes you care about.",
+      "tags": [
+        "perks",
+        "charitable"
+      ]
+    },
+    {
+      "doc_id": "KB-LOC-001",
+      "category": "office_locations",
+      "title": "San Francisco, CA Office",
+      "content": "Our San Francisco, CA office is our HQ, home to Engineering, Product, Design, Executive. Amenities include transit, EV charging, wellness room, rooftop. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "san francisco",
+        "location"
+      ],
+      "subcategory": "San Francisco, CA"
+    },
+    {
+      "doc_id": "KB-LOC-002",
+      "category": "office_locations",
+      "title": "New York, NY Office",
+      "content": "Our New York, NY office is our East Coast hub, home to Sales, Marketing, Finance, Legal. Amenities include transit, library, event space. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "new york",
+        "location"
+      ],
+      "subcategory": "New York, NY"
+    },
+    {
+      "doc_id": "KB-LOC-003",
+      "category": "office_locations",
+      "title": "Seattle, WA Office",
+      "content": "Our Seattle, WA office is the Cloud & Platform center, home to Engineering, Data, Security. Amenities include bike storage, lake views, quiet zones. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "seattle",
+        "location"
+      ],
+      "subcategory": "Seattle, WA"
+    },
+    {
+      "doc_id": "KB-LOC-004",
+      "category": "office_locations",
+      "title": "Austin, TX Office",
+      "content": "Our Austin, TX office is the Payments engineering hub, home to Engineering, TPM, People. Amenities include covered parking, game room, food trucks nearby. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "austin",
+        "location"
+      ],
+      "subcategory": "Austin, TX"
+    },
+    {
+      "doc_id": "KB-LOC-005",
+      "category": "office_locations",
+      "title": "Boston, MA Office",
+      "content": "Our Boston, MA office is the Research & ML site, home to Data, Engineering, Research. Amenities include labs, transit, collaboration studios. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "boston",
+        "location"
+      ],
+      "subcategory": "Boston, MA"
+    },
+    {
+      "doc_id": "KB-LOC-006",
+      "category": "office_locations",
+      "title": "Washington, DC Office",
+      "content": "Our Washington, DC office is the Public-Sector & Security site, home to Security, Legal, Sales. Amenities include SCIF-adjacent meeting rooms, transit. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "washington",
+        "location"
+      ],
+      "subcategory": "Washington, DC"
+    },
+    {
+      "doc_id": "KB-LOC-007",
+      "category": "office_locations",
+      "title": "Los Angeles, CA Office",
+      "content": "Our Los Angeles, CA office is the Brand & Content studio, home to Marketing, Design, Sales. Amenities include media studio, parking. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "los angeles",
+        "location"
+      ],
+      "subcategory": "Los Angeles, CA"
+    },
+    {
+      "doc_id": "KB-LOC-008",
+      "category": "office_locations",
+      "title": "Denver, CO Office",
+      "content": "Our Denver, CO office is the Mountain hub, home to Customer Experience, Operations, Sales. Amenities include bike-to-work, mountain views. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "denver",
+        "location"
+      ],
+      "subcategory": "Denver, CO"
+    },
+    {
+      "doc_id": "KB-LOC-009",
+      "category": "office_locations",
+      "title": "Chicago, IL Office",
+      "content": "Our Chicago, IL office is the Central operations site, home to Operations, Finance, CX. Amenities include transit, training center. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "chicago",
+        "location"
+      ],
+      "subcategory": "Chicago, IL"
+    },
+    {
+      "doc_id": "KB-LOC-010",
+      "category": "office_locations",
+      "title": "Atlanta, GA Office",
+      "content": "Our Atlanta, GA office is the Southeast hub, home to Sales, CX, People. Amenities include parking, fitness center. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "atlanta",
+        "location"
+      ],
+      "subcategory": "Atlanta, GA"
+    },
+    {
+      "doc_id": "KB-LOC-011",
+      "category": "office_locations",
+      "title": "Phoenix, AZ Office",
+      "content": "Our Phoenix, AZ office is the Support center, home to Customer Experience, IT. Amenities include on-site cafe, parking, training rooms. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "phoenix",
+        "location"
+      ],
+      "subcategory": "Phoenix, AZ"
+    },
+    {
+      "doc_id": "KB-LOC-012",
+      "category": "office_locations",
+      "title": "London, UK Office",
+      "content": "Our London, UK office is the EMEA headquarters, home to Sales, Engineering, Legal. Amenities include transit, terrace, multi-faith room. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "london",
+        "location"
+      ],
+      "subcategory": "London, UK"
+    },
+    {
+      "doc_id": "KB-LOC-013",
+      "category": "office_locations",
+      "title": "Dublin, IE Office",
+      "content": "Our Dublin, IE office is the EMEA operations center, home to CX, Finance, People. Amenities include transit, cafe. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "dublin",
+        "location"
+      ],
+      "subcategory": "Dublin, IE"
+    },
+    {
+      "doc_id": "KB-LOC-014",
+      "category": "office_locations",
+      "title": "Toronto, ON Office",
+      "content": "Our Toronto, ON office is the Canada hub, home to Engineering, Data. Amenities include transit, collaboration spaces. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "toronto",
+        "location"
+      ],
+      "subcategory": "Toronto, ON"
+    },
+    {
+      "doc_id": "KB-LOC-015",
+      "category": "office_locations",
+      "title": "Berlin, DE Office",
+      "content": "Our Berlin, DE office is the DACH engineering site, home to Engineering, Product. Amenities include bike storage, transit, roof garden. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "berlin",
+        "location"
+      ],
+      "subcategory": "Berlin, DE"
+    },
+    {
+      "doc_id": "KB-LOC-016",
+      "category": "office_locations",
+      "title": "Bangalore, IN Office",
+      "content": "Our Bangalore, IN office is the India engineering center, home to Engineering, Data, CX. Amenities include shuttle, cafeteria, wellness room. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "bangalore",
+        "location"
+      ],
+      "subcategory": "Bangalore, IN"
+    },
+    {
+      "doc_id": "KB-LOC-017",
+      "category": "office_locations",
+      "title": "Singapore Office",
+      "content": "Our Singapore office is the APAC hub, home to Sales, CX, Engineering. Amenities include transit, harbor views. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "singapore",
+        "location"
+      ],
+      "subcategory": "Singapore"
+    },
+    {
+      "doc_id": "KB-LOC-018",
+      "category": "office_locations",
+      "title": "Sydney, AU Office",
+      "content": "Our Sydney, AU office is the ANZ site, home to Sales, CX. Amenities include transit, outdoor terrace. Hybrid employees choose in-office days; visitors and new hires get a guided first-day setup.",
+      "tags": [
+        "office",
+        "sydney",
+        "location"
+      ],
+      "subcategory": "Sydney, AU"
+    },
+    {
+      "doc_id": "KB-INT-001",
+      "category": "interview_prep",
+      "title": "Interview Prep: Software Engineering",
+      "content": "For Software Engineering roles, the loop includes a recruiter screen, a coding assessment and a system-design interview, a hiring-manager interview, and a values interview. We assess problem decomposition, scalable design, tradeoff analysis, and clear communication with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "engineering",
+        "rubric"
+      ],
+      "subcategory": "engineering"
+    },
+    {
+      "doc_id": "KB-INT-002",
+      "category": "interview_prep",
+      "title": "Interview Prep: Data & ML",
+      "content": "For Data & ML roles, the loop includes a recruiter screen, a technical assessment and an ML case study, a hiring-manager interview, and a values interview. We assess modeling rigor, experimentation, data sense, and communication with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "data",
+        "rubric"
+      ],
+      "subcategory": "data"
+    },
+    {
+      "doc_id": "KB-INT-003",
+      "category": "interview_prep",
+      "title": "Interview Prep: Product Design",
+      "content": "For Product Design roles, the loop includes a recruiter screen, a portfolio review and a design exercise, a hiring-manager interview, and a values interview. We assess craft, user-centered process, systems thinking, and collaboration with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "design",
+        "rubric"
+      ],
+      "subcategory": "design"
+    },
+    {
+      "doc_id": "KB-INT-004",
+      "category": "interview_prep",
+      "title": "Interview Prep: Product Management",
+      "content": "For Product Management roles, the loop includes a recruiter screen, a product-sense and an execution case, a hiring-manager interview, and a values interview. We assess customer insight, prioritization, analytical rigor, and influence with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "product",
+        "rubric"
+      ],
+      "subcategory": "product"
+    },
+    {
+      "doc_id": "KB-INT-005",
+      "category": "interview_prep",
+      "title": "Interview Prep: Security Engineering",
+      "content": "For Security Engineering roles, the loop includes a recruiter screen, a technical assessment and a threat-modeling exercise, a hiring-manager interview, and a values interview. We assess depth, threat modeling, secure design, and pragmatism with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "security",
+        "rubric"
+      ],
+      "subcategory": "security"
+    },
+    {
+      "doc_id": "KB-INT-006",
+      "category": "interview_prep",
+      "title": "Interview Prep: IT & Workplace",
+      "content": "For IT & Workplace roles, the loop includes a recruiter screen, a technical/scenario assessment, a hiring-manager interview, and a values interview. We assess troubleshooting, automation, and customer empathy with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "it_ops",
+        "rubric"
+      ],
+      "subcategory": "it_ops"
+    },
+    {
+      "doc_id": "KB-INT-007",
+      "category": "interview_prep",
+      "title": "Interview Prep: Customer Experience",
+      "content": "For Customer Experience roles, the loop includes a recruiter screen, a situational/role-play assessment, a hiring-manager interview, and a values interview. We assess empathy, de-escalation, accuracy, and written clarity with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "customer_experience",
+        "rubric"
+      ],
+      "subcategory": "customer_experience"
+    },
+    {
+      "doc_id": "KB-INT-008",
+      "category": "interview_prep",
+      "title": "Interview Prep: Sales",
+      "content": "For Sales roles, the loop includes a recruiter screen, a mock pitch and discovery role-play, a hiring-manager interview, and a values interview. We assess discovery, value selling, objection handling, and rigor with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "sales",
+        "rubric"
+      ],
+      "subcategory": "sales"
+    },
+    {
+      "doc_id": "KB-INT-009",
+      "category": "interview_prep",
+      "title": "Interview Prep: Marketing",
+      "content": "For Marketing roles, the loop includes a recruiter screen, a portfolio review and a marketing case, a hiring-manager interview, and a values interview. We assess positioning, channel strategy, analytics, and storytelling with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "marketing",
+        "rubric"
+      ],
+      "subcategory": "marketing"
+    },
+    {
+      "doc_id": "KB-INT-010",
+      "category": "interview_prep",
+      "title": "Interview Prep: Finance",
+      "content": "For Finance roles, the loop includes a recruiter screen, a modeling case, a hiring-manager interview, and a values interview. We assess analytical rigor, business judgment, and communication with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "finance",
+        "rubric"
+      ],
+      "subcategory": "finance"
+    },
+    {
+      "doc_id": "KB-INT-011",
+      "category": "interview_prep",
+      "title": "Interview Prep: People & Talent",
+      "content": "For People & Talent roles, the loop includes a recruiter screen, a behavioral and a partnering case, a hiring-manager interview, and a values interview. We assess candidate experience, judgment, and partnership with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "people",
+        "rubric"
+      ],
+      "subcategory": "people"
+    },
+    {
+      "doc_id": "KB-INT-012",
+      "category": "interview_prep",
+      "title": "Interview Prep: Legal",
+      "content": "For Legal roles, the loop includes a recruiter screen, a case discussion, a hiring-manager interview, and a values interview. We assess commercial judgment, risk-balancing, and clarity with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "legal",
+        "rubric"
+      ],
+      "subcategory": "legal"
+    },
+    {
+      "doc_id": "KB-INT-013",
+      "category": "interview_prep",
+      "title": "Interview Prep: Operations",
+      "content": "For Operations roles, the loop includes a recruiter screen, an analytical/strategy case, a hiring-manager interview, and a values interview. We assess structured problem-solving, execution, and influence with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "operations",
+        "rubric"
+      ],
+      "subcategory": "operations"
+    },
+    {
+      "doc_id": "KB-INT-014",
+      "category": "interview_prep",
+      "title": "Interview Prep: Technical Program Management",
+      "content": "For Technical Program Management roles, the loop includes a recruiter screen, a program case and a cross-functional panel, a hiring-manager interview, and a values interview. We assess planning, risk management, and stakeholder alignment with anchored rubrics. Prepare specific STAR examples, think out loud, and ask questions. Accommodations and alternative formats are available on request.",
+      "tags": [
+        "interview prep",
+        "tpm",
+        "rubric"
+      ],
+      "subcategory": "tpm"
+    },
+    {
+      "doc_id": "KB-ROL-001",
+      "category": "role_guides",
+      "title": "Life in Software Engineering",
+      "content": "Our Software Engineering teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "engineering",
+        "team"
+      ],
+      "subcategory": "engineering"
+    },
+    {
+      "doc_id": "KB-ROL-002",
+      "category": "role_guides",
+      "title": "Career Growth: Software Engineering",
+      "content": "Software Engineering has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "engineering"
+      ],
+      "subcategory": "engineering"
+    },
+    {
+      "doc_id": "KB-ROL-003",
+      "category": "role_guides",
+      "title": "Life in Data & ML",
+      "content": "Our Data & ML teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "data",
+        "team"
+      ],
+      "subcategory": "data"
+    },
+    {
+      "doc_id": "KB-ROL-004",
+      "category": "role_guides",
+      "title": "Career Growth: Data & ML",
+      "content": "Data & ML has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "data"
+      ],
+      "subcategory": "data"
+    },
+    {
+      "doc_id": "KB-ROL-005",
+      "category": "role_guides",
+      "title": "Life in Product Design",
+      "content": "Our Product Design teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "design",
+        "team"
+      ],
+      "subcategory": "design"
+    },
+    {
+      "doc_id": "KB-ROL-006",
+      "category": "role_guides",
+      "title": "Career Growth: Product Design",
+      "content": "Product Design has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "design"
+      ],
+      "subcategory": "design"
+    },
+    {
+      "doc_id": "KB-ROL-007",
+      "category": "role_guides",
+      "title": "Life in Product Management",
+      "content": "Our Product Management teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "product",
+        "team"
+      ],
+      "subcategory": "product"
+    },
+    {
+      "doc_id": "KB-ROL-008",
+      "category": "role_guides",
+      "title": "Career Growth: Product Management",
+      "content": "Product Management has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "product"
+      ],
+      "subcategory": "product"
+    },
+    {
+      "doc_id": "KB-ROL-009",
+      "category": "role_guides",
+      "title": "Life in Security Engineering",
+      "content": "Our Security Engineering teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "security",
+        "team"
+      ],
+      "subcategory": "security"
+    },
+    {
+      "doc_id": "KB-ROL-010",
+      "category": "role_guides",
+      "title": "Career Growth: Security Engineering",
+      "content": "Security Engineering has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "security"
+      ],
+      "subcategory": "security"
+    },
+    {
+      "doc_id": "KB-ROL-011",
+      "category": "role_guides",
+      "title": "Life in IT & Workplace",
+      "content": "Our IT & Workplace teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "it_ops",
+        "team"
+      ],
+      "subcategory": "it_ops"
+    },
+    {
+      "doc_id": "KB-ROL-012",
+      "category": "role_guides",
+      "title": "Career Growth: IT & Workplace",
+      "content": "IT & Workplace has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "it_ops"
+      ],
+      "subcategory": "it_ops"
+    },
+    {
+      "doc_id": "KB-ROL-013",
+      "category": "role_guides",
+      "title": "Life in Customer Experience",
+      "content": "Our Customer Experience teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "customer_experience",
+        "team"
+      ],
+      "subcategory": "customer_experience"
+    },
+    {
+      "doc_id": "KB-ROL-014",
+      "category": "role_guides",
+      "title": "Career Growth: Customer Experience",
+      "content": "Customer Experience has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "customer_experience"
+      ],
+      "subcategory": "customer_experience"
+    },
+    {
+      "doc_id": "KB-ROL-015",
+      "category": "role_guides",
+      "title": "Life in Sales",
+      "content": "Our Sales teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "sales",
+        "team"
+      ],
+      "subcategory": "sales"
+    },
+    {
+      "doc_id": "KB-ROL-016",
+      "category": "role_guides",
+      "title": "Career Growth: Sales",
+      "content": "Sales has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "sales"
+      ],
+      "subcategory": "sales"
+    },
+    {
+      "doc_id": "KB-ROL-017",
+      "category": "role_guides",
+      "title": "Life in Marketing",
+      "content": "Our Marketing teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "marketing",
+        "team"
+      ],
+      "subcategory": "marketing"
+    },
+    {
+      "doc_id": "KB-ROL-018",
+      "category": "role_guides",
+      "title": "Career Growth: Marketing",
+      "content": "Marketing has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "marketing"
+      ],
+      "subcategory": "marketing"
+    },
+    {
+      "doc_id": "KB-ROL-019",
+      "category": "role_guides",
+      "title": "Life in Finance",
+      "content": "Our Finance teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "finance",
+        "team"
+      ],
+      "subcategory": "finance"
+    },
+    {
+      "doc_id": "KB-ROL-020",
+      "category": "role_guides",
+      "title": "Career Growth: Finance",
+      "content": "Finance has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "finance"
+      ],
+      "subcategory": "finance"
+    },
+    {
+      "doc_id": "KB-ROL-021",
+      "category": "role_guides",
+      "title": "Life in People & Talent",
+      "content": "Our People & Talent teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "people",
+        "team"
+      ],
+      "subcategory": "people"
+    },
+    {
+      "doc_id": "KB-ROL-022",
+      "category": "role_guides",
+      "title": "Career Growth: People & Talent",
+      "content": "People & Talent has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "people"
+      ],
+      "subcategory": "people"
+    },
+    {
+      "doc_id": "KB-ROL-023",
+      "category": "role_guides",
+      "title": "Life in Legal",
+      "content": "Our Legal teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "legal",
+        "team"
+      ],
+      "subcategory": "legal"
+    },
+    {
+      "doc_id": "KB-ROL-024",
+      "category": "role_guides",
+      "title": "Career Growth: Legal",
+      "content": "Legal has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "legal"
+      ],
+      "subcategory": "legal"
+    },
+    {
+      "doc_id": "KB-ROL-025",
+      "category": "role_guides",
+      "title": "Life in Operations",
+      "content": "Our Operations teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "operations",
+        "team"
+      ],
+      "subcategory": "operations"
+    },
+    {
+      "doc_id": "KB-ROL-026",
+      "category": "role_guides",
+      "title": "Career Growth: Operations",
+      "content": "Operations has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "operations"
+      ],
+      "subcategory": "operations"
+    },
+    {
+      "doc_id": "KB-ROL-027",
+      "category": "role_guides",
+      "title": "Life in Technical Program Management",
+      "content": "Our Technical Program Management teams own meaningful, customer-facing problems with high autonomy. We pair strong craft with our values, run blameless retros, and invest in mentorship. Expect clear leveling, twice-yearly growth conversations, and real ownership from day one.",
+      "tags": [
+        "role guide",
+        "tpm",
+        "team"
+      ],
+      "subcategory": "tpm"
+    },
+    {
+      "doc_id": "KB-ROL-028",
+      "category": "role_guides",
+      "title": "Career Growth: Technical Program Management",
+      "content": "Technical Program Management has a dual-track ladder (IC L1-L7 and management M3-M7). Promotions use a written case against the next level's competencies, calibrated across managers. We support internal mobility after 12 months and fund learning toward your goals.",
+      "tags": [
+        "growth",
+        "career ladder",
+        "tpm"
+      ],
+      "subcategory": "tpm"
+    },
+    {
+      "doc_id": "KB-VIS-001",
+      "category": "immigration",
+      "title": "H-1B New & Lottery",
+      "content": "We sponsor H-1B petitions and register eligible candidates in the annual lottery. Our immigration partner manages filings at no cost to you; premium processing is available where helpful.",
+      "tags": [
+        "visa",
+        "immigration",
+        "h-1b"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-002",
+      "category": "immigration",
+      "title": "H-1B Transfer",
+      "content": "If you already hold an H-1B, we sponsor transfers and you can begin work upon receipt. We coordinate timing so there's no gap.",
+      "tags": [
+        "visa",
+        "immigration",
+        "h-1b"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-003",
+      "category": "immigration",
+      "title": "Green Card / PERM",
+      "content": "We sponsor permanent residency (PERM + I-140) for eligible roles, typically initiating after your first year, and cover all employer and reasonable employee costs.",
+      "tags": [
+        "visa",
+        "immigration",
+        "green"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-004",
+      "category": "immigration",
+      "title": "L-1 Intracompany Transfer",
+      "content": "For internal transfers from an international office, we support L-1A/L-1B petitions where you qualify by prior employment with us.",
+      "tags": [
+        "visa",
+        "immigration",
+        "l-1"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-005",
+      "category": "immigration",
+      "title": "O-1 Extraordinary Ability",
+      "content": "For candidates with extraordinary ability or achievement, we can pursue O-1 sponsorship with documentation support from our immigration partner.",
+      "tags": [
+        "visa",
+        "immigration",
+        "o-1"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-006",
+      "category": "immigration",
+      "title": "TN (USMCA)",
+      "content": "Canadian and Mexican citizens in qualifying professions can work under TN status; we provide the supporting letter and guidance.",
+      "tags": [
+        "visa",
+        "immigration",
+        "tn"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-007",
+      "category": "immigration",
+      "title": "F-1 OPT / STEM OPT / CPT",
+      "content": "We hire students on OPT/CPT and support STEM OPT extensions with the required training plan and E-Verify participation.",
+      "tags": [
+        "visa",
+        "immigration",
+        "f-1"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-008",
+      "category": "immigration",
+      "title": "E-3 (Australia)",
+      "content": "Australian citizens may qualify for the E-3 visa; we sponsor petitions and renewals for eligible roles.",
+      "tags": [
+        "visa",
+        "immigration",
+        "e-3"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-009",
+      "category": "immigration",
+      "title": "UK Skilled Worker",
+      "content": "Our UK entity is a licensed sponsor; we issue Certificates of Sponsorship for eligible roles and cover the visa and health surcharge.",
+      "tags": [
+        "visa",
+        "immigration",
+        "uk"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-010",
+      "category": "immigration",
+      "title": "Canada & Global Talent",
+      "content": "In Canada we support work permits including the Global Talent Stream for fast processing of eligible tech roles.",
+      "tags": [
+        "visa",
+        "immigration",
+        "canada"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-011",
+      "category": "immigration",
+      "title": "India & Intl. Employment",
+      "content": "In India, Singapore, Germany, and Australia we employ directly through local entities and handle local work authorization and relocation.",
+      "tags": [
+        "visa",
+        "immigration",
+        "india"
+      ]
+    },
+    {
+      "doc_id": "KB-VIS-012",
+      "category": "immigration",
+      "title": "Immigration Support Overview",
+      "content": "Visa availability is noted on every posting. Our immigration partner handles filings at no cost to the employee, and a dedicated coordinator supports each case end-to-end.",
+      "tags": [
+        "visa",
+        "immigration",
+        "immigration"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-001",
+      "category": "onboarding",
+      "title": "Before Day One",
+      "content": "Your equipment ships ahead of time, accounts are pre-provisioned by role, and you'll get a welcome email with your schedule, buddy, and first-week plan.",
+      "tags": [
+        "onboarding",
+        "before"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-002",
+      "category": "onboarding",
+      "title": "Your First Day",
+      "content": "Day one is orientation: accounts, security setup, a welcome from your manager and buddy, and a low-key first task. No big meetings — settle in.",
+      "tags": [
+        "onboarding",
+        "your"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-003",
+      "category": "onboarding",
+      "title": "Your First Week",
+      "content": "Meet your team, set up your dev/work environment, complete required trainings, and have your first 1:1 to align on the 30/60/90 plan.",
+      "tags": [
+        "onboarding",
+        "your"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-004",
+      "category": "onboarding",
+      "title": "30/60/90 Day Plan",
+      "content": "Your manager co-creates a 30/60/90 plan: ramp and relationships first, then first contributions, then independent ownership of a meaningful piece of work.",
+      "tags": [
+        "onboarding",
+        "30/60/90"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-005",
+      "category": "onboarding",
+      "title": "Onboarding Buddy Program",
+      "content": "Every new hire gets a buddy outside their reporting line for the first 90 days to answer questions and help you navigate norms and tools.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-006",
+      "category": "onboarding",
+      "title": "New-Hire Training",
+      "content": "Required modules cover security, privacy, anti-harassment, our values, and responsible-AI use. Role-specific bootcamps follow for technical teams.",
+      "tags": [
+        "onboarding",
+        "new-hire"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-007",
+      "category": "onboarding",
+      "title": "Benefits Enrollment",
+      "content": "You have 30 days to enroll in benefits via the portal. The People team hosts a live session and 1:1s to help you choose plans.",
+      "tags": [
+        "onboarding",
+        "benefits"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-008",
+      "category": "onboarding",
+      "title": "Equipment & Access",
+      "content": "IT provisions your laptop, accounts, and role-based access automatically. Need something? File a ticket; standard requests are same-day.",
+      "tags": [
+        "onboarding",
+        "equipment"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-009",
+      "category": "onboarding",
+      "title": "Meet the Company",
+      "content": "Attend the new-hire all-hands, watch the leadership welcome, and explore the company wiki, org chart, and product overview.",
+      "tags": [
+        "onboarding",
+        "meet"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-010",
+      "category": "onboarding",
+      "title": "Manager's Onboarding Guide",
+      "content": "Managers prepare the workspace, assign a buddy, schedule key intros, and set clear first-month goals before a new hire starts.",
+      "tags": [
+        "onboarding",
+        "manager's"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-011",
+      "category": "onboarding",
+      "title": "Onboarding for Remote Hires",
+      "content": "Remote hires get a virtual buddy, recorded sessions, a connection budget for a team lunch, and extra async documentation.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-012",
+      "category": "onboarding",
+      "title": "Responsible AI at Work",
+      "content": "We train everyone on responsible AI: keep humans in the loop, protect data, and never use AI to make final hiring or HR decisions autonomously.",
+      "tags": [
+        "onboarding",
+        "responsible"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-013",
+      "category": "onboarding",
+      "title": "First Project & Feedback",
+      "content": "You'll ship something small in your first weeks and get early feedback. We value learning velocity over instant perfection.",
+      "tags": [
+        "onboarding",
+        "first"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-014",
+      "category": "onboarding",
+      "title": "90-Day Check-in",
+      "content": "At 90 days you and your manager review the plan, celebrate wins, and adjust goals. New hires also give onboarding feedback to improve the program.",
+      "tags": [
+        "onboarding",
+        "90-day"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-015",
+      "category": "onboarding",
+      "title": "Onboarding Resources Index",
+      "content": "Find the new-hire wiki, IT setup guides, benefits portal, org chart, and glossary linked from your welcome email and the intranet home.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-001",
+      "category": "compensation",
+      "title": "Compensation Philosophy",
+      "content": "We benchmark total comp to the 75th percentile of market for your level and location, review twice a year, and are transparent about bands and components.",
+      "tags": [
+        "compensation",
+        "equity",
+        "compensation"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-002",
+      "category": "compensation",
+      "title": "How Equity (RSUs) Works",
+      "content": "New hires receive RSUs vesting over 4 years with a 1-year cliff, then quarterly. We refresh equity annually based on performance and level.",
+      "tags": [
+        "compensation",
+        "equity",
+        "how"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-003",
+      "category": "compensation",
+      "title": "Understanding Your Total Comp",
+      "content": "Total comp = base + annual equity (RSUs) + target bonus + benefits. Your offer breaks down each component and the band it sits in.",
+      "tags": [
+        "compensation",
+        "equity",
+        "understanding"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-004",
+      "category": "compensation",
+      "title": "Pay Transparency & Ranges",
+      "content": "We post pay ranges where required (CO, CA, NY, WA, IL, and EU) and share your band on request. Ranges reflect level and location tier.",
+      "tags": [
+        "compensation",
+        "equity",
+        "pay"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-005",
+      "category": "compensation",
+      "title": "Location & Pay Tiers",
+      "content": "Compensation uses location tiers (Tier 1/2/3). Moving between tiers may change pay; we communicate any change clearly and in advance.",
+      "tags": [
+        "compensation",
+        "equity",
+        "location"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-006",
+      "category": "compensation",
+      "title": "Bonus & Performance Pay",
+      "content": "Target bonus scales with level (5-35%) and is tied to company and individual performance, paid annually with transparent criteria.",
+      "tags": [
+        "compensation",
+        "equity",
+        "bonus"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-007",
+      "category": "compensation",
+      "title": "Equity Refresh & Promotions",
+      "content": "Annual refresh grants and promotion grants keep your equity competitive. Promotions also adjust base and bonus to the new band.",
+      "tags": [
+        "compensation",
+        "equity",
+        "equity"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-008",
+      "category": "compensation",
+      "title": "Pay Equity Audits",
+      "content": "We run regular pay-equity analyses across gender and race/ethnicity and correct unexplained gaps. Results inform our comp reviews.",
+      "tags": [
+        "compensation",
+        "equity",
+        "pay"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-009",
+      "category": "compensation",
+      "title": "Sign-on & Relocation",
+      "content": "Some offers include a sign-on bonus or relocation support to bridge transitions; these are noted explicitly in your offer letter.",
+      "tags": [
+        "compensation",
+        "equity",
+        "sign-on"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-010",
+      "category": "compensation",
+      "title": "Stock Education & Taxes",
+      "content": "We provide sessions and tools to understand RSU vesting, taxes (including 83(b) where relevant), and trading windows. Consult a tax advisor for specifics.",
+      "tags": [
+        "compensation",
+        "equity",
+        "stock"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-011",
+      "category": "compensation",
+      "title": "Leveling & Compensation",
+      "content": "Each level maps to a comp band by family and location. Leveling is based on scope and competencies, not tenure or title inflation.",
+      "tags": [
+        "compensation",
+        "equity",
+        "leveling"
+      ]
+    },
+    {
+      "doc_id": "KB-CMP-012",
+      "category": "compensation",
+      "title": "Compensation Review Cycle",
+      "content": "Comp reviews run each half alongside performance. Adjustments reflect market movement, performance, and internal equity.",
+      "tags": [
+        "compensation",
+        "equity",
+        "compensation"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-001",
+      "category": "security_it",
+      "title": "Security Awareness Basics",
+      "content": "Use SSO and your password manager, enable hardware MFA, lock your screen, and never share credentials. Report phishing with the one-click button.",
+      "tags": [
+        "security",
+        "it",
+        "security"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-002",
+      "category": "security_it",
+      "title": "Phishing & Reporting",
+      "content": "We run regular phishing simulations and training. If you click something suspicious, report it immediately — there's no blame, only fast response.",
+      "tags": [
+        "security",
+        "it",
+        "phishing"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-003",
+      "category": "security_it",
+      "title": "MFA & SSO",
+      "content": "All apps are behind Okta SSO with phishing-resistant MFA (passkeys/security keys). New devices are enrolled during onboarding.",
+      "tags": [
+        "security",
+        "it",
+        "mfa"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-004",
+      "category": "security_it",
+      "title": "Device & Endpoint Security",
+      "content": "Laptops are encrypted and managed (Jamf/Intune) with automatic patching. Don't disable security tooling; contact IT for exceptions.",
+      "tags": [
+        "security",
+        "it",
+        "device"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-005",
+      "category": "security_it",
+      "title": "Data Privacy for Employees",
+      "content": "Handle customer and candidate data on a need-to-know basis, keep it in approved systems, and follow our classification and retention rules.",
+      "tags": [
+        "security",
+        "it",
+        "data"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-006",
+      "category": "security_it",
+      "title": "Acceptable Use & AI Tools",
+      "content": "Use approved AI tools and never paste customer, candidate, or confidential data into unapproved services. Responsible-AI rules apply to all roles.",
+      "tags": [
+        "security",
+        "it",
+        "acceptable"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-007",
+      "category": "security_it",
+      "title": "Getting IT Help",
+      "content": "File a ticket in the IT portal or message the help channel. Standard hardware/access requests are same-day; urgent issues have a hotline.",
+      "tags": [
+        "security",
+        "it",
+        "getting"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-008",
+      "category": "security_it",
+      "title": "Software & App Requests",
+      "content": "Request new software via the catalog; security and IT review for data and licensing. Many common tools are pre-approved for self-service.",
+      "tags": [
+        "security",
+        "it",
+        "software"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-009",
+      "category": "security_it",
+      "title": "Remote Access & VPN",
+      "content": "Access internal systems via SSO and zero-trust; a VPN is used only for specific networks. Keep your OS and browser updated.",
+      "tags": [
+        "security",
+        "it",
+        "remote"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-010",
+      "category": "security_it",
+      "title": "Incident Reporting",
+      "content": "Report security incidents or lost devices immediately to the security hotline. Quick reporting limits impact; we run blameless reviews.",
+      "tags": [
+        "security",
+        "it",
+        "incident"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-011",
+      "category": "security_it",
+      "title": "Physical Security & Badges",
+      "content": "Badge in/out, don't tailgate, and escort visitors. Report lost badges to facilities/security right away.",
+      "tags": [
+        "security",
+        "it",
+        "physical"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-012",
+      "category": "security_it",
+      "title": "Vendor & Third-Party Risk",
+      "content": "New vendors go through security and privacy review (SOC2, data-processing terms). Don't sign up company data with un-reviewed services.",
+      "tags": [
+        "security",
+        "it",
+        "vendor"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-013",
+      "category": "security_it",
+      "title": "Backups & Recovery",
+      "content": "Work in approved cloud systems that are backed up centrally. Avoid local-only storage of important files.",
+      "tags": [
+        "security",
+        "it",
+        "backups"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-014",
+      "category": "security_it",
+      "title": "Accounts & Offboarding",
+      "content": "Access is provisioned by role and removed promptly on transfer or exit. Return equipment via the prepaid kit when you leave.",
+      "tags": [
+        "security",
+        "it",
+        "accounts"
+      ]
+    },
+    {
+      "doc_id": "KB-SEC-015",
+      "category": "security_it",
+      "title": "Responsible-AI Security Review",
+      "content": "AI features (including hiring tools) undergo bias, privacy, and security review, with human-in-the-loop and audit logging by design.",
+      "tags": [
+        "security",
+        "it",
+        "responsible-ai"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-001",
+      "category": "dei",
+      "title": "Inclusive Hiring Practices",
+      "content": "We use structured interviews, diverse panels, rubric-based scoring, and bias-interrupted reviews. AI assists but never decides, and we audit selection rates for adverse impact.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "inclusive"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-002",
+      "category": "dei",
+      "title": "Accessibility & Accommodations in Hiring",
+      "content": "Candidates can request accommodations or an alternative process at any stage, confidentially. We provide extended time, alternative formats, and assistive tech.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "accessibility"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-003",
+      "category": "dei",
+      "title": "Pay Equity Commitment",
+      "content": "We audit pay across gender and race/ethnicity and correct unexplained gaps. Compensation is set by level and location, not negotiation prowess.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "pay"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-004",
+      "category": "dei",
+      "title": "Representation Goals",
+      "content": "We set and publish internal representation goals reviewed each half, focusing on hiring, promotion, and retention across underrepresented groups.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "representation"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-005",
+      "category": "dei",
+      "title": "ERGs & Sponsorship",
+      "content": "Our ERGs have executive sponsors, budgets, and a voice in policy. They drive mentorship, community, and inclusive product feedback.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "ergs"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-006",
+      "category": "dei",
+      "title": "Bias Interrupters",
+      "content": "Managers are trained on bias interrupters in hiring, reviews, and promotions, with checklists and calibration to keep decisions fair.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "bias"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-007",
+      "category": "dei",
+      "title": "Inclusive Language",
+      "content": "We avoid exclusionary language in JDs and communications, scan for biased terms, and lead with mission and impact over jargon.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "inclusive"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-008",
+      "category": "dei",
+      "title": "Disability & Neurodiversity Inclusion",
+      "content": "We design flexible processes and workplaces, offer accommodations proactively, and partner with our Disability & Neurodiversity ERG.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "disability"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-009",
+      "category": "dei",
+      "title": "Mentorship & Sponsorship Programs",
+      "content": "Structured mentorship and sponsorship help underrepresented talent grow into senior and leadership roles.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "mentorship"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-010",
+      "category": "dei",
+      "title": "Supplier Diversity",
+      "content": "We seek diverse-owned suppliers and partners and track spend to broaden our economic impact.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "supplier"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-011",
+      "category": "dei",
+      "title": "Fair Chance Hiring",
+      "content": "We evaluate candidates with records individually and job-relatedly, following ban-the-box and fair-chance laws, and never use a blanket exclusion.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "fair"
+      ]
+    },
+    {
+      "doc_id": "KB-DEI-012",
+      "category": "dei",
+      "title": "DEI Data & Transparency",
+      "content": "Demographic data is voluntary, segmented for auditing only, and never used in scoring. We share progress transparently with employees.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "dei"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-001",
+      "category": "learning_development",
+      "title": "Learning & Development Overview",
+      "content": "Beyond the $2,500 budget, we offer internal courses, a learning platform, lunch-and-learns, and mentorship to help you grow in role and toward your next.",
+      "tags": [
+        "learning",
+        "development",
+        "learning"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-002",
+      "category": "learning_development",
+      "title": "Manager & Leadership Training",
+      "content": "New and aspiring managers complete a leadership program covering coaching, feedback, inclusive management, and performance, with ongoing cohorts.",
+      "tags": [
+        "learning",
+        "development",
+        "manager"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-003",
+      "category": "learning_development",
+      "title": "Technical Skill Building",
+      "content": "Engineering and data teams get internal bootcamps, guilds, conference budgets, and time for deep work and approved open-source contributions.",
+      "tags": [
+        "learning",
+        "development",
+        "technical"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-004",
+      "category": "learning_development",
+      "title": "Mentorship Program",
+      "content": "Sign up to mentor or be mentored across functions. Structured matching and goals make it more than coffee chats.",
+      "tags": [
+        "learning",
+        "development",
+        "mentorship"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-005",
+      "category": "learning_development",
+      "title": "Tuition & Certification Support",
+      "content": "We reimburse approved certifications and contribute to degree programs relevant to your role through our education partners.",
+      "tags": [
+        "learning",
+        "development",
+        "tuition"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-006",
+      "category": "learning_development",
+      "title": "Career Development Conversations",
+      "content": "Twice a year you and your manager hold a dedicated growth conversation, separate from performance ratings, to plan your development.",
+      "tags": [
+        "learning",
+        "development",
+        "career"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-007",
+      "category": "learning_development",
+      "title": "Internal Mobility & Gigs",
+      "content": "Explore internal openings after 12 months, or take on short internal 'gigs' to build skills across teams.",
+      "tags": [
+        "learning",
+        "development",
+        "internal"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-008",
+      "category": "learning_development",
+      "title": "Onboarding to Mastery Paths",
+      "content": "Each role has a learning path from onboarding to mastery with curated resources, milestones, and recommended mentors.",
+      "tags": [
+        "learning",
+        "development",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-009",
+      "category": "learning_development",
+      "title": "Speaking & Writing Support",
+      "content": "We support employees who want to speak at conferences or publish, with coaching, review, and travel.",
+      "tags": [
+        "learning",
+        "development",
+        "speaking"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-010",
+      "category": "learning_development",
+      "title": "Learning Communities & Guilds",
+      "content": "Join guilds and communities of practice (frontend, ML, security, design, PM) that share knowledge and set standards.",
+      "tags": [
+        "learning",
+        "development",
+        "learning"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-011",
+      "category": "learning_development",
+      "title": "Feedback & Coaching Skills",
+      "content": "Workshops build everyone's ability to give and receive feedback well — a core skill tied to our Earn Trust value.",
+      "tags": [
+        "learning",
+        "development",
+        "feedback"
+      ]
+    },
+    {
+      "doc_id": "KB-LND-012",
+      "category": "learning_development",
+      "title": "AI Literacy for Everyone",
+      "content": "We run AI-literacy training so all employees can use AI responsibly and understand where humans must stay in the loop.",
+      "tags": [
+        "learning",
+        "development",
+        "ai"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-001",
+      "category": "wiki_glossary",
+      "title": "Glossary: Leveling (L1-L7, M3-M7)",
+      "content": "Levels describe scope and competency, not tenure. IC track runs L1-L7; management runs M3-M7. Your level maps to a comp band by family and location.",
+      "tags": [
+        "glossary",
+        "leveling",
+        "levels"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-002",
+      "category": "wiki_glossary",
+      "title": "Glossary: Comp Band",
+      "content": "A comp band is the salary/equity/bonus range for a role family, level, and location tier (e.g., BAND-ENG-L5-T1). Offers fall within the band based on experience and equity.",
+      "tags": [
+        "glossary",
+        "comp band",
+        "compensation"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-003",
+      "category": "wiki_glossary",
+      "title": "Glossary: Requisition (Req)",
+      "content": "A requisition is an approved open role with a unique ID (e.g., REQ-2026-0431), headcount, hiring manager, recruiter, and an interview loop.",
+      "tags": [
+        "glossary",
+        "requisition",
+        "hiring"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-004",
+      "category": "wiki_glossary",
+      "title": "Glossary: Interview Loop",
+      "content": "The interview loop is the ordered set of stages a candidate goes through (e.g., recruiter screen, assessment, hiring manager, values). Each stage has a rubric.",
+      "tags": [
+        "glossary",
+        "interview loop",
+        "stages"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-005",
+      "category": "wiki_glossary",
+      "title": "Glossary: Rubric & Anchored Scale",
+      "content": "A rubric scores candidates on weighted dimensions using a 1-5 scale with behavioral anchors, so interviewers rate consistently and fairly.",
+      "tags": [
+        "glossary",
+        "rubric",
+        "scoring"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-006",
+      "category": "wiki_glossary",
+      "title": "Glossary: DRI",
+      "content": "A Directly Responsible Individual (DRI) is the single owner accountable for a decision or deliverable. Naming a DRI keeps decisions clear.",
+      "tags": [
+        "glossary",
+        "dri",
+        "decisions"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-007",
+      "category": "wiki_glossary",
+      "title": "Glossary: OKRs",
+      "content": "Objectives and Key Results align teams on outcomes. Objectives are qualitative goals; key results are measurable. We set and review them quarterly.",
+      "tags": [
+        "glossary",
+        "okr",
+        "goals"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-008",
+      "category": "wiki_glossary",
+      "title": "Glossary: RSU & Vesting",
+      "content": "Restricted Stock Units vest over time (4 years, 1-year cliff, then quarterly). Vested shares are yours; unvested are forfeited if you leave.",
+      "tags": [
+        "glossary",
+        "rsu",
+        "equity",
+        "vesting"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-009",
+      "category": "wiki_glossary",
+      "title": "Glossary: Two-Way Door",
+      "content": "A reversible decision (two-way door) should be made quickly; irreversible (one-way door) decisions warrant more rigor. Tied to Bias for Action.",
+      "tags": [
+        "glossary",
+        "decisions",
+        "two-way door"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-010",
+      "category": "wiki_glossary",
+      "title": "Glossary: AEDT",
+      "content": "An Automated Employment Decision Tool is software that substantially assists hiring decisions. We keep humans in the loop and audit AEDTs for bias.",
+      "tags": [
+        "glossary",
+        "aedt",
+        "compliance",
+        "ai"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-011",
+      "category": "wiki_glossary",
+      "title": "Org Structure Overview",
+      "content": "We organize into Product & Engineering, Go-to-Market (Sales/Marketing/CX), and G&A (Finance/People/Legal/Ops). Each function has IC and management tracks.",
+      "tags": [
+        "org",
+        "structure",
+        "departments"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-012",
+      "category": "wiki_glossary",
+      "title": "How to Find Things (Intranet)",
+      "content": "Start at the intranet home for the wiki, org chart, policies, benefits portal, IT catalog, and the candidate/employee help assistant.",
+      "tags": [
+        "intranet",
+        "resources",
+        "wiki"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-013",
+      "category": "wiki_glossary",
+      "title": "All-Hands & Cadences",
+      "content": "We hold a company all-hands every two weeks, functional reviews monthly, and quarterly business reviews. Recordings and notes are posted for async viewing.",
+      "tags": [
+        "all-hands",
+        "cadence",
+        "communication"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-014",
+      "category": "wiki_glossary",
+      "title": "Decision-Making Frameworks",
+      "content": "We use written narratives, name a DRI, and classify decisions as one-way or two-way doors. Important decisions are documented with context and alternatives.",
+      "tags": [
+        "decisions",
+        "frameworks",
+        "narratives"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-015",
+      "category": "wiki_glossary",
+      "title": "Glossary: Calibration",
+      "content": "Calibration is the cross-manager review of ratings, promotions, and hiring decisions to ensure consistency and fairness across teams.",
+      "tags": [
+        "glossary",
+        "calibration",
+        "fairness"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-016",
+      "category": "wiki_glossary",
+      "title": "Glossary: Culture Add",
+      "content": "We hire for 'culture add' — what someone uniquely brings — not 'culture fit' (sameness), to strengthen and diversify our teams.",
+      "tags": [
+        "glossary",
+        "culture add",
+        "dei"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-017",
+      "category": "wiki_glossary",
+      "title": "Glossary: Reasonable Accommodation",
+      "content": "An adjustment to a process or role that enables a qualified person with a disability to participate equally. Available in hiring and employment on request.",
+      "tags": [
+        "glossary",
+        "accommodation",
+        "accessibility"
+      ]
+    },
+    {
+      "doc_id": "KB-WIKI-018",
+      "category": "wiki_glossary",
+      "title": "Glossary: Impact Ratio (4/5ths)",
+      "content": "The selection rate of a group divided by the highest group's rate. A ratio below 0.80 may signal adverse impact and triggers review.",
+      "tags": [
+        "glossary",
+        "impact ratio",
+        "bias audit",
+        "compliance"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-001",
+      "category": "process",
+      "title": "Engineering Practices",
+      "content": "We practice trunk-based development, code review on every change, CI/CD with automated tests, feature flags, and blameless postmortems for incidents.",
+      "tags": [
+        "process",
+        "engineering"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-002",
+      "category": "process",
+      "title": "Product Development Process",
+      "content": "Product work starts from a customer problem and a written brief, moves through discovery and prototyping, ships behind flags, and is measured against success metrics.",
+      "tags": [
+        "process",
+        "product"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-003",
+      "category": "process",
+      "title": "Design Process",
+      "content": "Designers run discovery research, explore broadly, validate with usability tests, and ship via the design system, partnering closely with PM and engineering.",
+      "tags": [
+        "process",
+        "design"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-004",
+      "category": "process",
+      "title": "Data & Experimentation Process",
+      "content": "We instrument features, run A/B tests with pre-registered metrics, and require a readout before broad rollout. Models are monitored in production.",
+      "tags": [
+        "process",
+        "data"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-005",
+      "category": "process",
+      "title": "Support Playbooks (CX)",
+      "content": "Tier-1 resolves common issues with macros and a knowledge base; complex cases escalate to Tier-2 with full context. We protect CSAT and first-response targets.",
+      "tags": [
+        "process",
+        "support"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-006",
+      "category": "process",
+      "title": "Sales Process & Methodology",
+      "content": "We run a stage-gated pipeline with MEDDIC qualification, mutual action plans, and SE partnership. Forecasts are updated weekly with discipline.",
+      "tags": [
+        "process",
+        "sales"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-007",
+      "category": "process",
+      "title": "Incident Management Process",
+      "content": "Incidents follow severity levels, an incident commander, a status channel, and a blameless postmortem with tracked action items.",
+      "tags": [
+        "process",
+        "incident"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-008",
+      "category": "process",
+      "title": "Launch & Go-to-Market Process",
+      "content": "Launches use a readiness checklist across product, marketing, sales, support, and legal, with a tiered launch plan and post-launch review.",
+      "tags": [
+        "process",
+        "launch"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-009",
+      "category": "process",
+      "title": "Hiring Process for Managers",
+      "content": "Hiring managers open a req, align on a scorecard, run structured loops with diverse panels, debrief against the rubric, and make a human final decision.",
+      "tags": [
+        "process",
+        "hiring"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-010",
+      "category": "process",
+      "title": "Performance & Promotion Cycle",
+      "content": "Twice a year we run calibrated performance reviews and promotion cases against the next level's competencies, separating ratings from growth plans.",
+      "tags": [
+        "process",
+        "performance"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-011",
+      "category": "process",
+      "title": "Roadmapping & Planning",
+      "content": "We plan in quarters with OKRs, balance keep-the-lights-on with bets, and keep a living roadmap reviewed in monthly business reviews.",
+      "tags": [
+        "process",
+        "roadmapping"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-012",
+      "category": "process",
+      "title": "Vendor Onboarding Process",
+      "content": "New vendors pass security, privacy, and legal review (SOC2, DPA) before any company or customer data is shared, then go through procurement.",
+      "tags": [
+        "process",
+        "vendor"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-013",
+      "category": "process",
+      "title": "Accessibility Review Process",
+      "content": "Designs and releases are checked against WCAG 2.1 AA; accessibility defects are prioritized like functional bugs and tracked to closure.",
+      "tags": [
+        "process",
+        "accessibility"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-014",
+      "category": "process",
+      "title": "Responsible-AI Review Process",
+      "content": "AI features pass a review for bias, privacy, security, explainability, and human-in-the-loop before launch, with ongoing monitoring and audit logs.",
+      "tags": [
+        "process",
+        "responsible-ai"
+      ]
+    },
+    {
+      "doc_id": "KB-PRC-015",
+      "category": "process",
+      "title": "Code Review Standards",
+      "content": "Reviews focus on correctness, readability, tests, and security. Keep PRs small, respond within a day, and disagree-and-commit once a decision is made.",
+      "tags": [
+        "process",
+        "code"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-001",
+      "category": "tools",
+      "title": "Tools: Communication",
+      "content": "We use Slack for chat, email for external and formal comms, and a wiki for durable docs. Default to async and write things down.",
+      "tags": [
+        "tools",
+        "communication"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-002",
+      "category": "tools",
+      "title": "Tools: Identity & Access (Okta)",
+      "content": "Okta SSO is your front door to apps with phishing-resistant MFA. Request app access through the catalog; many are self-service.",
+      "tags": [
+        "tools",
+        "identity"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-003",
+      "category": "tools",
+      "title": "Tools: Code & CI/CD",
+      "content": "Source lives in Git with pull-request review; CI/CD runs tests and deploys via pipelines with feature flags and rollbacks.",
+      "tags": [
+        "tools",
+        "code"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-004",
+      "category": "tools",
+      "title": "Tools: Project Tracking",
+      "content": "Teams track work in Jira/Linear with clear ownership and status. Programs use a shared tracker for cross-team dependencies.",
+      "tags": [
+        "tools",
+        "project"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-005",
+      "category": "tools",
+      "title": "Tools: Design (Figma)",
+      "content": "Design happens in Figma with a shared design system and component library. Prototypes are linked in specs and tickets.",
+      "tags": [
+        "tools",
+        "design"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-006",
+      "category": "tools",
+      "title": "Tools: Data & BI (Looker)",
+      "content": "Self-serve analytics live in Looker/dbt with governed metrics. Request access and use certified dashboards for decisions.",
+      "tags": [
+        "tools",
+        "data"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-007",
+      "category": "tools",
+      "title": "Tools: CRM (Salesforce)",
+      "content": "Sales and CX use Salesforce for pipeline and cases. Keep records current — forecasts and customer history depend on it.",
+      "tags": [
+        "tools",
+        "crm"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-008",
+      "category": "tools",
+      "title": "Tools: HRIS (Workday)",
+      "content": "Workday holds employee records, time off, comp, and performance. Update personal info and request time off there.",
+      "tags": [
+        "tools",
+        "hris"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-009",
+      "category": "tools",
+      "title": "Tools: Recruiting (Greenhouse)",
+      "content": "We run structured hiring in Greenhouse with scorecards and kits. Interviewers submit independent, rubric-based feedback before debrief.",
+      "tags": [
+        "tools",
+        "recruiting"
+      ]
+    },
+    {
+      "doc_id": "KB-TOOL-010",
+      "category": "tools",
+      "title": "Tools: Expense & Travel",
+      "content": "Book travel and submit expenses in our T&E tool within 30 days. Standard categories are pre-approved; receipts required over $25.",
+      "tags": [
+        "tools",
+        "expense"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-020",
+      "category": "faq",
+      "title": "Is there a dress code?",
+      "content": "No formal dress code — dress comfortably and appropriately for your day. Customer-facing meetings may call for business-casual.",
+      "tags": [
+        "faq",
+        "is"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-021",
+      "category": "faq",
+      "title": "Can I work from another country temporarily?",
+      "content": "Short work-from-anywhere stays may be possible with approval and tax/immigration review. Talk to People before booking extended trips abroad.",
+      "tags": [
+        "faq",
+        "can"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-022",
+      "category": "faq",
+      "title": "How do promotions work?",
+      "content": "Promotions run twice yearly via a written case against the next level's competencies, calibrated across managers. Tenure alone does not drive promotion.",
+      "tags": [
+        "faq",
+        "how"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-023",
+      "category": "faq",
+      "title": "What if I need an interview reschedule?",
+      "content": "Just tell your recruiter or use the scheduling link. We reschedule without penalty; our scheduling assistant finds new mutual times quickly.",
+      "tags": [
+        "faq",
+        "what"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-024",
+      "category": "faq",
+      "title": "Do you offer internships?",
+      "content": "Yes — we run paid internships and new-grad programs with mentorship and real projects, often a path to full-time offers.",
+      "tags": [
+        "faq",
+        "do"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-025",
+      "category": "faq",
+      "title": "How are reviews and feedback handled?",
+      "content": "Weekly 1:1s, twice-yearly calibrated reviews, and 360 feedback focused on growth. Feedback flows both ways and ties to our Earn Trust value.",
+      "tags": [
+        "faq",
+        "how"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-026",
+      "category": "faq",
+      "title": "What languages do you support for candidates?",
+      "content": "Our candidate assistant supports multiple languages, and we provide interpreters or alternative formats as a reasonable accommodation.",
+      "tags": [
+        "faq",
+        "what"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-027",
+      "category": "faq",
+      "title": "Can I negotiate my offer?",
+      "content": "Yes. We're transparent about bands and components and happy to discuss base, equity, and bonus within the band for your level and location.",
+      "tags": [
+        "faq",
+        "can"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-028",
+      "category": "faq",
+      "title": "What is the company's mission?",
+      "content": "We build trusted products that put customers first. Our values guide how we work: customer obsession, bias for action, earn trust, disagree and commit, and raise the bar.",
+      "tags": [
+        "faq",
+        "what"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-029",
+      "category": "faq",
+      "title": "How do you protect candidate data?",
+      "content": "We collect only job-relevant data, segment any demographic data for auditing only, never use it for scoring, and honor access/deletion requests.",
+      "tags": [
+        "faq",
+        "how"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-030",
+      "category": "faq",
+      "title": "What's your stance on AI in hiring?",
+      "content": "AI assists with sourcing, scheduling, and drafting; humans make every advancement and rejection decision. We audit for bias and offer an alternative process.",
+      "tags": [
+        "faq",
+        "what's"
+      ]
+    },
+    {
+      "doc_id": "KB-FAQ-031",
+      "category": "faq",
+      "title": "Do you support employee well-being?",
+      "content": "Yes — unlimited PTO with a minimum, mental-health benefits, sustainable on-call, no-meeting focus time, and a winter shutdown.",
+      "tags": [
+        "faq",
+        "do"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-018",
+      "category": "benefits",
+      "title": "Sabbatical Eligibility Detail",
+      "content": "Sabbaticals accrue with tenure: 4 weeks at 5 years, 6 weeks at 7 years, and an extra week each additional milestone, fully paid and separate from PTO.",
+      "tags": [
+        "sabbatical",
+        "tenure",
+        "leave"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-019",
+      "category": "benefits",
+      "title": "Backup Care",
+      "content": "We subsidize backup child and elder care for a set number of days per year through a care provider, for those days when your normal arrangements fall through.",
+      "tags": [
+        "backup care",
+        "family",
+        "caregiving"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-020",
+      "category": "benefits",
+      "title": "Global Benefits Parity",
+      "content": "We aim for benefits parity across countries, adapting to local norms (e.g., statutory leave, pensions) while keeping core coverage generous everywhere.",
+      "tags": [
+        "global",
+        "benefits",
+        "parity"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-021",
+      "category": "benefits",
+      "title": "Disability & Workers' Comp",
+      "content": "We carry workers' compensation per jurisdiction and coordinate disability benefits with a dedicated leave team to keep your pay continuous.",
+      "tags": [
+        "disability",
+        "workers comp",
+        "leave"
+      ]
+    },
+    {
+      "doc_id": "KB-BEN-022",
+      "category": "benefits",
+      "title": "Open Enrollment Guide",
+      "content": "Open enrollment runs each fall. Review changes, compare plans with the decision tool, and update dependents and beneficiaries within the window.",
+      "tags": [
+        "open enrollment",
+        "benefits",
+        "plans"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-031",
+      "category": "policy",
+      "title": "Hybrid Schedule Guidelines",
+      "content": "Hybrid roles are 2-3 days on-site; teams pick anchor days for collaboration. Coordinate with your manager and respect team norms.",
+      "tags": [
+        "policy",
+        "hybrid"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-032",
+      "category": "policy",
+      "title": "Equipment Return & Offboarding",
+      "content": "On exit or transfer, return company equipment via the prepaid kit. Access is removed promptly; final pay and benefits info is provided clearly.",
+      "tags": [
+        "policy",
+        "equipment"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-033",
+      "category": "policy",
+      "title": "Expense Approval Limits",
+      "content": "Expenses follow tiered approval by amount. Pre-approval is needed for travel and purchases over the team threshold; submit within 30 days.",
+      "tags": [
+        "policy",
+        "expense"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-034",
+      "category": "policy",
+      "title": "Confidentiality & IP Assignment",
+      "content": "Protect confidential information during and after employment. Work created for the company is assigned to the company per your agreement.",
+      "tags": [
+        "policy",
+        "confidentiality"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-035",
+      "category": "policy",
+      "title": "Anti-Retaliation Policy",
+      "content": "We prohibit retaliation against anyone who raises a concern, requests an accommodation, or participates in an investigation in good faith.",
+      "tags": [
+        "policy",
+        "anti-retaliation"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-036",
+      "category": "policy",
+      "title": "Pay Transparency Compliance",
+      "content": "We post salary ranges where required by law and never ask for salary history where prohibited. Offers reflect role, level, and location.",
+      "tags": [
+        "policy",
+        "pay"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-037",
+      "category": "policy",
+      "title": "AI Use Policy",
+      "content": "Use approved AI tools, never input confidential or personal data into unapproved services, and keep humans in the loop for consequential decisions.",
+      "tags": [
+        "policy",
+        "ai"
+      ]
+    },
+    {
+      "doc_id": "KB-POL-038",
+      "category": "policy",
+      "title": "Workplace Relationships Policy",
+      "content": "Relationships that create a conflict or reporting concern must be disclosed; we'll adjust reporting lines to remove conflicts fairly.",
+      "tags": [
+        "policy",
+        "workplace"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-013",
+      "category": "perks",
+      "title": "Wellbeing Days",
+      "content": "In addition to PTO, we schedule a few company-wide wellbeing days each year so everyone can recharge at the same time, guilt-free.",
+      "tags": [
+        "perks",
+        "wellbeing"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-014",
+      "category": "perks",
+      "title": "Team Lunch Budget",
+      "content": "Distributed teams get a monthly virtual or in-person lunch budget to connect, plus a quarterly social budget for local meetups.",
+      "tags": [
+        "perks",
+        "team"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-015",
+      "category": "perks",
+      "title": "Books & Subscriptions",
+      "content": "Order work-relevant books and subscriptions through the learning budget or team budget — no lengthy approvals for reasonable requests.",
+      "tags": [
+        "perks",
+        "books"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-016",
+      "category": "perks",
+      "title": "Milestone Anniversary Gifts",
+      "content": "We celebrate work anniversaries and milestones with gifts, recognition, and at five years, a sabbatical and a milestone award.",
+      "tags": [
+        "perks",
+        "milestone"
+      ]
+    },
+    {
+      "doc_id": "KB-PRK-017",
+      "category": "perks",
+      "title": "Ergonomics Support",
+      "content": "Get an ergonomic assessment and reimbursement for chairs, standing desks, and accessories so your home or office setup is healthy.",
+      "tags": [
+        "perks",
+        "ergonomics"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-017",
+      "category": "culture",
+      "title": "Remote-First Collaboration",
+      "content": "We design for distributed teams: clear docs, recorded decisions, inclusive meeting practices, and overlap hours that respect time zones.",
+      "tags": [
+        "culture",
+        "remote-first"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-018",
+      "category": "culture",
+      "title": "Psychological Safety",
+      "content": "We build environments where people can ask questions, admit mistakes, and challenge ideas without fear — the foundation of Earn Trust and learning.",
+      "tags": [
+        "culture",
+        "psychological"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-019",
+      "category": "culture",
+      "title": "Customer Voice in Every Room",
+      "content": "We bring real customer feedback into reviews and planning, read tickets together, and keep the customer's outcome at the center of decisions.",
+      "tags": [
+        "culture",
+        "customer"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-020",
+      "category": "culture",
+      "title": "Writing Culture",
+      "content": "We favor crisp writing over dense slides. A good one-pager aligns more people than a long meeting and creates a durable record.",
+      "tags": [
+        "culture",
+        "writing"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-021",
+      "category": "culture",
+      "title": "Meeting Hygiene",
+      "content": "Every meeting has an owner, agenda, and notes; we keep them small, end with clear actions, and cancel when async would do.",
+      "tags": [
+        "culture",
+        "meeting"
+      ]
+    },
+    {
+      "doc_id": "KB-CUL-022",
+      "category": "culture",
+      "title": "Celebrating Wins & Learning from Misses",
+      "content": "We celebrate impact publicly and treat misses as learning via blameless retros, sharing lessons broadly so the whole company improves.",
+      "tags": [
+        "culture",
+        "celebrating"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-016",
+      "category": "onboarding",
+      "title": "Onboarding: Engineering Setup",
+      "content": "Engineers set up their dev environment via a one-command bootstrap, get repo and CI access by role, and ship a small change in week one.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-017",
+      "category": "onboarding",
+      "title": "Onboarding: Sales Ramp",
+      "content": "New sellers complete product and methodology certification, shadow calls, and build a territory plan during a structured 30-60-90 ramp.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-018",
+      "category": "onboarding",
+      "title": "Onboarding: CX Ramp",
+      "content": "Support hires train on tools, macros, and the knowledge base, then handle supervised tickets before taking the queue independently.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-019",
+      "category": "onboarding",
+      "title": "Onboarding: Manager First 90 Days",
+      "content": "New managers meet each report, learn the team's work and norms, build trust before changing things, and set clear early expectations.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    },
+    {
+      "doc_id": "KB-ONB-020",
+      "category": "onboarding",
+      "title": "Onboarding Feedback Loop",
+      "content": "We survey new hires at 30 and 90 days and use the feedback to continuously improve onboarding for the next cohort.",
+      "tags": [
+        "onboarding",
+        "onboarding"
+      ]
+    }
+  ]
+}

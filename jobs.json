@@ -1,0 +1,4830 @@
+{
+  "requisitions": [
+    {
+      "req_id": "REQ-2026-0431",
+      "title": "Senior Backend Engineer",
+      "department": "Platform Engineering",
+      "team": "Payments Infrastructure",
+      "level": "L5",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-28",
+      "target_fill_date": "2026-07-15",
+      "hiring_manager_id": "HM-204",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ENG-L5",
+      "must_have_skills": [
+        "Python",
+        "distributed systems",
+        "PostgreSQL",
+        "Kafka",
+        "AWS",
+        "5+ years backend"
+      ],
+      "nice_to_have_skills": [
+        "Go",
+        "payments domain",
+        "PCI-DSS",
+        "gRPC",
+        "Terraform"
+      ],
+      "responsibilities": [
+        "Design and operate high-throughput payment processing services",
+        "Own service reliability targets (99.99% uptime)",
+        "Mentor mid-level engineers and lead design reviews"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "system_design",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0455",
+      "title": "Product Designer (Senior)",
+      "department": "Design",
+      "team": "Growth & Activation",
+      "level": "L5",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-02",
+      "target_fill_date": "2026-07-30",
+      "hiring_manager_id": "HM-117",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DESIGN-L5",
+      "must_have_skills": [
+        "product design",
+        "Figma",
+        "design systems",
+        "user research",
+        "6+ years"
+      ],
+      "nice_to_have_skills": [
+        "fintech",
+        "prototyping",
+        "front-end literacy",
+        "B2B SaaS"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for activation and onboarding funnels",
+        "Partner with PM and engineering on rapid experimentation",
+        "Contribute to and extend the company design system"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0478",
+      "title": "Customer Support Specialist",
+      "department": "Customer Experience",
+      "team": "Tier-1 Support",
+      "level": "L2",
+      "location": "Phoenix, AZ (On-site)",
+      "remote_policy": "on_site",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-10",
+      "target_fill_date": "2026-07-05",
+      "hiring_manager_id": "HM-330",
+      "recruiter_id": "REC-12",
+      "headcount": 8,
+      "priority": "P1",
+      "comp_band_ref": "BAND-CX-L2",
+      "must_have_skills": [
+        "customer service",
+        "CRM (Zendesk)",
+        "written communication",
+        "2+ years support"
+      ],
+      "nice_to_have_skills": [
+        "fintech",
+        "bilingual Spanish",
+        "de-escalation",
+        "SaaS"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across chat and email",
+        "Escalate complex cases with full context to Tier-2",
+        "Maintain CSAT targets above 4.5/5"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ],
+      "notes": "High-volume role: expecting 200+ applications/week. Primary candidate for ParallelAgent sourcing + Sequential screening pipeline."
+    },
+    {
+      "req_id": "REQ-2026-0490",
+      "title": "Staff Security Engineer",
+      "department": "Security",
+      "team": "Application Security",
+      "level": "L6",
+      "location": "Washington, DC (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-12",
+      "target_fill_date": "2026-08-30",
+      "hiring_manager_id": "HM-052",
+      "recruiter_id": "REC-03",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ENG-L6",
+      "must_have_skills": [
+        "application security",
+        "threat modeling",
+        "Python",
+        "cloud security",
+        "8+ years"
+      ],
+      "nice_to_have_skills": [
+        "FedRAMP",
+        "SOC2",
+        "security clearance",
+        "cryptography"
+      ],
+      "responsibilities": [
+        "Lead the application security program across all product lines",
+        "Define secure-by-default standards and review architectures",
+        "Partner with compliance on FedRAMP authorization"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": true,
+      "clearance_level": "Secret",
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "threat_modeling_exercise",
+        "hiring_manager",
+        "leadership_panel",
+        "values_interview"
+      ],
+      "notes": "Clearance-required role: candidate_corpus retrieval must filter on clearance metadata. Background check is mandatory and gated before offer."
+    },
+    {
+      "req_id": "REQ-2026-0501",
+      "title": "Senior People Business Partner",
+      "department": "People & Talent",
+      "team": "DEI",
+      "level": "L5",
+      "location": "Chicago, IL (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-03-17",
+      "target_fill_date": "2026-04-18",
+      "hiring_manager_id": "HM-401",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-PPL-L5-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "sourcing",
+        "people analytics",
+        "onboarding",
+        "DEI",
+        "candidate experience",
+        "5+ years people"
+      ],
+      "nice_to_have_skills": [
+        "technical recruiting",
+        "onboarding",
+        "executive search",
+        "employer branding"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0502",
+      "title": "Senior Product Manager",
+      "department": "Product",
+      "team": "Growth",
+      "level": "L5",
+      "location": "San Francisco, CA (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-02-13",
+      "target_fill_date": "2026-03-12",
+      "hiring_manager_id": "HM-402",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-PM-L5-T1",
+      "role_family": "product",
+      "must_have_skills": [
+        "API products",
+        "go-to-market",
+        "stakeholder management",
+        "SQL",
+        "user research",
+        "5+ years product"
+      ],
+      "nice_to_have_skills": [
+        "user research",
+        "prioritization",
+        "roadmapping",
+        "platform products"
+      ],
+      "responsibilities": [
+        "Own the roadmap and strategy for your area",
+        "Define requirements and measure outcomes",
+        "Partner cross-functionally to ship and iterate",
+        "Translate customer insight into product bets"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "product_sense",
+        "execution_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0503",
+      "title": "Senior Operations Analyst",
+      "department": "Business Operations",
+      "team": "Business Operations",
+      "level": "L3",
+      "location": "London, UK (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-02",
+      "target_fill_date": "2026-03-25",
+      "hiring_manager_id": "HM-403",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P3",
+      "comp_band_ref": "BAND-OPS-L3-T1",
+      "role_family": "operations",
+      "must_have_skills": [
+        "process design",
+        "Looker",
+        "vendor management",
+        "analytics",
+        "RevOps",
+        "2+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "RevOps",
+        "process design",
+        "strategy",
+        "SaaS"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.63,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0504",
+      "title": "Senior Data Scientist",
+      "department": "Data & ML",
+      "team": "Experimentation",
+      "level": "L5",
+      "location": "Berlin, DE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-13",
+      "target_fill_date": "2026-07-21",
+      "hiring_manager_id": "HM-404",
+      "recruiter_id": "REC-15",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-DATA-L5-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "machine learning",
+        "data modeling",
+        "dbt",
+        "Snowflake",
+        "Airflow",
+        "5+ years data"
+      ],
+      "nice_to_have_skills": [
+        "real-time streaming",
+        "SQL",
+        "dbt",
+        "data modeling"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0505",
+      "title": "Head of Business Operations",
+      "department": "Business Operations",
+      "team": "Strategy & Ops",
+      "level": "L7",
+      "location": "New York, NY (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-21",
+      "target_fill_date": "2026-07-05",
+      "hiring_manager_id": "HM-405",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-OPS-L7-T1",
+      "role_family": "operations",
+      "must_have_skills": [
+        "vendor management",
+        "process design",
+        "project management",
+        "strategy",
+        "RevOps",
+        "12+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "process design",
+        "SaaS",
+        "analytics",
+        "project management"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.82,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0506",
+      "title": "Lead Product Marketing Manager",
+      "department": "Marketing",
+      "team": "Content",
+      "level": "L5",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-03-21",
+      "target_fill_date": "2026-04-26",
+      "hiring_manager_id": "HM-406",
+      "recruiter_id": "REC-15",
+      "headcount": 2,
+      "priority": "P0",
+      "comp_band_ref": "BAND-MKT-L5-T2",
+      "role_family": "marketing",
+      "must_have_skills": [
+        "marketing analytics",
+        "positioning",
+        "demand generation",
+        "content marketing",
+        "HubSpot",
+        "5+ years marketing"
+      ],
+      "nice_to_have_skills": [
+        "demand generation",
+        "PLG",
+        "fintech",
+        "lifecycle marketing"
+      ],
+      "responsibilities": [
+        "Own positioning and go-to-market for your area",
+        "Plan and run multi-channel campaigns",
+        "Measure and optimize funnel performance",
+        "Partner with product and sales on launches"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "marketing_case",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0507",
+      "title": "Senior Customer Success Manager",
+      "department": "Customer Experience",
+      "team": "Customer Success",
+      "level": "L5",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-03-15",
+      "target_fill_date": "2026-04-24",
+      "hiring_manager_id": "HM-407",
+      "recruiter_id": "REC-15",
+      "headcount": 2,
+      "priority": "P3",
+      "comp_band_ref": "BAND-CX-L5-T2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "customer service",
+        "Zendesk",
+        "CRM",
+        "SaaS",
+        "Salesforce Service Cloud",
+        "5+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "Zendesk",
+        "bilingual Spanish",
+        "customer service",
+        "de-escalation"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.71,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0508",
+      "title": "Product Designer",
+      "department": "Design",
+      "team": "Growth & Activation",
+      "level": "L4",
+      "location": "Berlin, DE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-20",
+      "target_fill_date": "2026-04-16",
+      "hiring_manager_id": "HM-408",
+      "recruiter_id": "REC-03",
+      "headcount": 3,
+      "priority": "P3",
+      "comp_band_ref": "BAND-DESIGN-L4-T2",
+      "role_family": "design",
+      "must_have_skills": [
+        "wireframing",
+        "usability testing",
+        "user research",
+        "design systems",
+        "interaction design",
+        "3+ years design"
+      ],
+      "nice_to_have_skills": [
+        "Figma",
+        "prototyping",
+        "wireframing",
+        "B2B SaaS"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.67,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0509",
+      "title": "Operations Manager",
+      "department": "Business Operations",
+      "team": "Vendor Management",
+      "level": "L4",
+      "location": "Denver, CO (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-18",
+      "target_fill_date": "2026-06-09",
+      "hiring_manager_id": "HM-409",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-OPS-L4-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "process design",
+        "change management",
+        "strategy",
+        "analytics",
+        "vendor management",
+        "3+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "Looker",
+        "M&A integration",
+        "strategy",
+        "analytics"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0510",
+      "title": "Head of Business Operations",
+      "department": "Business Operations",
+      "team": "Business Operations",
+      "level": "L7",
+      "location": "Singapore (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-18",
+      "target_fill_date": "2026-07-19",
+      "hiring_manager_id": "HM-410",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-OPS-L7-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "RevOps",
+        "change management",
+        "Looker",
+        "business operations",
+        "process design",
+        "12+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "SaaS",
+        "Six Sigma",
+        "process design",
+        "RevOps tooling"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.79,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0511",
+      "title": "Technical Recruiter",
+      "department": "People & Talent",
+      "team": "Total Rewards",
+      "level": "L2",
+      "location": "New York, NY (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-16",
+      "target_fill_date": "2026-07-26",
+      "hiring_manager_id": "HM-411",
+      "recruiter_id": "REC-11",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-PPL-L2-T1",
+      "role_family": "people",
+      "must_have_skills": [
+        "people analytics",
+        "candidate experience",
+        "DEI",
+        "compensation",
+        "onboarding",
+        "1+ years people"
+      ],
+      "nice_to_have_skills": [
+        "employer branding",
+        "DEI",
+        "global hiring",
+        "compensation"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0512",
+      "title": "Staff ML Engineer",
+      "department": "Data & ML",
+      "team": "Business Intelligence",
+      "level": "L6",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-08",
+      "target_fill_date": "2026-03-07",
+      "hiring_manager_id": "HM-412",
+      "recruiter_id": "REC-12",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DATA-L6-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "data modeling",
+        "statistics",
+        "Python",
+        "Snowflake",
+        "SQL",
+        "8+ years data"
+      ],
+      "nice_to_have_skills": [
+        "recommendation systems",
+        "feature engineering",
+        "TensorFlow",
+        "MLOps"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.76,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0513",
+      "title": "Product Designer",
+      "department": "Design",
+      "team": "Brand & Marketing",
+      "level": "L4",
+      "location": "Seattle, WA (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-07",
+      "target_fill_date": "2026-07-02",
+      "hiring_manager_id": "HM-413",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DESIGN-L4-T1",
+      "role_family": "design",
+      "must_have_skills": [
+        "Figma",
+        "product design",
+        "wireframing",
+        "B2B SaaS",
+        "front-end literacy",
+        "3+ years design"
+      ],
+      "nice_to_have_skills": [
+        "user research",
+        "design ops",
+        "design systems",
+        "front-end literacy"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.68,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0514",
+      "title": "Director of Security",
+      "department": "Security",
+      "team": "Infrastructure Security",
+      "level": "M6",
+      "location": "Atlanta, GA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-06-02",
+      "target_fill_date": "2026-08-02",
+      "hiring_manager_id": "HM-414",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-SEC-M6-T2",
+      "role_family": "security",
+      "must_have_skills": [
+        "SOC2",
+        "IAM",
+        "SAST/DAST",
+        "Python",
+        "cloud security",
+        "13+ years security"
+      ],
+      "nice_to_have_skills": [
+        "incident response",
+        "Python",
+        "security clearance",
+        "Kubernetes security"
+      ],
+      "responsibilities": [
+        "Lead the security program across product lines",
+        "Define secure-by-default standards and review architectures",
+        "Run threat modeling and incident response",
+        "Partner with compliance on audits and certifications"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "threat_modeling_exercise",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0515",
+      "title": "Technical Program Manager",
+      "department": "Technical Program Mgmt",
+      "team": "Infrastructure Programs",
+      "level": "L4",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-03",
+      "target_fill_date": "2026-08-22",
+      "hiring_manager_id": "HM-415",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-TPM-L4-T2",
+      "role_family": "tpm",
+      "must_have_skills": [
+        "agile",
+        "dependency management",
+        "stakeholder management",
+        "systems thinking",
+        "cross-functional leadership",
+        "3+ years tpm"
+      ],
+      "nice_to_have_skills": [
+        "compliance programs",
+        "JIRA",
+        "program management",
+        "infrastructure programs"
+      ],
+      "responsibilities": [
+        "Drive complex cross-team programs to delivery",
+        "Manage risks, dependencies, and timelines",
+        "Establish operating cadences and reporting",
+        "Align stakeholders on scope and tradeoffs"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "program_case",
+        "cross_functional_panel",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0516",
+      "title": "Staff People Programs Lead",
+      "department": "People & Talent",
+      "team": "People Business Partners",
+      "level": "L6",
+      "location": "Denver, CO (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-03",
+      "target_fill_date": "2026-03-17",
+      "hiring_manager_id": "HM-416",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-PPL-L6-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "DEI",
+        "employee relations",
+        "compensation",
+        "HRIS (Workday)",
+        "full-cycle recruiting",
+        "8+ years people"
+      ],
+      "nice_to_have_skills": [
+        "technical recruiting",
+        "candidate experience",
+        "compensation",
+        "employee relations"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.75,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0517",
+      "title": "Product Manager",
+      "department": "Product",
+      "team": "Mobile",
+      "level": "L4",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-04",
+      "target_fill_date": "2026-03-09",
+      "hiring_manager_id": "HM-417",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-PM-L4-T2",
+      "role_family": "product",
+      "must_have_skills": [
+        "SQL",
+        "OKRs",
+        "prioritization",
+        "product management",
+        "API products",
+        "3+ years product"
+      ],
+      "nice_to_have_skills": [
+        "marketplace",
+        "agile",
+        "ML-powered products",
+        "product management"
+      ],
+      "responsibilities": [
+        "Own the roadmap and strategy for your area",
+        "Define requirements and measure outcomes",
+        "Partner cross-functionally to ship and iterate",
+        "Translate customer insight into product bets"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "product_sense",
+        "execution_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0518",
+      "title": "Senior IT Engineer",
+      "department": "IT & Workplace",
+      "team": "IT Service Desk",
+      "level": "L5",
+      "location": "Chicago, IL (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-04-06",
+      "target_fill_date": "2026-06-18",
+      "hiring_manager_id": "HM-418",
+      "recruiter_id": "REC-15",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-ITOPS-L5-T2",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "systems administration",
+        "Okta",
+        "automation",
+        "Windows/macOS",
+        "ITIL",
+        "5+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "zero-trust",
+        "Okta",
+        "Zoom/Slack admin",
+        "scripting"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0519",
+      "title": "Data Analyst",
+      "department": "Data & ML",
+      "team": "Recommendations",
+      "level": "L2",
+      "location": "London, UK (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-12",
+      "target_fill_date": "2026-03-22",
+      "hiring_manager_id": "HM-419",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-DATA-L2-T1",
+      "role_family": "data",
+      "must_have_skills": [
+        "A/B testing",
+        "feature engineering",
+        "Spark",
+        "TensorFlow",
+        "statistics",
+        "1+ years data"
+      ],
+      "nice_to_have_skills": [
+        "recommendation systems",
+        "machine learning",
+        "PyTorch",
+        "Snowflake"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.6,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0520",
+      "title": "VP of Marketing",
+      "department": "Marketing",
+      "team": "Product Marketing",
+      "level": "M6",
+      "location": "Toronto, ON (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-09",
+      "target_fill_date": "2026-04-26",
+      "hiring_manager_id": "HM-420",
+      "recruiter_id": "REC-15",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-MKT-M6-T2",
+      "role_family": "marketing",
+      "must_have_skills": [
+        "SEO",
+        "brand strategy",
+        "marketing analytics",
+        "product marketing",
+        "content marketing",
+        "13+ years marketing"
+      ],
+      "nice_to_have_skills": [
+        "campaign management",
+        "content marketing",
+        "SEO",
+        "marketing analytics"
+      ],
+      "responsibilities": [
+        "Own positioning and go-to-market for your area",
+        "Plan and run multi-channel campaigns",
+        "Measure and optimize funnel performance",
+        "Partner with product and sales on launches"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "marketing_case",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0521",
+      "title": "Engineering Manager",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level": "M4",
+      "location": "Los Angeles, CA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-04-09",
+      "target_fill_date": "2026-05-25",
+      "hiring_manager_id": "HM-421",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-ENG-M4-T1",
+      "role_family": "engineering",
+      "must_have_skills": [
+        "Terraform",
+        "distributed systems",
+        "GraphQL",
+        "Redis",
+        "TypeScript",
+        "8+ years engineering"
+      ],
+      "nice_to_have_skills": [
+        "Java",
+        "payments domain",
+        "Go",
+        "AWS"
+      ],
+      "responsibilities": [
+        "Design and operate high-throughput backend services",
+        "Own service reliability and on-call rotations",
+        "Lead technical design reviews and mentor engineers",
+        "Drive improvements to latency, cost, and scalability"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "system_design",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0522",
+      "title": "Chief People Officer",
+      "department": "People & Talent",
+      "team": "People Business Partners",
+      "level": "M7",
+      "location": "Phoenix, AZ (On-site)",
+      "remote_policy": "on_site",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-20",
+      "target_fill_date": "2026-06-13",
+      "hiring_manager_id": "HM-422",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-PPL-M7-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "DEI",
+        "Greenhouse",
+        "onboarding",
+        "full-cycle recruiting",
+        "HRIS (Workday)",
+        "16+ years people"
+      ],
+      "nice_to_have_skills": [
+        "compensation",
+        "Greenhouse",
+        "sourcing",
+        "employee relations"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.82,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0523",
+      "title": "Senior Counsel",
+      "department": "Legal & Compliance",
+      "team": "Corporate",
+      "level": "L5",
+      "location": "London, UK (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-24",
+      "target_fill_date": "2026-04-17",
+      "hiring_manager_id": "HM-423",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-LEGAL-L5-T1",
+      "role_family": "legal",
+      "must_have_skills": [
+        "CCPA",
+        "corporate governance",
+        "negotiation",
+        "commercial contracts",
+        "intellectual property",
+        "5+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "data privacy",
+        "corporate governance",
+        "regulatory",
+        "negotiation"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0524",
+      "title": "Counsel",
+      "department": "Legal & Compliance",
+      "team": "Corporate",
+      "level": "L4",
+      "location": "Los Angeles, CA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-20",
+      "target_fill_date": "2026-08-15",
+      "hiring_manager_id": "HM-424",
+      "recruiter_id": "REC-11",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-LEGAL-L4-T1",
+      "role_family": "legal",
+      "must_have_skills": [
+        "GDPR",
+        "employment law",
+        "negotiation",
+        "intellectual property",
+        "commercial contracts",
+        "3+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "commercial contracts",
+        "regulatory",
+        "M&A",
+        "GDPR"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.68,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0525",
+      "title": "Principal Solutions Consultant",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level": "L7",
+      "location": "Bangalore, IN (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-26",
+      "target_fill_date": "2026-04-05",
+      "hiring_manager_id": "HM-425",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-SALES-L7-T3",
+      "role_family": "sales",
+      "must_have_skills": [
+        "Outreach.io",
+        "discovery",
+        "enterprise sales",
+        "Salesforce",
+        "MEDDIC",
+        "12+ years sales"
+      ],
+      "nice_to_have_skills": [
+        "forecasting",
+        "RFP management",
+        "MEDDIC",
+        "B2B sales"
+      ],
+      "responsibilities": [
+        "Own a quota and full sales cycle",
+        "Build and manage a healthy pipeline",
+        "Run discovery and tailor solutions to customer needs",
+        "Partner with SE and CS for expansion"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "mock_pitch",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0526",
+      "title": "Finance Team Lead",
+      "department": "Finance & Strategy",
+      "team": "Accounting",
+      "level": "M3",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-25",
+      "target_fill_date": "2026-03-25",
+      "hiring_manager_id": "HM-426",
+      "recruiter_id": "REC-11",
+      "headcount": 3,
+      "priority": "P3",
+      "comp_band_ref": "BAND-FIN-M3-T2",
+      "role_family": "finance",
+      "must_have_skills": [
+        "revenue recognition",
+        "SQL",
+        "NetSuite",
+        "budgeting",
+        "scenario planning",
+        "6+ years finance"
+      ],
+      "nice_to_have_skills": [
+        "data visualization",
+        "CPA",
+        "NetSuite",
+        "budgeting"
+      ],
+      "responsibilities": [
+        "Own financial models and forecasts",
+        "Partner with leaders on budgets and planning",
+        "Deliver variance analysis and insights",
+        "Improve financial processes and controls"
+      ],
+      "screening_threshold": 0.68,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "modeling_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0527",
+      "title": "Counsel",
+      "department": "Legal & Compliance",
+      "team": "Corporate",
+      "level": "L4",
+      "location": "London, UK (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-27",
+      "target_fill_date": "2026-08-27",
+      "hiring_manager_id": "HM-427",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-LEGAL-L4-T1",
+      "role_family": "legal",
+      "must_have_skills": [
+        "compliance",
+        "GDPR",
+        "regulatory",
+        "corporate governance",
+        "employment law",
+        "3+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "employment law",
+        "corporate governance",
+        "data privacy",
+        "CCPA"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.66,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0528",
+      "title": "Senior Technical Program Manager",
+      "department": "Technical Program Mgmt",
+      "team": "Product Programs",
+      "level": "L5",
+      "location": "Denver, CO (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-11",
+      "target_fill_date": "2026-06-18",
+      "hiring_manager_id": "HM-428",
+      "recruiter_id": "REC-03",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-TPM-L5-T2",
+      "role_family": "tpm",
+      "must_have_skills": [
+        "dependency management",
+        "systems thinking",
+        "stakeholder management",
+        "agile",
+        "risk management",
+        "5+ years tpm"
+      ],
+      "nice_to_have_skills": [
+        "roadmap planning",
+        "compliance programs",
+        "agile",
+        "program management"
+      ],
+      "responsibilities": [
+        "Drive complex cross-team programs to delivery",
+        "Manage risks, dependencies, and timelines",
+        "Establish operating cadences and reporting",
+        "Align stakeholders on scope and tradeoffs"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "program_case",
+        "cross_functional_panel",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0529",
+      "title": "Staff CX Operations Lead",
+      "department": "Customer Experience",
+      "team": "Customer Success",
+      "level": "L6",
+      "location": "Singapore (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-25",
+      "target_fill_date": "2026-04-16",
+      "hiring_manager_id": "HM-429",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P3",
+      "comp_band_ref": "BAND-CX-L6-T2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "SaaS",
+        "Salesforce Service Cloud",
+        "technical troubleshooting",
+        "written communication",
+        "customer service",
+        "8+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "Kaizen",
+        "de-escalation",
+        "bilingual Spanish",
+        "Salesforce Service Cloud"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0530",
+      "title": "Director of Customer Experience",
+      "department": "Customer Experience",
+      "team": "CX Operations",
+      "level": "M6",
+      "location": "London, UK (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-22",
+      "target_fill_date": "2026-06-24",
+      "hiring_manager_id": "HM-430",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-CX-M6-T1",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "QA & coaching",
+        "written communication",
+        "technical troubleshooting",
+        "Zendesk",
+        "de-escalation",
+        "13+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "de-escalation",
+        "written communication",
+        "fintech",
+        "QA & coaching"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0531",
+      "title": "Marketing Manager",
+      "department": "Marketing",
+      "team": "Content",
+      "level": "L3",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-07",
+      "target_fill_date": "2026-06-11",
+      "hiring_manager_id": "HM-431",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-MKT-L3-T2",
+      "role_family": "marketing",
+      "must_have_skills": [
+        "content marketing",
+        "marketing analytics",
+        "SEO",
+        "lifecycle marketing",
+        "demand generation",
+        "2+ years marketing"
+      ],
+      "nice_to_have_skills": [
+        "video production",
+        "fintech",
+        "product marketing",
+        "SEO"
+      ],
+      "responsibilities": [
+        "Own positioning and go-to-market for your area",
+        "Plan and run multi-channel campaigns",
+        "Measure and optimize funnel performance",
+        "Partner with product and sales on launches"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "marketing_case",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0532",
+      "title": "Technical Program Manager",
+      "department": "Technical Program Mgmt",
+      "team": "Product Programs",
+      "level": "L4",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-27",
+      "target_fill_date": "2026-04-20",
+      "hiring_manager_id": "HM-432",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-TPM-L4-T2",
+      "role_family": "tpm",
+      "must_have_skills": [
+        "program management",
+        "stakeholder management",
+        "agile",
+        "systems thinking",
+        "dependency management",
+        "3+ years tpm"
+      ],
+      "nice_to_have_skills": [
+        "systems thinking",
+        "infrastructure programs",
+        "dependency management",
+        "program management"
+      ],
+      "responsibilities": [
+        "Drive complex cross-team programs to delivery",
+        "Manage risks, dependencies, and timelines",
+        "Establish operating cadences and reporting",
+        "Align stakeholders on scope and tradeoffs"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "program_case",
+        "cross_functional_panel",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0533",
+      "title": "People Business Partner",
+      "department": "People & Talent",
+      "team": "DEI",
+      "level": "L4",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-13",
+      "target_fill_date": "2026-06-03",
+      "hiring_manager_id": "HM-433",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-PPL-L4-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "Greenhouse",
+        "sourcing",
+        "onboarding",
+        "employee relations",
+        "full-cycle recruiting",
+        "3+ years people"
+      ],
+      "nice_to_have_skills": [
+        "compensation",
+        "technical recruiting",
+        "full-cycle recruiting",
+        "onboarding"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.69,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0534",
+      "title": "Principal Counsel",
+      "department": "Legal & Compliance",
+      "team": "Corporate",
+      "level": "L7",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-04",
+      "target_fill_date": "2026-07-12",
+      "hiring_manager_id": "HM-434",
+      "recruiter_id": "REC-15",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-LEGAL-L7-T2",
+      "role_family": "legal",
+      "must_have_skills": [
+        "intellectual property",
+        "negotiation",
+        "corporate governance",
+        "commercial contracts",
+        "employment law",
+        "12+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "negotiation",
+        "data privacy",
+        "AI/ML regulation",
+        "GDPR"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.82,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0535",
+      "title": "Principal Designer",
+      "department": "Design",
+      "team": "Mobile Design",
+      "level": "L7",
+      "location": "Toronto, ON (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-08",
+      "target_fill_date": "2026-07-19",
+      "hiring_manager_id": "HM-435",
+      "recruiter_id": "REC-12",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-DESIGN-L7-T2",
+      "role_family": "design",
+      "must_have_skills": [
+        "visual design",
+        "front-end literacy",
+        "accessibility",
+        "prototyping",
+        "interaction design",
+        "12+ years design"
+      ],
+      "nice_to_have_skills": [
+        "user research",
+        "usability testing",
+        "motion design",
+        "product design"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.82,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0536",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "team": "Billing Systems",
+      "level": "L5",
+      "location": "Washington, DC (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-03-03",
+      "target_fill_date": "2026-04-24",
+      "hiring_manager_id": "HM-436",
+      "recruiter_id": "REC-11",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-ENG-L5",
+      "role_family": "engineering",
+      "must_have_skills": [
+        "Kubernetes",
+        "PostgreSQL",
+        "distributed systems",
+        "gRPC",
+        "Terraform",
+        "5+ years engineering"
+      ],
+      "nice_to_have_skills": [
+        "TypeScript",
+        "Redis",
+        "payments domain",
+        "Terraform"
+      ],
+      "responsibilities": [
+        "Design and operate high-throughput backend services",
+        "Own service reliability and on-call rotations",
+        "Lead technical design reviews and mentor engineers",
+        "Drive improvements to latency, cost, and scalability"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "system_design",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0537",
+      "title": "Principal Product Manager",
+      "department": "Product",
+      "team": "Mobile",
+      "level": "L6",
+      "location": "Berlin, DE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-16",
+      "target_fill_date": "2026-06-14",
+      "hiring_manager_id": "HM-437",
+      "recruiter_id": "REC-15",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-PM-L6-T2",
+      "role_family": "product",
+      "must_have_skills": [
+        "product management",
+        "roadmapping",
+        "SQL",
+        "A/B testing",
+        "go-to-market",
+        "8+ years product"
+      ],
+      "nice_to_have_skills": [
+        "A/B testing",
+        "product management",
+        "go-to-market",
+        "stakeholder management"
+      ],
+      "responsibilities": [
+        "Own the roadmap and strategy for your area",
+        "Define requirements and measure outcomes",
+        "Partner cross-functionally to ship and iterate",
+        "Translate customer insight into product bets"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "product_sense",
+        "execution_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0538",
+      "title": "Senior Counsel",
+      "department": "Legal & Compliance",
+      "team": "Regulatory",
+      "level": "L5",
+      "location": "Chicago, IL (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-03-24",
+      "target_fill_date": "2026-05-09",
+      "hiring_manager_id": "HM-438",
+      "recruiter_id": "REC-15",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-LEGAL-L5-T2",
+      "role_family": "legal",
+      "must_have_skills": [
+        "CCPA",
+        "corporate governance",
+        "data privacy",
+        "intellectual property",
+        "employment law",
+        "5+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "intellectual property",
+        "compliance",
+        "open source licensing",
+        "M&A"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0539",
+      "title": "Security Manager",
+      "department": "Security",
+      "team": "GRC",
+      "level": "M4",
+      "location": "Atlanta, GA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-05-04",
+      "target_fill_date": "2026-06-19",
+      "hiring_manager_id": "HM-439",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-SEC-M4-T2",
+      "role_family": "security",
+      "must_have_skills": [
+        "IAM",
+        "penetration testing",
+        "Python",
+        "SIEM",
+        "application security",
+        "8+ years security"
+      ],
+      "nice_to_have_skills": [
+        "cryptography",
+        "incident response",
+        "SAST/DAST",
+        "container security"
+      ],
+      "responsibilities": [
+        "Lead the security program across product lines",
+        "Define secure-by-default standards and review architectures",
+        "Run threat modeling and incident response",
+        "Partner with compliance on audits and certifications"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": true,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "threat_modeling_exercise",
+        "hiring_manager",
+        "values_interview"
+      ],
+      "clearance_level": "Public Trust",
+      "notes": "Clearance-required role: candidate_corpus retrieval filters on clearance metadata; background check gated before offer."
+    },
+    {
+      "req_id": "REQ-2026-0540",
+      "title": "Senior Design Manager",
+      "department": "Design",
+      "team": "Brand & Marketing",
+      "level": "M5",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-02-08",
+      "target_fill_date": "2026-03-18",
+      "hiring_manager_id": "HM-440",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DESIGN-M5-T2",
+      "role_family": "design",
+      "must_have_skills": [
+        "accessibility",
+        "visual design",
+        "Figma",
+        "product design",
+        "design systems",
+        "10+ years design"
+      ],
+      "nice_to_have_skills": [
+        "product design",
+        "wireframing",
+        "interaction design",
+        "front-end literacy"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0541",
+      "title": "Principal Strategy & Ops Lead",
+      "department": "Business Operations",
+      "team": "Business Operations",
+      "level": "L6",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-21",
+      "target_fill_date": "2026-04-09",
+      "hiring_manager_id": "HM-441",
+      "recruiter_id": "REC-15",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-OPS-L6-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "vendor management",
+        "analytics",
+        "strategy",
+        "change management",
+        "Looker",
+        "8+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "RevOps tooling",
+        "RevOps",
+        "change management",
+        "Six Sigma"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.75,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0542",
+      "title": "Staff Product Designer",
+      "department": "Design",
+      "team": "Mobile Design",
+      "level": "L6",
+      "location": "Washington, DC (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-05-03",
+      "target_fill_date": "2026-06-09",
+      "hiring_manager_id": "HM-442",
+      "recruiter_id": "REC-21",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DESIGN-L6-T1",
+      "role_family": "design",
+      "must_have_skills": [
+        "front-end literacy",
+        "usability testing",
+        "visual design",
+        "prototyping",
+        "product design",
+        "8+ years design"
+      ],
+      "nice_to_have_skills": [
+        "user research",
+        "product design",
+        "visual design",
+        "B2B SaaS"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0543",
+      "title": "VP of Operations",
+      "department": "Business Operations",
+      "team": "Revenue Operations",
+      "level": "M6",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-10",
+      "target_fill_date": "2026-08-04",
+      "hiring_manager_id": "HM-443",
+      "recruiter_id": "REC-11",
+      "headcount": 3,
+      "priority": "P1",
+      "comp_band_ref": "BAND-OPS-M6-T1",
+      "role_family": "operations",
+      "must_have_skills": [
+        "SQL",
+        "vendor management",
+        "strategy",
+        "business operations",
+        "analytics",
+        "13+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "M&A integration",
+        "Looker",
+        "business operations",
+        "RevOps"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0544",
+      "title": "Lead Product Marketing Manager",
+      "department": "Marketing",
+      "team": "Growth Marketing",
+      "level": "L5",
+      "location": "Seattle, WA (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-04-19",
+      "target_fill_date": "2026-05-25",
+      "hiring_manager_id": "HM-444",
+      "recruiter_id": "REC-21",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-MKT-L5-T1",
+      "role_family": "marketing",
+      "must_have_skills": [
+        "positioning",
+        "HubSpot",
+        "product marketing",
+        "campaign management",
+        "content marketing",
+        "5+ years marketing"
+      ],
+      "nice_to_have_skills": [
+        "marketing analytics",
+        "positioning",
+        "lifecycle marketing",
+        "fintech"
+      ],
+      "responsibilities": [
+        "Own positioning and go-to-market for your area",
+        "Plan and run multi-channel campaigns",
+        "Measure and optimize funnel performance",
+        "Partner with product and sales on launches"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "marketing_case",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0545",
+      "title": "Senior People Business Partner",
+      "department": "People & Talent",
+      "team": "People Operations",
+      "level": "L5",
+      "location": "Washington, DC (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-11",
+      "target_fill_date": "2026-05-23",
+      "hiring_manager_id": "HM-445",
+      "recruiter_id": "REC-11",
+      "headcount": 2,
+      "priority": "P3",
+      "comp_band_ref": "BAND-PPL-L5-T1",
+      "role_family": "people",
+      "must_have_skills": [
+        "employee relations",
+        "sourcing",
+        "onboarding",
+        "Greenhouse",
+        "candidate experience",
+        "5+ years people"
+      ],
+      "nice_to_have_skills": [
+        "sourcing",
+        "onboarding",
+        "HRIS (Workday)",
+        "executive search"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.75,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0546",
+      "title": "Principal Strategy & Ops Lead",
+      "department": "Business Operations",
+      "team": "Revenue Operations",
+      "level": "L6",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-05-14",
+      "target_fill_date": "2026-06-07",
+      "hiring_manager_id": "HM-446",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-OPS-L6-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "RevOps",
+        "process design",
+        "analytics",
+        "change management",
+        "vendor management",
+        "8+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "strategy",
+        "RevOps tooling",
+        "analytics",
+        "vendor management"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0547",
+      "title": "Strategic Account Director",
+      "department": "Sales",
+      "team": "Enterprise Sales",
+      "level": "L6",
+      "location": "New York, NY (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-10",
+      "target_fill_date": "2026-04-18",
+      "hiring_manager_id": "HM-447",
+      "recruiter_id": "REC-11",
+      "headcount": 2,
+      "priority": "P3",
+      "comp_band_ref": "BAND-SALES-L6-T1",
+      "role_family": "sales",
+      "must_have_skills": [
+        "pipeline management",
+        "SaaS",
+        "prospecting",
+        "forecasting",
+        "B2B sales",
+        "8+ years sales"
+      ],
+      "nice_to_have_skills": [
+        "fintech",
+        "MEDDIC",
+        "enterprise sales",
+        "RFP management"
+      ],
+      "responsibilities": [
+        "Own a quota and full sales cycle",
+        "Build and manage a healthy pipeline",
+        "Run discovery and tailor solutions to customer needs",
+        "Partner with SE and CS for expansion"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "mock_pitch",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0548",
+      "title": "Data Scientist",
+      "department": "Data & ML",
+      "team": "Analytics Engineering",
+      "level": "L4",
+      "location": "Berlin, DE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-05",
+      "target_fill_date": "2026-08-07",
+      "hiring_manager_id": "HM-448",
+      "recruiter_id": "REC-12",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-DATA-L4-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "statistics",
+        "Airflow",
+        "feature engineering",
+        "MLOps",
+        "TensorFlow",
+        "3+ years data"
+      ],
+      "nice_to_have_skills": [
+        "statistics",
+        "data modeling",
+        "dbt",
+        "MLOps"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0549",
+      "title": "Head of Business Operations",
+      "department": "Business Operations",
+      "team": "Revenue Operations",
+      "level": "L7",
+      "location": "Phoenix, AZ (On-site)",
+      "remote_policy": "on_site",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-05",
+      "target_fill_date": "2026-07-18",
+      "hiring_manager_id": "HM-449",
+      "recruiter_id": "REC-11",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-OPS-L7-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "vendor management",
+        "business operations",
+        "strategy",
+        "RevOps",
+        "SQL",
+        "12+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "strategy",
+        "RevOps",
+        "Looker",
+        "analytics"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.82,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0550",
+      "title": "Senior Operations Manager",
+      "department": "Business Operations",
+      "team": "Strategy & Ops",
+      "level": "L5",
+      "location": "Phoenix, AZ (On-site)",
+      "remote_policy": "on_site",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-05-13",
+      "target_fill_date": "2026-06-16",
+      "hiring_manager_id": "HM-450",
+      "recruiter_id": "REC-03",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-OPS-L5-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "project management",
+        "analytics",
+        "strategy",
+        "Looker",
+        "change management",
+        "5+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "RevOps tooling",
+        "process design",
+        "change management",
+        "project management"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0551",
+      "title": "Director of IT",
+      "department": "IT & Workplace",
+      "team": "Identity & Endpoint",
+      "level": "M6",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-06-23",
+      "target_fill_date": "2026-08-21",
+      "hiring_manager_id": "HM-451",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-ITOPS-M6-T1",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "systems administration",
+        "Jamf",
+        "automation",
+        "endpoint security",
+        "ITIL",
+        "13+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "networking",
+        "Zoom/Slack admin",
+        "systems administration",
+        "Okta"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0552",
+      "title": "Staff Systems Engineer",
+      "department": "IT & Workplace",
+      "team": "Corporate Engineering",
+      "level": "L6",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-15",
+      "target_fill_date": "2026-03-23",
+      "hiring_manager_id": "HM-452",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ITOPS-L6-T2",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "endpoint security",
+        "Okta",
+        "networking",
+        "Windows/macOS",
+        "ITIL",
+        "8+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "PowerShell",
+        "SaaS management",
+        "Jamf",
+        "endpoint security"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0553",
+      "title": "Senior Operations Analyst",
+      "department": "Business Operations",
+      "team": "Revenue Operations",
+      "level": "L3",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-03-16",
+      "target_fill_date": "2026-04-08",
+      "hiring_manager_id": "HM-453",
+      "recruiter_id": "REC-11",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-OPS-L3-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "Looker",
+        "analytics",
+        "SQL",
+        "process design",
+        "strategy",
+        "2+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "Six Sigma",
+        "RevOps",
+        "SQL",
+        "Looker"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0554",
+      "title": "Senior Technical Recruiter",
+      "department": "People & Talent",
+      "team": "Total Rewards",
+      "level": "L3",
+      "location": "Atlanta, GA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-10",
+      "target_fill_date": "2026-06-13",
+      "hiring_manager_id": "HM-454",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-PPL-L3-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "sourcing",
+        "employee relations",
+        "compensation",
+        "DEI",
+        "Greenhouse",
+        "2+ years people"
+      ],
+      "nice_to_have_skills": [
+        "HRIS (Workday)",
+        "Greenhouse",
+        "employee relations",
+        "full-cycle recruiting"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.66,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0555",
+      "title": "Staff CX Operations Lead",
+      "department": "Customer Experience",
+      "team": "Tier-2 Support",
+      "level": "L6",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-06-24",
+      "target_fill_date": "2026-08-27",
+      "hiring_manager_id": "HM-455",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P3",
+      "comp_band_ref": "BAND-CX-L6-T2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "CRM",
+        "customer service",
+        "SaaS",
+        "de-escalation",
+        "bilingual Spanish",
+        "8+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "Salesforce Service Cloud",
+        "SaaS",
+        "technical troubleshooting",
+        "fintech"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.75,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0556",
+      "title": "IT Engineer",
+      "department": "IT & Workplace",
+      "team": "Identity & Endpoint",
+      "level": "L4",
+      "location": "Toronto, ON (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-24",
+      "target_fill_date": "2026-05-03",
+      "hiring_manager_id": "HM-456",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ITOPS-L4-T2",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "ITIL",
+        "Jamf",
+        "Okta",
+        "systems administration",
+        "endpoint security",
+        "3+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "Zoom/Slack admin",
+        "networking",
+        "zero-trust",
+        "Active Directory"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.67,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0557",
+      "title": "Senior Product Manager",
+      "department": "Product",
+      "team": "Growth",
+      "level": "L5",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-22",
+      "target_fill_date": "2026-05-26",
+      "hiring_manager_id": "HM-457",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-PM-L5-T2",
+      "role_family": "product",
+      "must_have_skills": [
+        "user research",
+        "SQL",
+        "analytics",
+        "agile",
+        "stakeholder management",
+        "5+ years product"
+      ],
+      "nice_to_have_skills": [
+        "marketplace",
+        "A/B testing",
+        "platform products",
+        "ML-powered products"
+      ],
+      "responsibilities": [
+        "Own the roadmap and strategy for your area",
+        "Define requirements and measure outcomes",
+        "Partner cross-functionally to ship and iterate",
+        "Translate customer insight into product bets"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "product_sense",
+        "execution_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0558",
+      "title": "Customer Support Specialist",
+      "department": "Customer Experience",
+      "team": "Premier Support",
+      "level": "L2",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-06-11",
+      "target_fill_date": "2026-07-21",
+      "hiring_manager_id": "HM-458",
+      "recruiter_id": "REC-03",
+      "headcount": 12,
+      "priority": "P2",
+      "comp_band_ref": "BAND-CX-L2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "CRM",
+        "SaaS",
+        "Salesforce Service Cloud",
+        "customer service",
+        "technical troubleshooting",
+        "1+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "Kaizen",
+        "written communication",
+        "fintech",
+        "Salesforce Service Cloud"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.62,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ],
+      "notes": "High-volume role: 150+ applications/week expected; ParallelAgent sourcing + Sequential screening."
+    },
+    {
+      "req_id": "REQ-2026-0559",
+      "title": "Staff Security Engineer",
+      "department": "Security",
+      "team": "Application Security",
+      "level": "L6",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-06-14",
+      "target_fill_date": "2026-07-14",
+      "hiring_manager_id": "HM-459",
+      "recruiter_id": "REC-15",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-SEC-L6-T1",
+      "role_family": "security",
+      "must_have_skills": [
+        "SAST/DAST",
+        "threat modeling",
+        "IAM",
+        "cloud security",
+        "penetration testing",
+        "8+ years security"
+      ],
+      "nice_to_have_skills": [
+        "application security",
+        "penetration testing",
+        "cloud security",
+        "threat modeling"
+      ],
+      "responsibilities": [
+        "Lead the security program across product lines",
+        "Define secure-by-default standards and review architectures",
+        "Run threat modeling and incident response",
+        "Partner with compliance on audits and certifications"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "threat_modeling_exercise",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0560",
+      "title": "Senior Manager, CX",
+      "department": "Customer Experience",
+      "team": "Tier-1 Support",
+      "level": "M5",
+      "location": "New York, NY (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-04-02",
+      "target_fill_date": "2026-06-09",
+      "hiring_manager_id": "HM-460",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-CX-M5-T1",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "technical troubleshooting",
+        "QA & coaching",
+        "written communication",
+        "SaaS",
+        "de-escalation",
+        "10+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "bilingual Spanish",
+        "SaaS",
+        "Zendesk",
+        "CRM"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.76,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0561",
+      "title": "Senior People Business Partner",
+      "department": "People & Talent",
+      "team": "People Business Partners",
+      "level": "L5",
+      "location": "Toronto, ON (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-06-07",
+      "target_fill_date": "2026-07-11",
+      "hiring_manager_id": "HM-461",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P0",
+      "comp_band_ref": "BAND-PPL-L5-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "compensation",
+        "candidate experience",
+        "Greenhouse",
+        "HRIS (Workday)",
+        "DEI",
+        "5+ years people"
+      ],
+      "nice_to_have_skills": [
+        "employer branding",
+        "executive search",
+        "DEI",
+        "onboarding"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.75,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0562",
+      "title": "Security Manager",
+      "department": "Security",
+      "team": "Infrastructure Security",
+      "level": "M4",
+      "location": "Boston, MA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-02",
+      "target_fill_date": "2026-05-24",
+      "hiring_manager_id": "HM-462",
+      "recruiter_id": "REC-11",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-SEC-M4-T1",
+      "role_family": "security",
+      "must_have_skills": [
+        "SOC2",
+        "application security",
+        "Python",
+        "IAM",
+        "incident response",
+        "8+ years security"
+      ],
+      "nice_to_have_skills": [
+        "cloud security",
+        "cryptography",
+        "security clearance",
+        "container security"
+      ],
+      "responsibilities": [
+        "Lead the security program across product lines",
+        "Define secure-by-default standards and review architectures",
+        "Run threat modeling and incident response",
+        "Partner with compliance on audits and certifications"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "threat_modeling_exercise",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0563",
+      "title": "Senior Data Scientist",
+      "department": "Data & ML",
+      "team": "Business Intelligence",
+      "level": "L5",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-05-13",
+      "target_fill_date": "2026-07-22",
+      "hiring_manager_id": "HM-463",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P0",
+      "comp_band_ref": "BAND-DATA-L5-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "feature engineering",
+        "dbt",
+        "A/B testing",
+        "Python",
+        "data modeling",
+        "5+ years data"
+      ],
+      "nice_to_have_skills": [
+        "machine learning",
+        "Snowflake",
+        "LLMs",
+        "statistics"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0564",
+      "title": "Data Scientist",
+      "department": "Data & ML",
+      "team": "Recommendations",
+      "level": "L4",
+      "location": "Seattle, WA (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-06-14",
+      "target_fill_date": "2026-07-26",
+      "hiring_manager_id": "HM-464",
+      "recruiter_id": "REC-15",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DATA-L4-T1",
+      "role_family": "data",
+      "must_have_skills": [
+        "Snowflake",
+        "A/B testing",
+        "feature engineering",
+        "machine learning",
+        "TensorFlow",
+        "3+ years data"
+      ],
+      "nice_to_have_skills": [
+        "MLOps",
+        "machine learning",
+        "Snowflake",
+        "Airflow"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.66,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0565",
+      "title": "Senior Technical Program Manager",
+      "department": "Technical Program Mgmt",
+      "team": "Platform Programs",
+      "level": "L5",
+      "location": "Denver, CO (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-22",
+      "target_fill_date": "2026-05-03",
+      "hiring_manager_id": "HM-465",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-TPM-L5-T2",
+      "role_family": "tpm",
+      "must_have_skills": [
+        "JIRA",
+        "dependency management",
+        "stakeholder management",
+        "program management",
+        "risk management",
+        "5+ years tpm"
+      ],
+      "nice_to_have_skills": [
+        "cross-functional leadership",
+        "risk management",
+        "agile",
+        "systems thinking"
+      ],
+      "responsibilities": [
+        "Drive complex cross-team programs to delivery",
+        "Manage risks, dependencies, and timelines",
+        "Establish operating cadences and reporting",
+        "Align stakeholders on scope and tradeoffs"
+      ],
+      "screening_threshold": 0.71,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "program_case",
+        "cross_functional_panel",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0566",
+      "title": "Principal Machine Learning Engineer",
+      "department": "Data & ML",
+      "team": "Experimentation",
+      "level": "L7",
+      "location": "Boston, MA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-10",
+      "target_fill_date": "2026-04-12",
+      "hiring_manager_id": "HM-466",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DATA-L7-T1",
+      "role_family": "data",
+      "must_have_skills": [
+        "feature engineering",
+        "data modeling",
+        "machine learning",
+        "Snowflake",
+        "SQL",
+        "12+ years data"
+      ],
+      "nice_to_have_skills": [
+        "A/B testing",
+        "PyTorch",
+        "data modeling",
+        "statistics"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.8,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0567",
+      "title": "Senior Account Executive",
+      "department": "Sales",
+      "team": "SMB",
+      "level": "L4",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-01",
+      "target_fill_date": "2026-08-01",
+      "hiring_manager_id": "HM-467",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-SALES-L4-T2",
+      "role_family": "sales",
+      "must_have_skills": [
+        "Salesforce",
+        "SaaS",
+        "negotiation",
+        "MEDDIC",
+        "prospecting",
+        "3+ years sales"
+      ],
+      "nice_to_have_skills": [
+        "SaaS",
+        "forecasting",
+        "enterprise sales",
+        "discovery"
+      ],
+      "responsibilities": [
+        "Own a quota and full sales cycle",
+        "Build and manage a healthy pipeline",
+        "Run discovery and tailor solutions to customer needs",
+        "Partner with SE and CS for expansion"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "mock_pitch",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0568",
+      "title": "IT Support Specialist",
+      "department": "IT & Workplace",
+      "team": "Corporate Engineering",
+      "level": "L2",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-10",
+      "target_fill_date": "2026-06-25",
+      "hiring_manager_id": "HM-468",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ITOPS-L2-T2",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "Jamf",
+        "systems administration",
+        "Okta",
+        "networking",
+        "PowerShell",
+        "1+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "Jamf",
+        "networking",
+        "Okta",
+        "scripting"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.63,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0569",
+      "title": "Principal Designer",
+      "department": "Design",
+      "team": "Mobile Design",
+      "level": "L7",
+      "location": "Bangalore, IN (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-02-12",
+      "target_fill_date": "2026-04-04",
+      "hiring_manager_id": "HM-469",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DESIGN-L7-T3",
+      "role_family": "design",
+      "must_have_skills": [
+        "B2B SaaS",
+        "accessibility",
+        "visual design",
+        "usability testing",
+        "front-end literacy",
+        "12+ years design"
+      ],
+      "nice_to_have_skills": [
+        "prototyping",
+        "data visualization",
+        "wireframing",
+        "front-end literacy"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0570",
+      "title": "Principal Brand Strategist",
+      "department": "Marketing",
+      "team": "Content",
+      "level": "L6",
+      "location": "New York, NY (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-04",
+      "target_fill_date": "2026-05-16",
+      "hiring_manager_id": "HM-470",
+      "recruiter_id": "REC-15",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-MKT-L6-T1",
+      "role_family": "marketing",
+      "must_have_skills": [
+        "product marketing",
+        "brand strategy",
+        "demand generation",
+        "SEO",
+        "content marketing",
+        "8+ years marketing"
+      ],
+      "nice_to_have_skills": [
+        "lifecycle marketing",
+        "video production",
+        "product marketing",
+        "campaign management"
+      ],
+      "responsibilities": [
+        "Own positioning and go-to-market for your area",
+        "Plan and run multi-channel campaigns",
+        "Measure and optimize funnel performance",
+        "Partner with product and sales on launches"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "marketing_case",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0571",
+      "title": "Customer Success Manager",
+      "department": "Customer Experience",
+      "team": "Premier Support",
+      "level": "L4",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-11",
+      "target_fill_date": "2026-04-19",
+      "hiring_manager_id": "HM-471",
+      "recruiter_id": "REC-11",
+      "headcount": 3,
+      "priority": "P1",
+      "comp_band_ref": "BAND-CX-L4-T2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "Salesforce Service Cloud",
+        "Zendesk",
+        "SaaS",
+        "technical troubleshooting",
+        "QA & coaching",
+        "3+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "fintech",
+        "de-escalation",
+        "QA & coaching",
+        "written communication"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.68,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0572",
+      "title": "Senior Data Scientist",
+      "department": "Data & ML",
+      "team": "Data Infrastructure",
+      "level": "L5",
+      "location": "Washington, DC (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-17",
+      "target_fill_date": "2026-06-13",
+      "hiring_manager_id": "HM-472",
+      "recruiter_id": "REC-21",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-DATA-L5-T1",
+      "role_family": "data",
+      "must_have_skills": [
+        "PyTorch",
+        "statistics",
+        "machine learning",
+        "SQL",
+        "TensorFlow",
+        "5+ years data"
+      ],
+      "nice_to_have_skills": [
+        "causal inference",
+        "dbt",
+        "A/B testing",
+        "machine learning"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0573",
+      "title": "Principal Infrastructure Engineer",
+      "department": "IT & Workplace",
+      "team": "Workplace Technology",
+      "level": "L7",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-05",
+      "target_fill_date": "2026-04-07",
+      "hiring_manager_id": "HM-473",
+      "recruiter_id": "REC-08",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ITOPS-L7-T2",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "Zoom/Slack admin",
+        "networking",
+        "Active Directory",
+        "ITIL",
+        "PowerShell",
+        "12+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "endpoint security",
+        "automation",
+        "scripting",
+        "AV/conferencing"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.81,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0574",
+      "title": "Principal Strategy & Ops Lead",
+      "department": "Business Operations",
+      "team": "Revenue Operations",
+      "level": "L6",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-04-26",
+      "target_fill_date": "2026-06-19",
+      "hiring_manager_id": "HM-474",
+      "recruiter_id": "REC-03",
+      "headcount": 2,
+      "priority": "P0",
+      "comp_band_ref": "BAND-OPS-L6-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "change management",
+        "RevOps",
+        "Looker",
+        "process design",
+        "project management",
+        "8+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "Six Sigma",
+        "project management",
+        "Looker",
+        "analytics"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0575",
+      "title": "Security Engineer",
+      "department": "Security",
+      "team": "GRC",
+      "level": "L4",
+      "location": "New York, NY (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-06-21",
+      "target_fill_date": "2026-07-11",
+      "hiring_manager_id": "HM-475",
+      "recruiter_id": "REC-12",
+      "headcount": 3,
+      "priority": "P1",
+      "comp_band_ref": "BAND-SEC-L4-T1",
+      "role_family": "security",
+      "must_have_skills": [
+        "threat modeling",
+        "FedRAMP",
+        "IAM",
+        "penetration testing",
+        "cryptography",
+        "3+ years security"
+      ],
+      "nice_to_have_skills": [
+        "SOC2",
+        "cryptography",
+        "cloud security",
+        "penetration testing"
+      ],
+      "responsibilities": [
+        "Lead the security program across product lines",
+        "Define secure-by-default standards and review architectures",
+        "Run threat modeling and incident response",
+        "Partner with compliance on audits and certifications"
+      ],
+      "screening_threshold": 0.67,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "threat_modeling_exercise",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0576",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "team": "Mobile",
+      "level": "L5",
+      "location": "Singapore (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-04-12",
+      "target_fill_date": "2026-06-13",
+      "hiring_manager_id": "HM-476",
+      "recruiter_id": "REC-11",
+      "headcount": 3,
+      "priority": "P0",
+      "comp_band_ref": "BAND-ENG-L5-T2",
+      "role_family": "engineering",
+      "must_have_skills": [
+        "PostgreSQL",
+        "Python",
+        "TypeScript",
+        "Terraform",
+        "AWS",
+        "5+ years engineering"
+      ],
+      "nice_to_have_skills": [
+        "gRPC",
+        "Terraform",
+        "CI/CD",
+        "Python"
+      ],
+      "responsibilities": [
+        "Design and operate high-throughput backend services",
+        "Own service reliability and on-call rotations",
+        "Lead technical design reviews and mentor engineers",
+        "Drive improvements to latency, cost, and scalability"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "system_design",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0577",
+      "title": "Principal Strategy & Ops Lead",
+      "department": "Business Operations",
+      "team": "Vendor Management",
+      "level": "L6",
+      "location": "Phoenix, AZ (On-site)",
+      "remote_policy": "on_site",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-03",
+      "target_fill_date": "2026-05-12",
+      "hiring_manager_id": "HM-477",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-OPS-L6-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "Looker",
+        "analytics",
+        "vendor management",
+        "SQL",
+        "RevOps",
+        "8+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "strategy",
+        "analytics",
+        "RevOps",
+        "M&A integration"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0578",
+      "title": "Senior Director, Legal",
+      "department": "Legal & Compliance",
+      "team": "Corporate",
+      "level": "M5",
+      "location": "London, UK (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-10",
+      "target_fill_date": "2026-05-07",
+      "hiring_manager_id": "HM-478",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-LEGAL-M5-T1",
+      "role_family": "legal",
+      "must_have_skills": [
+        "GDPR",
+        "intellectual property",
+        "data privacy",
+        "corporate governance",
+        "negotiation",
+        "10+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "GDPR",
+        "employment law",
+        "data privacy",
+        "AI/ML regulation"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.74,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0579",
+      "title": "Senior Product Designer",
+      "department": "Design",
+      "team": "Growth & Activation",
+      "level": "L5",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-26",
+      "target_fill_date": "2026-07-24",
+      "hiring_manager_id": "HM-479",
+      "recruiter_id": "REC-11",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-DESIGN-L5",
+      "role_family": "design",
+      "must_have_skills": [
+        "front-end literacy",
+        "wireframing",
+        "product design",
+        "interaction design",
+        "design systems",
+        "5+ years design"
+      ],
+      "nice_to_have_skills": [
+        "wireframing",
+        "design ops",
+        "B2B SaaS",
+        "usability testing"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0580",
+      "title": "Staff People Programs Lead",
+      "department": "People & Talent",
+      "team": "Total Rewards",
+      "level": "L6",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-06-15",
+      "target_fill_date": "2026-08-25",
+      "hiring_manager_id": "HM-480",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-PPL-L6-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "employee relations",
+        "candidate experience",
+        "people analytics",
+        "Greenhouse",
+        "onboarding",
+        "8+ years people"
+      ],
+      "nice_to_have_skills": [
+        "onboarding",
+        "employer branding",
+        "sourcing",
+        "HRIS (Workday)"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0581",
+      "title": "Customer Experience Manager",
+      "department": "Customer Experience",
+      "team": "Onboarding",
+      "level": "M4",
+      "location": "Toronto, ON (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-25",
+      "target_fill_date": "2026-03-09",
+      "hiring_manager_id": "HM-481",
+      "recruiter_id": "REC-11",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-CX-M4-T2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "customer service",
+        "technical troubleshooting",
+        "Salesforce Service Cloud",
+        "CRM",
+        "QA & coaching",
+        "8+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "technical troubleshooting",
+        "CRM",
+        "bilingual Spanish",
+        "customer service"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0582",
+      "title": "Customer Support Specialist",
+      "department": "Customer Experience",
+      "team": "Premier Support",
+      "level": "L2",
+      "location": "Nashville, TN (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-01",
+      "target_fill_date": "2026-05-04",
+      "hiring_manager_id": "HM-482",
+      "recruiter_id": "REC-21",
+      "headcount": 3,
+      "priority": "P3",
+      "comp_band_ref": "BAND-CX-L2",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "SaaS",
+        "customer service",
+        "QA & coaching",
+        "CRM",
+        "de-escalation",
+        "1+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "Kaizen",
+        "de-escalation",
+        "bilingual Spanish",
+        "Zendesk"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.65,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ],
+      "notes": "High-volume role: 150+ applications/week expected; ParallelAgent sourcing + Sequential screening."
+    },
+    {
+      "req_id": "REQ-2026-0583",
+      "title": "Senior Product Designer",
+      "department": "Design",
+      "team": "Design Systems",
+      "level": "L5",
+      "location": "Remote (US)",
+      "remote_policy": "fully_remote",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-24",
+      "target_fill_date": "2026-08-04",
+      "hiring_manager_id": "HM-483",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-DESIGN-L5-T2",
+      "role_family": "design",
+      "must_have_skills": [
+        "front-end literacy",
+        "visual design",
+        "B2B SaaS",
+        "product design",
+        "Figma",
+        "5+ years design"
+      ],
+      "nice_to_have_skills": [
+        "fintech",
+        "product design",
+        "data visualization",
+        "design ops"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0584",
+      "title": "Data Scientist",
+      "department": "Data & ML",
+      "team": "Forecasting & Pricing",
+      "level": "L3",
+      "location": "Berlin, DE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-03-10",
+      "target_fill_date": "2026-05-01",
+      "hiring_manager_id": "HM-484",
+      "recruiter_id": "REC-12",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DATA-L3-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "SQL",
+        "data modeling",
+        "PyTorch",
+        "A/B testing",
+        "feature engineering",
+        "2+ years data"
+      ],
+      "nice_to_have_skills": [
+        "LLMs",
+        "MLOps",
+        "dbt",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.67,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0585",
+      "title": "Senior Customer Success Manager",
+      "department": "Customer Experience",
+      "team": "Tier-1 Support",
+      "level": "L5",
+      "location": "Seattle, WA (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-24",
+      "target_fill_date": "2026-05-12",
+      "hiring_manager_id": "HM-485",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-CX-L5-T1",
+      "role_family": "customer_experience",
+      "must_have_skills": [
+        "Zendesk",
+        "bilingual Spanish",
+        "customer service",
+        "written communication",
+        "SaaS",
+        "5+ years customer experience"
+      ],
+      "nice_to_have_skills": [
+        "fintech",
+        "SaaS",
+        "de-escalation",
+        "Zendesk"
+      ],
+      "responsibilities": [
+        "Resolve inbound customer inquiries across channels",
+        "Escalate complex cases with full context",
+        "Maintain CSAT and quality targets",
+        "Document and improve support playbooks"
+      ],
+      "screening_threshold": 0.72,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "situational_assessment",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0586",
+      "title": "Lead Privacy Counsel",
+      "department": "Legal & Compliance",
+      "team": "Privacy & Compliance",
+      "level": "L6",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-23",
+      "target_fill_date": "2026-07-21",
+      "hiring_manager_id": "HM-486",
+      "recruiter_id": "REC-08",
+      "headcount": 3,
+      "priority": "P2",
+      "comp_band_ref": "BAND-LEGAL-L6-T1",
+      "role_family": "legal",
+      "must_have_skills": [
+        "corporate governance",
+        "GDPR",
+        "commercial contracts",
+        "intellectual property",
+        "employment law",
+        "8+ years legal"
+      ],
+      "nice_to_have_skills": [
+        "data privacy",
+        "negotiation",
+        "open source licensing",
+        "intellectual property"
+      ],
+      "responsibilities": [
+        "Advise on commercial and product matters",
+        "Draft and negotiate contracts",
+        "Own privacy and regulatory compliance",
+        "Partner with cross-functional teams to manage risk"
+      ],
+      "screening_threshold": 0.78,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "case_discussion",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0587",
+      "title": "Ops Team Lead",
+      "department": "Business Operations",
+      "team": "Business Operations",
+      "level": "M3",
+      "location": "Atlanta, GA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-02-25",
+      "target_fill_date": "2026-03-10",
+      "hiring_manager_id": "HM-487",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-OPS-M3-T2",
+      "role_family": "operations",
+      "must_have_skills": [
+        "business operations",
+        "RevOps",
+        "vendor management",
+        "change management",
+        "project management",
+        "6+ years operations"
+      ],
+      "nice_to_have_skills": [
+        "strategy",
+        "vendor management",
+        "project management",
+        "business operations"
+      ],
+      "responsibilities": [
+        "Design and run cross-functional operating processes",
+        "Drive strategic initiatives to completion",
+        "Build dashboards and operating cadences",
+        "Manage vendors and budgets"
+      ],
+      "screening_threshold": 0.67,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "analytical_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0588",
+      "title": "Principal Machine Learning Engineer",
+      "department": "Data & ML",
+      "team": "Analytics Engineering",
+      "level": "L7",
+      "location": "Dallas, TX (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "filled",
+      "opened_at": "2026-05-03",
+      "target_fill_date": "2026-07-20",
+      "hiring_manager_id": "HM-488",
+      "recruiter_id": "REC-21",
+      "headcount": 2,
+      "priority": "P1",
+      "comp_band_ref": "BAND-DATA-L7-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "machine learning",
+        "Spark",
+        "PyTorch",
+        "statistics",
+        "data modeling",
+        "12+ years data"
+      ],
+      "nice_to_have_skills": [
+        "MLOps",
+        "Airflow",
+        "real-time streaming",
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.81,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0589",
+      "title": "Senior IT Engineer",
+      "department": "IT & Workplace",
+      "team": "Corporate Engineering",
+      "level": "L5",
+      "location": "Bangalore, IN (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-06-14",
+      "target_fill_date": "2026-08-21",
+      "hiring_manager_id": "HM-489",
+      "recruiter_id": "REC-21",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-ITOPS-L5-T3",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "endpoint security",
+        "automation",
+        "Jamf",
+        "PowerShell",
+        "Zoom/Slack admin",
+        "5+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "networking",
+        "zero-trust",
+        "PowerShell",
+        "Okta"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.71,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0590",
+      "title": "Senior People Business Partner",
+      "department": "People & Talent",
+      "team": "DEI",
+      "level": "L5",
+      "location": "Sydney, AU (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-04-13",
+      "target_fill_date": "2026-05-20",
+      "hiring_manager_id": "HM-490",
+      "recruiter_id": "REC-08",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-PPL-L5-T2",
+      "role_family": "people",
+      "must_have_skills": [
+        "Greenhouse",
+        "employee relations",
+        "full-cycle recruiting",
+        "sourcing",
+        "people analytics",
+        "5+ years people"
+      ],
+      "nice_to_have_skills": [
+        "employer branding",
+        "people analytics",
+        "HRIS (Workday)",
+        "sourcing"
+      ],
+      "responsibilities": [
+        "Own full-cycle hiring for your client groups",
+        "Deliver an excellent candidate experience",
+        "Partner with managers on workforce planning",
+        "Champion fair, inclusive hiring practices"
+      ],
+      "screening_threshold": 0.73,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "behavioral",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0591",
+      "title": "IT Engineer",
+      "department": "IT & Workplace",
+      "team": "Identity & Endpoint",
+      "level": "L4",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "on_hold",
+      "opened_at": "2026-06-13",
+      "target_fill_date": "2026-07-09",
+      "hiring_manager_id": "HM-491",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P1",
+      "comp_band_ref": "BAND-ITOPS-L4-T2",
+      "role_family": "it_ops",
+      "must_have_skills": [
+        "automation",
+        "Active Directory",
+        "Windows/macOS",
+        "networking",
+        "systems administration",
+        "3+ years it ops"
+      ],
+      "nice_to_have_skills": [
+        "zero-trust",
+        "PowerShell",
+        "scripting",
+        "networking"
+      ],
+      "responsibilities": [
+        "Manage corporate identity, endpoints, and SaaS",
+        "Automate provisioning and access workflows",
+        "Support employees across offices and remote",
+        "Improve security posture and reliability of internal tools"
+      ],
+      "screening_threshold": 0.66,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0592",
+      "title": "Senior Finance Manager",
+      "department": "Finance & Strategy",
+      "team": "Revenue",
+      "level": "L5",
+      "location": "Los Angeles, CA (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-23",
+      "target_fill_date": "2026-05-18",
+      "hiring_manager_id": "HM-492",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P3",
+      "comp_band_ref": "BAND-FIN-L5-T1",
+      "role_family": "finance",
+      "must_have_skills": [
+        "budgeting",
+        "Excel",
+        "scenario planning",
+        "FP&A",
+        "NetSuite",
+        "5+ years finance"
+      ],
+      "nice_to_have_skills": [
+        "NetSuite",
+        "revenue recognition",
+        "FP&A",
+        "scenario planning"
+      ],
+      "responsibilities": [
+        "Own financial models and forecasts",
+        "Partner with leaders on budgets and planning",
+        "Deliver variance analysis and insights",
+        "Improve financial processes and controls"
+      ],
+      "screening_threshold": 0.7,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "modeling_case",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0593",
+      "title": "Staff Product Designer",
+      "department": "Design",
+      "team": "Research",
+      "level": "L6",
+      "location": "Singapore (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-04-18",
+      "target_fill_date": "2026-06-15",
+      "hiring_manager_id": "HM-493",
+      "recruiter_id": "REC-21",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DESIGN-L6-T2",
+      "role_family": "design",
+      "must_have_skills": [
+        "wireframing",
+        "user research",
+        "Figma",
+        "B2B SaaS",
+        "design systems",
+        "8+ years design"
+      ],
+      "nice_to_have_skills": [
+        "user research",
+        "wireframing",
+        "front-end literacy",
+        "fintech"
+      ],
+      "responsibilities": [
+        "Lead end-to-end design for key product surfaces",
+        "Run generative and evaluative user research",
+        "Extend and maintain the design system",
+        "Partner with PM and engineering on rapid experimentation"
+      ],
+      "screening_threshold": 0.77,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "design_exercise",
+        "hiring_manager",
+        "cross_functional_panel"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0594",
+      "title": "Data Scientist",
+      "department": "Data & ML",
+      "team": "Analytics Engineering",
+      "level": "L3",
+      "location": "Singapore (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "open",
+      "opened_at": "2026-05-22",
+      "target_fill_date": "2026-07-05",
+      "hiring_manager_id": "HM-494",
+      "recruiter_id": "REC-21",
+      "headcount": 2,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DATA-L3-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "TensorFlow",
+        "MLOps",
+        "data modeling",
+        "A/B testing",
+        "SQL",
+        "2+ years data"
+      ],
+      "nice_to_have_skills": [
+        "Python",
+        "TensorFlow",
+        "real-time streaming",
+        "dbt"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.66,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0595",
+      "title": "Marketing Team Lead",
+      "department": "Marketing",
+      "team": "Brand",
+      "level": "M3",
+      "location": "Austin, TX (Hybrid)",
+      "remote_policy": "hybrid_3_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-04-07",
+      "target_fill_date": "2026-06-05",
+      "hiring_manager_id": "HM-495",
+      "recruiter_id": "REC-15",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-MKT-M3-T1",
+      "role_family": "marketing",
+      "must_have_skills": [
+        "SEO",
+        "brand strategy",
+        "positioning",
+        "campaign management",
+        "content marketing",
+        "6+ years marketing"
+      ],
+      "nice_to_have_skills": [
+        "content marketing",
+        "HubSpot",
+        "product marketing",
+        "PLG"
+      ],
+      "responsibilities": [
+        "Own positioning and go-to-market for your area",
+        "Plan and run multi-channel campaigns",
+        "Measure and optimize funnel performance",
+        "Partner with product and sales on launches"
+      ],
+      "screening_threshold": 0.69,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "portfolio_review",
+        "marketing_case",
+        "hiring_manager"
+      ]
+    },
+    {
+      "req_id": "REQ-2026-0596",
+      "title": "Data Scientist",
+      "department": "Data & ML",
+      "team": "Fraud & Risk ML",
+      "level": "L4",
+      "location": "Dublin, IE (Hybrid)",
+      "remote_policy": "hybrid_2_days",
+      "employment_type": "full_time",
+      "status": "draft",
+      "opened_at": "2026-06-09",
+      "target_fill_date": "2026-07-25",
+      "hiring_manager_id": "HM-496",
+      "recruiter_id": "REC-12",
+      "headcount": 1,
+      "priority": "P2",
+      "comp_band_ref": "BAND-DATA-L4-T2",
+      "role_family": "data",
+      "must_have_skills": [
+        "Spark",
+        "Snowflake",
+        "A/B testing",
+        "statistics",
+        "machine learning",
+        "3+ years data"
+      ],
+      "nice_to_have_skills": [
+        "recommendation systems",
+        "LLMs",
+        "real-time streaming",
+        "MLOps"
+      ],
+      "responsibilities": [
+        "Build and ship production ML models and pipelines",
+        "Define experimentation and measurement frameworks",
+        "Partner with product on data-informed decisions",
+        "Own data quality and model monitoring"
+      ],
+      "screening_threshold": 0.71,
+      "requires_clearance": false,
+      "requires_background_check": true,
+      "interview_loop": [
+        "recruiter_screen",
+        "technical_assessment",
+        "ml_case_study",
+        "hiring_manager",
+        "values_interview"
+      ]
+    }
+  ]
+}

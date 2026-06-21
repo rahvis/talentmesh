@@ -1,0 +1,1015 @@
+{
+  "interview_rubrics": [
+    {
+      "rubric_id": "RUB-RECRUITER-SCREEN",
+      "title": "Recruiter Phone Screen",
+      "applies_to_loop_stage": "recruiter_screen",
+      "role_family": "all",
+      "level_guidance": "At L1-L2 weight motivation and trainable baseline; at L5-L7 and M3+ require concrete evidence of operating at the target scope and clean comp/leveling alignment to the 75th-percentile band.",
+      "dimensions": [
+        {
+          "name": "role_motivation_alignment",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Gave a specific, credible reason this role and level fit their trajectory; goals mapped cleanly to the scope and team with no timing or expectation red flags.",
+          "anchor_3": "Showed general, plausible interest; motivation was adequate but generic with minor alignment gaps.",
+          "anchor_1": "Had no clear reason for applying; motivation contradicted the role scope or level, or expectations on remote, comp, or scope were mismatched."
+        },
+        {
+          "name": "baseline_qualification_scope_match",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Cited concrete, recent evidence of working at or above this level's scope; named systems, tools, and outcomes lined up with the requisition.",
+          "anchor_3": "Met most must-haves; some scope stretch but defensible with examples.",
+          "anchor_1": "Lacked core must-haves; examples were years stale or far below the required scope."
+        },
+        {
+          "name": "communication_responsiveness",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Answered in clear, structured, concise terms; listened and adapted; stayed professional and prompt through scheduling.",
+          "anchor_3": "Was generally clear with occasional rambling or vagueness and adequate professionalism.",
+          "anchor_1": "Gave disorganized or evasive answers that were hard to follow, or was unprofessional or unresponsive."
+        },
+        {
+          "name": "logistics_comp_alignment",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Confirmed work authorization, location, start date, and comp expectations all within the 75th-percentile band with no blockers.",
+          "anchor_3": "Was mostly aligned; one item such as notice period or sponsorship timing needs follow-up but is workable.",
+          "anchor_1": "Stated comp expectations far outside the band, or surfaced a hard logistics blocker on location, authorization, or timing with no path."
+        }
+      ],
+      "pass_threshold": 0.6,
+      "interviewer_guidance": [
+        "Do ask every candidate the same locked core questions in the same order and capture verbatim evidence before scoring.",
+        "Do confirm H-1B/green-card sponsorship need and comp range factually and neutrally; the company sponsors and benchmarks to the 75th percentile.",
+        "Don't sell or coach the candidate into 'right' answers, and don't infer fit from accent, school, or rapport."
+      ],
+      "bias_mitigations": [
+        "Locked core question set per requisition with only scripted, evenly applied follow-ups.",
+        "Score from recorded evidence, not memory or gut feel.",
+        "Standardized comp and logistics script applied identically to every candidate.",
+        "Disability/process accommodation and alternative-process option offered to all candidates."
+      ]
+    },
+    {
+      "rubric_id": "RUB-ENG-CODING",
+      "title": "Engineering Coding Screen",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "engineering",
+      "level_guidance": "At L1-L3 a correct, reasonably clean solution with guidance clears the bar; at L4-L5 expect unprompted edge-case handling and complexity analysis; at L6-L7 expect elegant solutions, self-validation, and teaching-quality communication.",
+      "dimensions": [
+        {
+          "name": "problem_solving_correctness",
+          "weight": 0.35,
+          "scale": "1-5",
+          "anchor_5": "Decomposed the problem, reasoned about edge cases unprompted, reached a correct working solution, and validated it with tests or examples.",
+          "anchor_3": "Reached a mostly working solution with some hints; handled common cases but missed a few edge cases.",
+          "anchor_1": "Could not converge on a working approach, ignored edge cases, and left the solution incorrect even after hints."
+        },
+        {
+          "name": "code_quality_complexity",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Wrote clean, idiomatic, well-named code, chose appropriate data structures, and analyzed and improved time and space complexity proactively.",
+          "anchor_3": "Produced reasonable structure with acceptable complexity and some naming or organization issues.",
+          "anchor_1": "Wrote tangled, unreadable code with poor or unjustified complexity and no awareness of trade-offs."
+        },
+        {
+          "name": "testing_debugging",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Wrote or described meaningful tests, traced a bug systematically, and verified the fix against cases.",
+          "anchor_3": "Tested the happy path and debugged with some guidance.",
+          "anchor_1": "Did not test, debugged by random changes, and left known defects."
+        },
+        {
+          "name": "communication_collaboration",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Narrated reasoning clearly, asked clarifying questions, incorporated feedback, and treated the interviewer as a teammate.",
+          "anchor_3": "Communicated adequately, explained on request, and took hints reasonably.",
+          "anchor_1": "Was silent or defensive, ignored clarifying needs, and dismissed feedback."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do give every candidate the same problem and the same scripted hint ladder so scores reflect the candidate, not hint generosity.",
+        "Do score collaboration on observed behavior (questions asked, feedback taken), not on likeability.",
+        "Don't penalize a non-mainstream language, IDE, or syntax style if the logic is sound, and don't let early struggle anchor the whole score."
+      ],
+      "bias_mitigations": [
+        "Identical problem and hint ladder per role/level.",
+        "Anchored scoring of correctness and quality independent of speed alone.",
+        "Independent written scorecard submitted before any debrief.",
+        "Accommodations offered (extra time, alternative format) on request."
+      ]
+    },
+    {
+      "rubric_id": "RUB-ENG-SYSDESIGN",
+      "title": "Engineering System Design",
+      "applies_to_loop_stage": "system_design",
+      "role_family": "engineering",
+      "level_guidance": "At L4 a workable, justified design with prompting clears the bar; at L5-L6 expect unprompted requirements gathering, quantitative scale reasoning, and failure-mode analysis; at L7 expect novel trade-off insight and crisp narrative leadership of the session.",
+      "dimensions": [
+        {
+          "name": "problem_decomposition",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Broke the ambiguous problem into clear components and stated assumptions, driving out functional and non-functional requirements before designing.",
+          "anchor_3": "Captured the main components and requirements after prompting with rough scale estimates.",
+          "anchor_1": "Jumped to a solution with no decomposition, requirements, or scale reasoning."
+        },
+        {
+          "name": "scalability_reasoning",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Reasoned quantitatively about throughput, latency, and failure modes and addressed bottlenecks, sharding, replication, caching, and graceful degradation with concrete mechanisms.",
+          "anchor_3": "Identified some scaling levers and a partial reliability story.",
+          "anchor_1": "Offered no path to scale and left single points of failure unacknowledged."
+        },
+        {
+          "name": "tradeoff_analysis",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Articulated and defended trade-offs such as consistency versus availability and cost versus latency, and compared alternatives explicitly.",
+          "anchor_3": "Made some justified choices but was thin on alternatives or failure handling.",
+          "anchor_1": "Produced an incoherent or buzzword design with no trade-off reasoning."
+        },
+        {
+          "name": "communication",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Led the session with clear structure and legible diagrams, invited collaboration, and adapted smoothly to new constraints.",
+          "anchor_3": "Was followable but meandering and needed steering.",
+          "anchor_1": "Was disorganized and could not explain the design coherently."
+        }
+      ],
+      "pass_threshold": 0.7,
+      "interviewer_guidance": [
+        "Do use the same prompt and the same set of curveball constraints for every candidate at a given level.",
+        "Do reward explicit trade-off reasoning over name-dropping technologies.",
+        "Don't fill silences with the answer, and don't let a confident presentation style mask a shallow design."
+      ],
+      "bias_mitigations": [
+        "Fixed prompt and constraint set per level.",
+        "Anchored scales decouple substance from presentation polish.",
+        "Independent scorecard locked before debrief.",
+        "Whiteboard/diagram tooling choice left to the candidate to avoid tooling bias."
+      ]
+    },
+    {
+      "rubric_id": "RUB-ENG-MGMT",
+      "title": "Engineering Management & Leadership",
+      "applies_to_loop_stage": "hiring_manager_interview",
+      "role_family": "engineering",
+      "level_guidance": "At M3 expect direct people leadership of a single team; at M4-M5 expect multi-team delivery and manager-of-managers depth; at M6-M7 expect org design, strategy ownership, and influence across the company.",
+      "dimensions": [
+        {
+          "name": "people_leadership_growth",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Gave concrete examples of growing engineers, handling underperformance directly and humanely, and building inclusive, high-trust teams.",
+          "anchor_3": "Showed some people-development evidence with uneven conflict handling.",
+          "anchor_1": "Avoided hard conversations and showed no growth or inclusion evidence."
+        },
+        {
+          "name": "delivery_execution_leadership",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Drove complex multi-team delivery, removed blockers, balanced speed and quality, and owned outcomes (Bias for Action, Raise the Bar).",
+          "anchor_3": "Delivered adequately with some ownership gaps.",
+          "anchor_1": "Left accountability diffuse and chronic slippage unaddressed."
+        },
+        {
+          "name": "technical_judgment_standards",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Maintained high engineering standards, made sound architecture and trade-off calls, and earned technical credibility.",
+          "anchor_3": "Showed reasonable technical judgment with inconsistently held standards.",
+          "anchor_1": "Lost technical credibility and tolerated low quality."
+        },
+        {
+          "name": "strategy_cross_functional_influence",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Set direction, aligned with product and peers, disagreed and committed well, and communicated decisions transparently (Disagree and Commit).",
+          "anchor_3": "Showed some strategic and cross-functional skill but was reactive at times.",
+          "anchor_1": "Set no direction and was siloed or politically destructive."
+        }
+      ],
+      "pass_threshold": 0.7,
+      "interviewer_guidance": [
+        "Do require STAR evidence (Situation-Task-Action-Result) and probe for the candidate's specific actions versus the team's.",
+        "Do test for humane handling of underperformance with the same scenario for every candidate.",
+        "Don't conflate charisma with leadership, and don't reward war stories that lack measurable outcomes."
+      ],
+      "bias_mitigations": [
+        "Common STAR question set tied to leadership dimensions.",
+        "Evidence-of-actions requirement reduces halo from confident storytelling.",
+        "Independent scorecards before debrief.",
+        "Culture-add framing: assess what the leader adds to team norms, not similarity to existing managers."
+      ]
+    },
+    {
+      "rubric_id": "RUB-DATA-ML",
+      "title": "Data / ML Technical",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "data",
+      "level_guidance": "At L2-L3 expect sound execution on a well-posed problem; at L4-L5 expect strong validation design and leakage awareness; at L6-L7 expect framing of ambiguous business problems and productionization and impact ownership.",
+      "dimensions": [
+        {
+          "name": "problem_framing_metrics",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Translated an ambiguous business problem into a well-posed ML or analytics problem with the right target, evaluation metric, and success criteria.",
+          "anchor_3": "Framed the problem adequately with partly justified metric choice.",
+          "anchor_1": "Mis-framed the problem or chose a metric that does not match the objective."
+        },
+        {
+          "name": "modeling_statistical_rigor",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Chose appropriate methods, reasoned about bias and variance, leakage, validation design, and assumptions, and quantified uncertainty.",
+          "anchor_3": "Used reasonable methods with some rigor gaps such as weak validation or ignored leakage risk.",
+          "anchor_1": "Used an inappropriate method, ignored leakage and overfitting, and gave no validation reasoning."
+        },
+        {
+          "name": "data_handling_pipelines",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Handled messy or large data pragmatically and reasoned about feature engineering, data quality, reproducibility, and productionization.",
+          "anchor_3": "Showed competent data handling with limited productionization thinking.",
+          "anchor_1": "Handled data naively with no quality or reproducibility awareness."
+        },
+        {
+          "name": "communication_impact",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Tied modeling choices to business impact and trade-offs and explained results to a non-technical audience clearly.",
+          "anchor_3": "Explained results adequately with a partial impact link.",
+          "anchor_1": "Could not connect the analysis to decisions or communicate findings."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do present every candidate the same dataset or scenario and the same ambiguity to resolve.",
+        "Do reward correct validation design and leakage awareness over fashionable model choices.",
+        "Don't penalize a candidate for asking clarifying data questions, and don't reward jargon without rigor."
+      ],
+      "bias_mitigations": [
+        "Standardized scenario and evaluation metric per level.",
+        "Anchored rigor dimension separates correctness from buzzword fluency.",
+        "Independent scorecards before debrief.",
+        "Accommodations and tool-of-choice flexibility offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-PM-CORE",
+      "title": "Product Management",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "product",
+      "level_guidance": "At L3-L4 expect solid execution on a defined problem; at L5-L6 expect strategy linking vision to a prioritized roadmap; at L7 expect portfolio-level strategy and org influence.",
+      "dimensions": [
+        {
+          "name": "customer_problem_insight",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Demonstrated deep user empathy, segmented users, identified real pain, and prioritized the right problem with evidence (Customer Obsession).",
+          "anchor_3": "Showed solid user understanding with plausible but lightly evidenced prioritization.",
+          "anchor_1": "Showed feature-first thinking with no user segmentation or evidence of real pain."
+        },
+        {
+          "name": "strategy_prioritization",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Built a coherent strategy linking vision to a prioritized roadmap with explicit trade-offs and a clear success metric.",
+          "anchor_3": "Prioritized reasonably and applied a framework with some gaps.",
+          "anchor_1": "Prioritized arbitrarily with no metric or strategic logic."
+        },
+        {
+          "name": "execution_cross_functional_influence",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Described concrete shipping under constraints, driving engineering, design, and go-to-market alignment and unblocking with a bias for action.",
+          "anchor_3": "Has shipped with moderate influence and execution evidence.",
+          "anchor_1": "Was vague on shipping with no evidence of cross-functional leadership."
+        },
+        {
+          "name": "analytical_data_fluency",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Defined the right metrics, reasoned quantitatively about trade-offs, and used data to validate or kill ideas.",
+          "anchor_3": "Used data adequately with some metric reasoning.",
+          "anchor_1": "Hand-waved metrics and could not reason about numbers."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do anchor on a shared product case and require the candidate to start from the customer and work backwards.",
+        "Do separate strategic logic from polish; some strong PMs present plainly.",
+        "Don't reward confident frameworks applied without customer evidence, and don't let domain familiarity become the deciding factor."
+      ],
+      "bias_mitigations": [
+        "Common product case and prompt set per level.",
+        "Culture-add framing on customer obsession rather than 'thinks like us'.",
+        "Independent scorecards before debrief.",
+        "Anchored metrics dimension to curb halo from presentation skill."
+      ]
+    },
+    {
+      "rubric_id": "RUB-DESIGN-PORTFOLIO",
+      "title": "Product Design Portfolio Review",
+      "applies_to_loop_stage": "portfolio_review",
+      "role_family": "design",
+      "level_guidance": "At L2-L3 expect craft and process on guided projects; at L4-L5 expect independent end-to-end ownership and measurable impact; at L6-L7 expect systems-level design leadership and influence on team practice.",
+      "dimensions": [
+        {
+          "name": "craft_visual_interaction_quality",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Showed polished, accessible, consistent craft across multiple shipped projects with explicit rationale for visual and interaction decisions.",
+          "anchor_3": "Showed solid craft on most work with some inconsistency or unexplained choices.",
+          "anchor_1": "Showed weak or derivative craft and ignored accessibility and consistency."
+        },
+        {
+          "name": "process_problem_framing",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Walked clearly from user problem through research, framing, exploration, iteration, and validation, showing what was tried and why.",
+          "anchor_3": "Described a reasonable process with some steps thin or skipped.",
+          "anchor_1": "Jumped to solutions with no discovery, iteration, or rationale."
+        },
+        {
+          "name": "impact_outcomes",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Tied designs to measurable user or business outcomes and quantified the change their work produced.",
+          "anchor_3": "Offered some impact evidence with partial attribution.",
+          "anchor_1": "Showed no outcomes and could not connect design to results."
+        },
+        {
+          "name": "collaboration_critique",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Described close partnership with PM and engineering and showed they actively sought and incorporated critique.",
+          "anchor_3": "Described collaboration generally and took critique adequately.",
+          "anchor_1": "Worked in isolation or resisted critique."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do ask the same structured walkthrough questions about problem, process, and impact for every portfolio.",
+        "Do credit accessibility and inclusive design as craft, not extras.",
+        "Don't over-index on visual flash for IC product roles, and don't let brand-name employers in the portfolio inflate the score."
+      ],
+      "bias_mitigations": [
+        "Standardized portfolio walkthrough prompts per level.",
+        "Score the work and reasoning, not prior employer prestige.",
+        "Independent scorecards before debrief.",
+        "Anchored process dimension separates discovery rigor from visual polish."
+      ]
+    },
+    {
+      "rubric_id": "RUB-DESIGN-EXERCISE",
+      "title": "Product Design Exercise",
+      "applies_to_loop_stage": "design_exercise",
+      "role_family": "design",
+      "level_guidance": "At L2-L3 expect a defensible solution to a scoped brief; at L4-L5 expect strong handling of ambiguity and option generation under time; at L6-L7 expect systems thinking and crisp trade-off rationale.",
+      "dimensions": [
+        {
+          "name": "framing_scoping_ambiguity",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Scoped the ambiguity, clarified the user and constraints, and framed the right problem before designing.",
+          "anchor_3": "Scoped the brief adequately with some unexamined assumptions.",
+          "anchor_1": "Took the brief at face value and designed the wrong thing."
+        },
+        {
+          "name": "exploration_option_generation",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Generated and pruned multiple distinct options and explained why the chosen direction won.",
+          "anchor_3": "Explored a couple of options with light comparison.",
+          "anchor_1": "Pursued a single idea with no exploration."
+        },
+        {
+          "name": "solution_quality_user_centered",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Produced a defensible, user-centered, accessible solution under time that addressed the core need.",
+          "anchor_3": "Produced an adequate on-brief solution with minor gaps.",
+          "anchor_1": "Produced an off-brief or shallow solution."
+        },
+        {
+          "name": "communication_rationale",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Narrated decisions and trade-offs clearly and responded to new constraints gracefully.",
+          "anchor_3": "Explained decisions adequately on request.",
+          "anchor_1": "Could not justify decisions or adapt to feedback."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do give every candidate the same brief, same time box, and same mid-exercise constraint change.",
+        "Do evaluate reasoning and iteration, not just the final artifact.",
+        "Don't expect a finished production design in a time-boxed exercise, and don't penalize tool choice."
+      ],
+      "bias_mitigations": [
+        "Identical brief, time box, and injected constraint per level.",
+        "Score process and rationale alongside the artifact to reduce speed bias.",
+        "Independent scorecards before debrief.",
+        "Paid take-home alternative and accommodations offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-SEC-THREATMODEL",
+      "title": "Security Threat-Modeling",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "security",
+      "level_guidance": "At L3-L4 expect solid fundamentals and structured threat enumeration; at L5-L6 expect deep current attack/defense knowledge and pragmatic risk prioritization; at L7 expect program-level security strategy and influence.",
+      "dimensions": [
+        {
+          "name": "threat_modeling_risk_reasoning",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Systematically enumerated assets, threats, trust boundaries, and attack paths and prioritized by realistic risk and business impact.",
+          "anchor_3": "Identified the major threats with partly justified prioritization.",
+          "anchor_1": "Listed threats ad hoc with no trust boundaries or risk prioritization."
+        },
+        {
+          "name": "technical_depth_vuln_defense",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Demonstrated deep, current knowledge of vulnerability classes, exploitation, and defenses and reasoned about real-world mitigations and trade-offs.",
+          "anchor_3": "Showed solid fundamentals with some depth gaps on modern attacks and defenses.",
+          "anchor_1": "Showed surface knowledge and misstated core security concepts."
+        },
+        {
+          "name": "detection_response_pragmatism",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Balanced security with usability and business reality and described detection, incident response, and defense-in-depth with concrete, proportionate controls.",
+          "anchor_3": "Proposed reasonable controls with some impractical or absolutist choices.",
+          "anchor_1": "Proposed security theater or blocked everything with no detection or IR thinking."
+        },
+        {
+          "name": "communication_influence",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Explained risk to non-security stakeholders clearly and built buy-in without fearmongering (Earn Trust).",
+          "anchor_3": "Communicated adequately with some jargon reliance.",
+          "anchor_1": "Could not translate risk and alienated partners."
+        }
+      ],
+      "pass_threshold": 0.7,
+      "interviewer_guidance": [
+        "Do use the same target system or scenario to threat-model for every candidate.",
+        "Do reward pragmatic, proportionate controls over absolutist 'block everything' answers.",
+        "Don't reward CVE name-dropping without reasoning, and don't penalize asking about the system's real context."
+      ],
+      "bias_mitigations": [
+        "Common scenario and asset inventory per level.",
+        "Anchored pragmatism dimension curbs both alarmism and complacency.",
+        "Independent scorecards before debrief.",
+        "Accommodations and alternative-process option offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-CX-SITUATIONAL",
+      "title": "Customer Experience Situational",
+      "applies_to_loop_stage": "situational_assessment",
+      "role_family": "customer_experience",
+      "level_guidance": "At L1-L2 expect empathetic, policy-compliant handling of a standard scenario; at L4-L5 expect sound judgment on policy-versus-customer trade-offs and de-escalation of complex, escalation-aware cases.",
+      "dimensions": [
+        {
+          "name": "empathy",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Acknowledged customer emotion before solving and showed genuine ownership of the issue (Customer Obsession).",
+          "anchor_3": "Acknowledged emotion unevenly while moving to a solution.",
+          "anchor_1": "Was dismissive or scripted and ignored the customer's emotional state."
+        },
+        {
+          "name": "de_escalation",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Calmed an angry customer and reset the conversation toward resolution.",
+          "anchor_3": "Steadied the situation but with some friction.",
+          "anchor_1": "Escalated the situation or became defensive."
+        },
+        {
+          "name": "accuracy",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Gave a correct, policy-compliant resolution and weighed policy against the real customer need.",
+          "anchor_3": "Reached a reasonable resolution with some judgment gaps.",
+          "anchor_1": "Gave a wrong or rote resolution that ignored policy or customer reality."
+        },
+        {
+          "name": "written_clarity",
+          "weight": 0.15,
+          "scale": "1-5",
+          "anchor_5": "Wrote concise, friendly, error-free communication tailored to the customer with no jargon.",
+          "anchor_3": "Wrote generally clearly with occasional unclear or curt phrasing.",
+          "anchor_1": "Wrote confusing, cold, or error-filled communication."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do run the same role-play or written scenario, with the same escalation cues, for every candidate.",
+        "Do credit genuine empathy and ownership, not memorized service scripts.",
+        "Don't reward speed at the expense of accuracy, and don't penalize accent or first-language differences in spoken role-plays."
+      ],
+      "bias_mitigations": [
+        "Standardized scenario and escalation cues per role.",
+        "Score written and verbal clarity on structure and accuracy, not native-speaker fluency.",
+        "Independent scorecards before debrief.",
+        "Accommodations and alternative-format options offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-SALES-ROLEPLAY",
+      "title": "Sales Role-Play & Track Record",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "sales",
+      "level_guidance": "At L2-L3 expect disciplined discovery and coachability; at L4-L5 expect verifiable quota attainment and complex deal ownership; at L6-L7 and M-track expect enterprise deal leadership or team building.",
+      "dimensions": [
+        {
+          "name": "discovery_qualification",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Ran disciplined discovery in the role-play, uncovered real pain, budget, and decision process, and qualified rigorously before pitching.",
+          "anchor_3": "Ran reasonable discovery but jumped slightly early to the pitch.",
+          "anchor_1": "Pitched immediately with no discovery or qualification."
+        },
+        {
+          "name": "track_record_metrics",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Cited specific, verifiable quota attainment, deal sizes, and win mechanisms over multiple periods with their personal role clear.",
+          "anchor_3": "Cited decent results with some specificity and partly clear attribution.",
+          "anchor_1": "Gave vague results with no numbers and could not separate self from team."
+        },
+        {
+          "name": "objection_handling_closing",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Handled objections with empathy and evidence, advanced the deal, and asked for next steps naturally.",
+          "anchor_3": "Handled most objections but closed tentatively.",
+          "anchor_1": "Crumbled on objections and never advanced or closed."
+        },
+        {
+          "name": "coachability_integrity",
+          "weight": 0.15,
+          "scale": "1-5",
+          "anchor_5": "Took feedback in real time and adjusted, and represented capabilities honestly (Earn Trust).",
+          "anchor_3": "Took feedback adequately with minor over-promising.",
+          "anchor_1": "Resisted feedback or over-promised and misrepresented."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do use the same role-play scenario and the same scripted objections for every candidate.",
+        "Do verify quota claims against specifics and the candidate's personal role.",
+        "Don't reward smooth talk over disciplined discovery, and don't let likeability substitute for evidence."
+      ],
+      "bias_mitigations": [
+        "Identical role-play scenario and objection script per level.",
+        "Track-record dimension requires verifiable specifics, not charisma.",
+        "Independent scorecards before debrief.",
+        "Accommodations and alternative-process option offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-MKTG-CORE",
+      "title": "Marketing",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "marketing",
+      "level_guidance": "At L2-L3 expect strong execution and channel craft; at L4-L5 expect strategy from a sharp positioning insight and measurement discipline; at L6-L7 expect brand and growth leadership across the funnel.",
+      "dimensions": [
+        {
+          "name": "strategy_audience_insight",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Built a coherent strategy from a sharp audience and positioning insight and tied channels and messaging to a clear funnel and goal.",
+          "anchor_3": "Built a reasonable strategy with thin insight or positioning.",
+          "anchor_1": "Listed tactics with no strategy and no audience understanding."
+        },
+        {
+          "name": "execution_creativity",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Showed concrete campaigns shipped with strong creative and crisp messaging and demonstrated a bias for action.",
+          "anchor_3": "Has executed with uneven creative or messaging.",
+          "anchor_1": "Showed no shipped examples and generic creative."
+        },
+        {
+          "name": "measurement_growth",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Defined the right metrics such as CAC, LTV, pipeline, and attribution, ran experiments, and used data to scale what worked and cut what didn't.",
+          "anchor_3": "Used metrics adequately with limited experimentation.",
+          "anchor_1": "Relied on vanity metrics only with no experimentation or attribution."
+        },
+        {
+          "name": "communication_brand_voice",
+          "weight": 0.15,
+          "scale": "1-5",
+          "anchor_5": "Produced sharp, on-brand, audience-appropriate writing and verbal communication with compelling storytelling.",
+          "anchor_3": "Communicated clearly but with an unremarkable voice.",
+          "anchor_1": "Was off-brand, unclear, or error-prone."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do give every candidate the same brief or case and the same target metric to plan against.",
+        "Do credit measurement rigor and experimentation, not just creative flair.",
+        "Don't reward buzzword strategy without a funnel and metric, and don't let portfolio brand names drive the score."
+      ],
+      "bias_mitigations": [
+        "Common brief and target metric per level.",
+        "Measurement dimension separates rigor from creative polish.",
+        "Independent scorecards before debrief.",
+        "Score the work, not prior-employer prestige."
+      ]
+    },
+    {
+      "rubric_id": "RUB-FIN-ANALYTICAL",
+      "title": "Finance / Analytical",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "finance",
+      "level_guidance": "At L2-L3 expect correct modeling mechanics; at L4-L5 expect business insight linking numbers to drivers and strong controls discipline; at L6-L7 expect strategic finance leadership and executive communication.",
+      "dimensions": [
+        {
+          "name": "technical_modeling_rigor",
+          "weight": 0.35,
+          "scale": "1-5",
+          "anchor_5": "Built or critiqued a model with correct mechanics, sound assumptions, sensitivity analysis, and clean structure, and caught errors.",
+          "anchor_3": "Got the mechanics mostly correct with some assumption or structure gaps.",
+          "anchor_1": "Made mechanical errors and unjustified assumptions with no sensitivity thinking."
+        },
+        {
+          "name": "business_strategic_insight",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Connected numbers to business drivers and strategy, surfaced the 'so what', and recommended action.",
+          "anchor_3": "Showed some business insight but was partly descriptive.",
+          "anchor_1": "Presented numbers with no interpretation or recommendation."
+        },
+        {
+          "name": "accuracy_controls_integrity",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Demonstrated rigorous attention to accuracy, reconciliation, controls, and ethical handling of ambiguous figures (Earn Trust).",
+          "anchor_3": "Was generally careful with minor control gaps.",
+          "anchor_1": "Was careless with figures and dismissive of controls or ethics."
+        },
+        {
+          "name": "communication_to_stakeholders",
+          "weight": 0.15,
+          "scale": "1-5",
+          "anchor_5": "Explained financial conclusions clearly to non-finance partners and defended assumptions under questioning.",
+          "anchor_3": "Explained adequately with some jargon.",
+          "anchor_1": "Could not communicate findings clearly."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do give every candidate the same model or case and the same ambiguous figures to handle.",
+        "Do probe assumptions and controls, not just the final number.",
+        "Don't reward spreadsheet speed over correctness and ethics, and don't penalize a candidate for flagging missing data."
+      ],
+      "bias_mitigations": [
+        "Common modeling case and data set per level.",
+        "Integrity dimension rewards flagging issues over confident guessing.",
+        "Independent scorecards before debrief.",
+        "Accommodations and tool-of-choice flexibility offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-PEOPLE-RECRUITING",
+      "title": "People / Recruiting",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "people",
+      "level_guidance": "At L2-L3 expect sound sourcing and candidate experience; at L4-L5 expect data-driven stakeholder influence and structured-hiring design; at L6-L7 and M-track expect talent strategy and program ownership.",
+      "dimensions": [
+        {
+          "name": "structured_hiring_assessment_judgment",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Advocated structured, evidence-based, bias-aware processes and reasoned about scorecards, calibration, and fair assessment design.",
+          "anchor_3": "Showed reasonable hiring judgment but was lighter on structure and bias mitigation.",
+          "anchor_1": "Relied on gut feel and was unaware of bias or structured methods."
+        },
+        {
+          "name": "stakeholder_candidate_partnership",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Described influencing hiring managers with data and delivering an excellent, equitable candidate experience end-to-end (Customer Obsession).",
+          "anchor_3": "Described decent partnership with some reactive patterns.",
+          "anchor_1": "Acted as an order-taker or delivered a poor candidate experience."
+        },
+        {
+          "name": "execution_pipeline_ownership",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Owned funnels, sourced creatively, drove throughput with metrics, and moved with a bias for action.",
+          "anchor_3": "Managed pipeline adequately with limited metric ownership.",
+          "anchor_1": "Sourced passively with no funnel metrics."
+        },
+        {
+          "name": "compliance_fairness_awareness",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Showed awareness of adverse-impact and the four-fifths rule, AI-in-hiring laws such as NYC Local Law 144 and Illinois HB 3773, and the need for human approval and an alternative-process option.",
+          "anchor_3": "Showed some compliance awareness with gaps on specifics.",
+          "anchor_1": "Showed no awareness of legal or fairness obligations."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do ask the same structured-hiring and stakeholder scenarios of every candidate.",
+        "Do probe concrete fairness and compliance knowledge, not slogans.",
+        "Don't reward 'great instincts for people' framing, and don't skip the compliance dimension for senior candidates."
+      ],
+      "bias_mitigations": [
+        "Common scenario set on structured hiring and stakeholder influence.",
+        "Compliance dimension keeps fairness explicit and scored.",
+        "Independent scorecards before debrief.",
+        "Culture-add framing on what the candidate adds to hiring practice."
+      ]
+    },
+    {
+      "rubric_id": "RUB-LEGAL-CORE",
+      "title": "Legal",
+      "applies_to_loop_stage": "technical_interview",
+      "role_family": "legal",
+      "level_guidance": "At L3-L4 expect sound issue spotting and analysis; at L5-L6 expect business-pragmatic risk framing and paths to 'yes'; at L7 expect strategic counsel and cross-functional influence.",
+      "dimensions": [
+        {
+          "name": "legal_analysis_issue_spotting",
+          "weight": 0.35,
+          "scale": "1-5",
+          "anchor_5": "Spotted the real issues in a hypothetical, reasoned through governing law and ambiguity, and reached a defensible, well-supported position.",
+          "anchor_3": "Identified the main issues with partly developed analysis.",
+          "anchor_1": "Missed key issues and gave superficial or incorrect analysis."
+        },
+        {
+          "name": "business_pragmatism_risk_framing",
+          "weight": 0.3,
+          "scale": "1-5",
+          "anchor_5": "Framed legal risk in business terms, offered practical paths to 'yes' with mitigations, and prioritized by materiality (Bias for Action).",
+          "anchor_3": "Showed reasonable pragmatism with some over-caution.",
+          "anchor_1": "Gave a pure 'no' or blocker with no business framing."
+        },
+        {
+          "name": "communication_influence",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Explained complex legal points to non-lawyers clearly and built trust as a partner rather than a gatekeeper (Earn Trust).",
+          "anchor_3": "Communicated adequately with some jargon.",
+          "anchor_1": "Communicated inaccessibly or adversarially."
+        },
+        {
+          "name": "judgment_ethics",
+          "weight": 0.15,
+          "scale": "1-5",
+          "anchor_5": "Showed sound ethical judgment and candor about uncertainty and conflicts.",
+          "anchor_3": "Showed generally sound judgment with minor lapses.",
+          "anchor_1": "Showed questionable judgment or was evasive on ethics."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do use the same hypothetical and the same ambiguity for every candidate.",
+        "Do reward practical paths to 'yes' with mitigations over reflexive blocking.",
+        "Don't reward citation recall without applied reasoning, and don't penalize candor about uncertainty."
+      ],
+      "bias_mitigations": [
+        "Common hypothetical and fact pattern per level.",
+        "Pragmatism dimension balances rigor with business enablement.",
+        "Independent scorecards before debrief.",
+        "Accommodations and alternative-process option offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-HM-INTERVIEW",
+      "title": "Hiring Manager Interview",
+      "applies_to_loop_stage": "hiring_manager_interview",
+      "role_family": "all",
+      "level_guidance": "Anchor 'at level' to the requisition's target level: L1-L3 emphasize trajectory and coachability; L4-L5 emphasize end-to-end ownership and measurable impact; L6-L7 and M-track emphasize scope, direction-setting, and cross-functional leadership.",
+      "dimensions": [
+        {
+          "name": "role_specific_competence_scope_fit",
+          "weight": 0.35,
+          "scale": "1-5",
+          "anchor_5": "Showed STAR evidence of operating at or above the target level's scope on the competencies most critical to this team's success.",
+          "anchor_3": "Met the bar on most core competencies with some at-level stretch.",
+          "anchor_1": "Operated below the level's scope and offered examples that don't support the role."
+        },
+        {
+          "name": "ownership_impact",
+          "weight": 0.25,
+          "scale": "1-5",
+          "anchor_5": "Described measurable, attributable impact where they owned outcomes end-to-end and raised the bar beyond their mandate (Raise the Bar).",
+          "anchor_3": "Described solid impact with partly clear attribution or scope.",
+          "anchor_1": "Described vague impact with bystander framing and no ownership."
+        },
+        {
+          "name": "collaboration_disagreement",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Showed they can disagree productively, commit fully once a decision is made, and partner across functions (Disagree and Commit).",
+          "anchor_3": "Collaborated adequately with thin conflict examples.",
+          "anchor_1": "Avoided conflict or escalated it destructively and partnered poorly."
+        },
+        {
+          "name": "growth_trajectory_learning",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Demonstrated rapid learning, sought feedback, and showed a steepening trajectory aligned with team needs.",
+          "anchor_3": "Showed steady growth and moderate learning agility.",
+          "anchor_1": "Was stagnant, defensive about feedback, and flat in trajectory."
+        }
+      ],
+      "pass_threshold": 0.65,
+      "interviewer_guidance": [
+        "Do require STAR evidence and probe for the candidate's specific actions and measurable outcomes.",
+        "Do assess what the candidate adds to the team (culture add) against named values, not similarity to current staff.",
+        "Don't decide on gut 'fit', and don't let a single strong story create a halo across all dimensions."
+      ],
+      "bias_mitigations": [
+        "Common core question set tied to dimensions per requisition.",
+        "Culture-add framing replaces gut-feel culture fit.",
+        "Independent scorecard locked before the structured debrief.",
+        "Accommodations and documented alternative-process option offered."
+      ]
+    },
+    {
+      "rubric_id": "RUB-VALUES",
+      "title": "Company Values Interview",
+      "applies_to_loop_stage": "values_interview",
+      "role_family": "all",
+      "level_guidance": "Hold the same five values for every level; raise the evidence bar with scope, so L1-L3 may cite team-scoped examples while L6-L7 and M-track are expected to show values enacted at org scale and modeled for others.",
+      "dimensions": [
+        {
+          "name": "customer_obsession",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Gave a STAR example of starting from the customer and working backwards, making a costly or unpopular choice to serve real customer needs, with measurable customer benefit.",
+          "anchor_3": "Showed genuine customer orientation but the example was partly process- or internally-driven.",
+          "anchor_1": "Treated the customer as an afterthought and optimized for internal convenience over customer outcome."
+        },
+        {
+          "name": "bias_for_action",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Made a reversible decision quickly under ambiguity with incomplete information, took a calculated risk, and drove momentum.",
+          "anchor_3": "Acted reasonably but waited for more certainty than needed, showing some analysis paralysis.",
+          "anchor_1": "Defaulted to delay or escalation, needed full certainty, and stalled progress."
+        },
+        {
+          "name": "earn_trust",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Owned a mistake openly, listened to and was changed by dissent, was candid even when costly, and treated others with respect.",
+          "anchor_3": "Was generally trustworthy but candor or self-criticism was somewhat guarded.",
+          "anchor_1": "Deflected blame, spun the story, or dismissed others' input."
+        },
+        {
+          "name": "disagree_and_commit",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Respectfully challenged a decision with data, then once overruled committed fully and helped it succeed without resentment.",
+          "anchor_3": "Disagreed or committed but not both well, for example committed but quietly resentful.",
+          "anchor_1": "Either steamrolled others or undermined a decision they lost, or never voiced disagreement at all."
+        },
+        {
+          "name": "raise_the_bar",
+          "weight": 0.2,
+          "scale": "1-5",
+          "anchor_5": "Held a high standard against pressure to settle, improved a process or quality benchmark for others, and rejected 'good enough'.",
+          "anchor_3": "Cared about quality and raised the bar in a narrow or personal scope.",
+          "anchor_1": "Accepted mediocrity, lowered standards under pressure, and showed no evidence of elevating others."
+        }
+      ],
+      "pass_threshold": 0.72,
+      "interviewer_guidance": [
+        "Do require Situation-Task-Action-Result evidence for each value and score behavior, never gut-feel rapport.",
+        "Do assess what the candidate adds to the culture against the five named values (culture add), not 'would I get a beer with them'.",
+        "Don't reward agreeing-with-everything as Disagree and Commit, and don't penalize respectful dissent as 'not a team player'."
+      ],
+      "bias_mitigations": [
+        "Values keyed to explicit, observable behaviors rather than affinity or gut feel.",
+        "Culture-add framing mitigates affinity bias while preserving values alignment.",
+        "Same value prompts and anchors applied to every candidate.",
+        "Independent scorecards locked before debrief, with overrides logged."
+      ]
+    }
+  ],
+  "rating_scale_guide": {
+    "scale": "1-5",
+    "type": "behaviorally_anchored_rating_scale",
+    "method": "BARS anchors written via the retranslation method: independent SMEs blindly re-sorted candidate anchors to dimensions, and only consistently sorted anchors were kept.",
+    "anchor_language_rules": "Anchors are written in past-tense, observable, outcome-bearing language describing what the candidate did, not traits or impressions.",
+    "levels": [
+      {
+        "score": 5,
+        "label": "Far exceeds bar",
+        "meaning": "Strong, unambiguous evidence the candidate performs above the target level on this dimension; matches the anchor_5 behavior. A clear hire signal."
+      },
+      {
+        "score": 4,
+        "label": "Exceeds bar",
+        "meaning": "Solid evidence above the bar, between the anchor_3 and anchor_5 behaviors, with minor gaps. A positive signal."
+      },
+      {
+        "score": 3,
+        "label": "Meets bar",
+        "meaning": "Adequate, at-level evidence matching the anchor_3 behavior. Neither a strong positive nor a concern on its own."
+      },
+      {
+        "score": 2,
+        "label": "Below bar",
+        "meaning": "Evidence falls between anchor_1 and anchor_3; notable gaps relative to the target level. A negative signal."
+      },
+      {
+        "score": 1,
+        "label": "Far below bar",
+        "meaning": "Clear evidence of the anchor_1 behavior or worse; a significant concern and a no-hire signal on this dimension."
+      }
+    ],
+    "scoring_rules": [
+      "Score each dimension only from observed evidence captured during the interview; cite the specific behavior or quote that justifies the score.",
+      "A dimension may be marked 'Insufficient evidence' rather than guessed; do not impute a score from unrelated dimensions.",
+      "Compute the rubric score as the weighted average of dimension scores normalized to 0-1 (sum(weight x score) / 5); compare against pass_threshold.",
+      "Submit written scores and evidence independently before any panel debrief; debriefs reconcile evidence, not impressions.",
+      "AI may assist summarization or draft scoring, but a human interviewer owns and approves every score and a human approves every advancement."
+    ]
+  },
+  "structured_interview_principles": [
+    {
+      "id": "P1",
+      "title": "Structured beats unstructured",
+      "principle": "Default every loop stage to structure: predefined questions, fixed dimensions, anchored scales, and independent scoring.",
+      "evidence": "Sackett, Zhang, Berry & Lievens (2023, recalibrated for range restriction) place structured-interview operational validity at ~.42, far ahead of unstructured interviews (~.19); Wingate et al. (2025 meta-analysis, 37 studies, N=30,646) found structured interviews predict task performance at rho ~.30 and contextual performance at rho ~.28, and pairing a structured interview with a cognitive or work-sample measure yields composite validity reported as high as ~.63."
+    },
+    {
+      "id": "P2",
+      "title": "Consistent, job-relevant questions",
+      "principle": "Ask every candidate for a role the same core questions in the same order, derived from a job analysis, and allow only scripted, evenly applied follow-ups.",
+      "evidence": "UGESP (29 CFR 1607, 1978) requires selection procedures to be job-related and consistent with business necessity; consistency is also what produces measurable, defensible adverse-impact statistics and underlies reported ~70%+ reductions in interviewer-driven bias."
+    },
+    {
+      "id": "P3",
+      "title": "Behaviorally anchored rating scales",
+      "principle": "Map every numeric score to an observable behavioral anchor (anchor_5/anchor_3/anchor_1) built via the retranslation method, in past-tense outcome-bearing language.",
+      "evidence": "BARS retranslation requires independent SMEs to blindly re-sort anchors to dimensions, keeping only consistently sorted anchors; APA Div-5 SCORE (Oct 2025) cautions that high within-panel reliability can mask low between-panel agreement, so anchors plus calibration are both required."
+    },
+    {
+      "id": "P4",
+      "title": "Independent scoring before discussion",
+      "principle": "Interviewers submit written scores and evidence before any debrief; the debrief reconciles evidence, not impressions.",
+      "evidence": "The bias literature identifies anchoring, halo, recency, and conformity effects in panels; the corrective is independent scorecards completed during or immediately after the interview, locked before the debrief opens."
+    },
+    {
+      "id": "P5",
+      "title": "Culture add, not culture fit",
+      "principle": "Replace gut-feel 'fit' with behavioral evidence against the five explicitly defined company values, assessing what the candidate adds to the team.",
+      "evidence": "Gut-feel 'culture fit' is a documented vector for affinity bias and reduced diversity (2025 reviews, e.g., Bonelli, World Englishes 2025); 'culture add' keyed to measurable, role-relevant values mitigates affinity bias while preserving values alignment."
+    },
+    {
+      "id": "P6",
+      "title": "Work-sample and realistic-task fidelity",
+      "principle": "Prefer high-fidelity samples of actual work (coding exercise, design exercise, take-home analysis, role-play) scored on a rubric over abstract proxies.",
+      "evidence": "Sackett et al. (2023) rank work-sample tests among the highest-validity predictors (~.33-.40 post-recalibration); higher point-to-point correspondence between task and job raises both validity and candidate face-validity."
+    },
+    {
+      "id": "P7",
+      "title": "Situational judgment and behavioral STAR",
+      "principle": "Pair situational-judgment prompts ('what would you do') with past-behavior STAR prompts ('tell me about a time'), each with model answers and anchored scoring; require Situation-Task-Action-Result evidence for credit.",
+      "evidence": "Kepes, Keener, Lievens & McDaniel (2025, systematic SJT review) confirm SJTs are valid, incremental predictors of interpersonal and judgment criteria; STAR structures elicit concrete, scorable behavioral evidence."
+    },
+    {
+      "id": "P8",
+      "title": "Calibration and interrater reliability",
+      "principle": "Train and calibrate raters on shared sample responses and track between-rater and between-panel agreement, not just within-panel; retire anchors that don't drive consistent scoring.",
+      "evidence": "Calibration sessions materially raise interrater reliability and BARS users show ~25% higher calibration agreement than generic numeric scales; APA Div-5 (2025) warns within-panel reliability overstates true agreement, so cross-panel monitoring is essential. Run calibration quarterly."
+    },
+    {
+      "id": "P9",
+      "title": "Adverse-impact monitoring (four-fifths rule)",
+      "principle": "Continuously monitor selection rates by protected group at each gate; a group selection rate below 80% of the top group's rate is the federal screening flag to investigate and re-validate that gate.",
+      "evidence": "UGESP (1978) four-fifths/80% rule; the Title VII disparate-impact framework (42 U.S.C. 2000e) remains actionable even after the EEOC withdrew its 2023 AI technical-assistance documents on Jan 27, 2025, because the underlying statute and the ADA are unchanged."
+    },
+    {
+      "id": "P10",
+      "title": "AI-assist with mandatory human approval and compliance",
+      "principle": "AI may assist scoring and summarization, but a human approves every advancement, candidates may request a documented alternative process, overrides are logged, and tools meet state and local law.",
+      "evidence": "NYC Local Law 144 (2021) bars use of an automated employment decision tool without an independent bias audit within the prior year, public posting of results, and candidate notice (DCWP penalties $500-$1,500 per violation per day); Illinois HB 3773 (effective Jan 1, 2026) amends the Illinois Human Rights Act to bar discriminatory AI use and requires applicant notice; Colorado SB 24-205 was repealed and replaced by SB 26-189 (signed May 14, 2026; effective Jan 1, 2027), requiring pre-use notice, ~30-day adverse-outcome explanations, and meaningful human review."
+    }
+  ]
+}

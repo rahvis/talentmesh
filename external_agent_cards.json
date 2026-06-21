@@ -1,0 +1,520 @@
+{
+  "local_dev": {
+    "enabled": true,
+    "base_host": "localhost",
+    "scheme": "http",
+    "registry_url": "http://localhost:8800/.well-known/agents",
+    "run_command": "python -m talentmesh.mock_a2a --all",
+    "docker_compose": "docker compose -f a2a-mock/compose.yml up",
+    "notes": "Brings up a local A2A vendor ecosystem for dev/demo. The registry on port 8800 aggregates each mock agent's /.well-known/agent.json card. Each vendor agent runs on its own local_port (8811-8828) and exposes a JSON-RPC (and gRPC where bound) /a2a endpoint plus a /healthz probe. In mock mode all upstream calls are stubbed with deterministic fixtures, push notifications are delivered to the internal webhook sink at http://localhost:8801/webhooks, and OAuth2/api_key/mtls flows are short-circuited by the local dev CA. Start everything with run_command, or bring up the docker compose stack; individual agents can be launched with their per-card mock_command. Production 'url' values remain authoritative for staging/prod and are never contacted in local mode.",
+    "tls_note": "signatures verified against local dev CA in mock mode",
+    "registry_generated_at": "2026-06-21T00:00:00Z",
+    "webhook_sink": "http://localhost:8801/webhooks",
+    "dev_ca_path": "a2a-mock/certs/dev-ca.pem"
+  },
+  "external_agent_cards": [
+    {
+      "name": "CalendarCoordinator",
+      "description": "Finds mutual availability and books, reschedules, and cancels interview slots across candidate and interviewer calendars.",
+      "url": "https://calendar-vendor.example.com/a2a",
+      "local_url": "http://localhost:8811/a2a",
+      "local_port": 8811,
+      "agent_card_url": "http://localhost:8811/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "calendar-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "find_mutual_slots",
+        "book_interview",
+        "reschedule"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Sync",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent calendar --port 8811",
+      "health_check": "http://localhost:8811/healthz",
+      "released_at": "2025-11-03"
+    },
+    {
+      "name": "BackgroundCheckProvider",
+      "description": "Initiates criminal and employment background checks, polls long-running check status, and fetches completed reports.",
+      "url": "https://bgcheck-vendor.example.com/a2a",
+      "local_url": "http://localhost:8812/a2a",
+      "local_port": 8812,
+      "agent_card_url": "http://localhost:8812/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "bgcheck-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "initiate_check",
+        "get_status",
+        "fetch_report"
+      ],
+      "supports_push_notifications": true,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Verify",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent bgcheck --port 8812",
+      "health_check": "http://localhost:8812/healthz",
+      "released_at": "2025-09-18"
+    },
+    {
+      "name": "ReferenceCheckAgent",
+      "description": "Requests structured professional references from named referees and aggregates their responses.",
+      "url": "https://reference-vendor.example.com/a2a",
+      "local_url": "http://localhost:8813/a2a",
+      "local_port": 8813,
+      "agent_card_url": "http://localhost:8813/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "0.3",
+      "negotiated_version": "0.3",
+      "requested_version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "reference-vendor.example.com",
+      "auth": "api_key",
+      "skills": [
+        "request_references"
+      ],
+      "supports_push_notifications": false,
+      "used_by_internal_agent": "Verify",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent reference --port 8813",
+      "health_check": "http://localhost:8813/healthz",
+      "released_at": "2025-04-22"
+    },
+    {
+      "name": "HRISOnboarding",
+      "description": "Creates employee records in the HRIS and triggers downstream onboarding workflows once a candidate accepts an offer.",
+      "url": "https://hris-vendor.example.com/a2a",
+      "local_url": "http://localhost:8814/a2a",
+      "local_port": 8814,
+      "agent_card_url": "http://localhost:8814/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "hris-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "create_employee",
+        "trigger_onboarding"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Bridge",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent hris --port 8814",
+      "health_check": "http://localhost:8814/healthz",
+      "released_at": "2025-10-07"
+    },
+    {
+      "name": "ITProvisioning",
+      "description": "Provisions accounts, hardware, and access entitlements for a new hire based on their role and department.",
+      "url": "https://itsm-vendor.example.com/a2a",
+      "local_url": "http://localhost:8815/a2a",
+      "local_port": 8815,
+      "agent_card_url": "http://localhost:8815/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "itsm-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "provision_by_role"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Bridge",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent itsm --port 8815",
+      "health_check": "http://localhost:8815/healthz",
+      "released_at": "2025-10-07"
+    },
+    {
+      "name": "SourcingMarketplace",
+      "description": "Searches an external talent marketplace for passive candidates matching a role profile and returns ranked, deduplicated leads.",
+      "url": "https://sourcing-vendor.example.com/a2a",
+      "local_url": "http://localhost:8816/a2a",
+      "local_port": 8816,
+      "agent_card_url": "http://localhost:8816/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "sourcing-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "search_candidates",
+        "enrich_profile",
+        "get_contact_info"
+      ],
+      "supports_push_notifications": false,
+      "used_by_internal_agent": "Scout",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent sourcing --port 8816",
+      "health_check": "http://localhost:8816/healthz",
+      "released_at": "2026-01-15"
+    },
+    {
+      "name": "VideoInterviewProctor",
+      "description": "Hosts and records asynchronous and live video interviews, captures Illinois AIVIA-compliant consent, and returns proctoring signals.",
+      "url": "https://videointerview-vendor.example.com/a2a",
+      "local_url": "http://localhost:8817/a2a",
+      "local_port": 8817,
+      "agent_card_url": "http://localhost:8817/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "videointerview-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "capture_via_consent",
+        "start_recording",
+        "get_proctoring_signals",
+        "fetch_transcript"
+      ],
+      "supports_push_notifications": true,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Gauge",
+      "compliance_notes": "Implements Illinois Artificial Intelligence Video Interview Act (AIVIA) consent capture prior to any AI-assisted analysis.",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent videointerview --port 8817",
+      "health_check": "http://localhost:8817/healthz",
+      "released_at": "2025-12-02"
+    },
+    {
+      "name": "CodingAssessmentSandbox",
+      "description": "Provisions sandboxed coding environments, runs candidate code against hidden test suites, and returns scored, plagiarism-checked results.",
+      "url": "https://coding-vendor.example.com/a2a",
+      "local_url": "http://localhost:8818/a2a",
+      "local_port": 8818,
+      "agent_card_url": "http://localhost:8818/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "coding-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "create_challenge",
+        "run_assessment",
+        "get_results",
+        "check_plagiarism"
+      ],
+      "supports_push_notifications": true,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Gauge",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent coding --port 8818",
+      "health_check": "http://localhost:8818/healthz",
+      "released_at": "2025-11-20"
+    },
+    {
+      "name": "SkillsTestProvider",
+      "description": "Administers cognitive, psychometric, and job-skills assessments and returns normalized scores with percentile bands.",
+      "url": "https://skillstest-vendor.example.com/a2a",
+      "local_url": "http://localhost:8819/a2a",
+      "local_port": 8819,
+      "agent_card_url": "http://localhost:8819/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "0.9",
+      "negotiated_version": "0.9",
+      "requested_version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "skillstest-vendor.example.com",
+      "auth": "api_key",
+      "skills": [
+        "assign_test",
+        "get_score",
+        "list_assessment_catalog"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Sift",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent skillstest --port 8819",
+      "health_check": "http://localhost:8819/healthz",
+      "released_at": "2025-07-30"
+    },
+    {
+      "name": "IdentityVerification",
+      "description": "Verifies government-issued identity documents and performs liveness and biometric matching for candidate identity assurance.",
+      "url": "https://idv-vendor.example.com/a2a",
+      "local_url": "http://localhost:8820/a2a",
+      "local_port": 8820,
+      "agent_card_url": "http://localhost:8820/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "idv-vendor.example.com",
+      "auth": "mtls",
+      "skills": [
+        "verify_document",
+        "liveness_check",
+        "get_verification_result"
+      ],
+      "supports_push_notifications": true,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Verify",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent idv --port 8820",
+      "health_check": "http://localhost:8820/healthz",
+      "released_at": "2025-12-11"
+    },
+    {
+      "name": "RightToWorkI9",
+      "description": "Completes US Form I-9 employment eligibility verification and runs E-Verify right-to-work confirmation for new hires.",
+      "url": "https://i9-vendor.example.com/a2a",
+      "local_url": "http://localhost:8821/a2a",
+      "local_port": 8821,
+      "agent_card_url": "http://localhost:8821/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "i9-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "start_i9",
+        "submit_section1",
+        "complete_section2",
+        "run_everify"
+      ],
+      "supports_push_notifications": true,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Bridge",
+      "compliance_notes": "USCIS Form I-9 and DHS E-Verify; retains audit trail per IRCA recordkeeping requirements.",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent i9 --port 8821",
+      "health_check": "http://localhost:8821/healthz",
+      "released_at": "2025-08-14"
+    },
+    {
+      "name": "PayrollProvider",
+      "description": "Sets up payroll records, tax withholding, and direct deposit for confirmed new hires and syncs pay schedules with the HRIS.",
+      "url": "https://payroll-vendor.example.com/a2a",
+      "local_url": "http://localhost:8822/a2a",
+      "local_port": 8822,
+      "agent_card_url": "http://localhost:8822/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "payroll-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "create_payroll_record",
+        "set_tax_withholding",
+        "register_direct_deposit"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Bridge",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent payroll --port 8822",
+      "health_check": "http://localhost:8822/healthz",
+      "released_at": "2025-10-29"
+    },
+    {
+      "name": "EsignatureService",
+      "description": "Generates offer letters from templates, routes them for legally binding e-signature, and reports signature completion.",
+      "url": "https://esign-vendor.example.com/a2a",
+      "local_url": "http://localhost:8823/a2a",
+      "local_port": 8823,
+      "agent_card_url": "http://localhost:8823/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "esign-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "create_offer_envelope",
+        "send_for_signature",
+        "get_signature_status",
+        "download_signed_document"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Bridge",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent esign --port 8823",
+      "health_check": "http://localhost:8823/healthz",
+      "released_at": "2025-09-05"
+    },
+    {
+      "name": "SmsEmailComms",
+      "description": "Sends transactional and campaign SMS and email to candidates, tracks delivery, and ingests inbound replies.",
+      "url": "https://comms-vendor.example.com/a2a",
+      "local_url": "http://localhost:8824/a2a",
+      "local_port": 8824,
+      "agent_card_url": "http://localhost:8824/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "comms-vendor.example.com",
+      "auth": "api_key",
+      "skills": [
+        "send_sms",
+        "send_email",
+        "get_delivery_status",
+        "fetch_inbound"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Echo",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent comms --port 8824",
+      "health_check": "http://localhost:8824/healthz",
+      "released_at": "2025-06-12"
+    },
+    {
+      "name": "AssessmentBiasAuditor",
+      "description": "Audits assessment and scoring pipelines for adverse impact, computes four-fifths-rule disparity metrics, and emits NYC Local Law 144 bias-audit reports.",
+      "url": "https://biasaudit-vendor.example.com/a2a",
+      "local_url": "http://localhost:8826/a2a",
+      "local_port": 8826,
+      "agent_card_url": "http://localhost:8826/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "0.7",
+      "negotiated_version": "0.7",
+      "requested_version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "biasaudit-vendor.example.com",
+      "auth": "oauth2",
+      "skills": [
+        "run_adverse_impact_analysis",
+        "compute_impact_ratio",
+        "generate_ll144_report"
+      ],
+      "supports_push_notifications": false,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Aegis",
+      "compliance_notes": "Supports NYC Local Law 144 annual automated employment decision tool (AEDT) bias audits.",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent biasaudit --port 8826",
+      "health_check": "http://localhost:8826/healthz",
+      "released_at": "2026-02-03"
+    },
+    {
+      "name": "JobBoardDistributor",
+      "description": "Publishes and updates job postings across multiple job boards and aggregators and reconciles application source attribution.",
+      "url": "https://jobboard-vendor.example.com/a2a",
+      "local_url": "http://localhost:8827/a2a",
+      "local_port": 8827,
+      "agent_card_url": "http://localhost:8827/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "jobboard-vendor.example.com",
+      "auth": "api_key",
+      "skills": [
+        "publish_posting",
+        "update_posting",
+        "expire_posting",
+        "get_distribution_status"
+      ],
+      "supports_push_notifications": true,
+      "used_by_internal_agent": "Scribe",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent jobboard --port 8827",
+      "health_check": "http://localhost:8827/healthz",
+      "released_at": "2025-08-26"
+    },
+    {
+      "name": "GlobalScreening",
+      "description": "Runs international (non-US) background, sanctions, and adverse-media screening with country-specific data-handling rules.",
+      "url": "https://globalscreening-vendor.example.com/a2a",
+      "local_url": "http://localhost:8828/a2a",
+      "local_port": 8828,
+      "agent_card_url": "http://localhost:8828/.well-known/agent.json",
+      "well_known_path": "/.well-known/agent.json",
+      "version": "1.0",
+      "protocol_bindings": [
+        "json-rpc",
+        "grpc"
+      ],
+      "transport": "https",
+      "signed": true,
+      "signature_domain": "globalscreening-vendor.example.com",
+      "auth": "mtls",
+      "skills": [
+        "initiate_global_check",
+        "sanctions_screening",
+        "adverse_media_scan",
+        "get_country_report"
+      ],
+      "supports_push_notifications": true,
+      "supports_long_running": true,
+      "used_by_internal_agent": "Verify",
+      "compliance_notes": "Applies GDPR and per-jurisdiction consent and data-residency rules for non-US candidates.",
+      "supports_local_mock": true,
+      "mock_command": "python -m talentmesh.mock_a2a --agent globalscreening --port 8828",
+      "health_check": "http://localhost:8828/healthz",
+      "released_at": "2026-03-19"
+    }
+  ]
+}
